@@ -1,0 +1,3600 @@
+location,snow_depth,snow_water_equivalent,elevation_band,elevation,month,year
+Alamitos,6,1.4,9,9320,01,00
+Alamitos,8,2.4,9,9320,02,00
+Alamitos,10,4.7,9,9320,03,00
+Alamitos,25,4.0,9,9320,01,01
+Alamitos,26,7.4,9,9320,02,01
+Alamitos,30,9.8,9,9320,03,01
+Alamitos,15,3.3,9,9320,01,02
+Alamitos,20,4.6,9,9320,02,02
+Alamitos,7,2.2,9,9320,03,02
+Alamitos,16,4.3,9,9320,01,03
+Alamitos,16,4.0,9,9320,02,03
+Alamitos,12,4.6,9,9320,03,03
+Alamitos,15,4.5,9,9320,01,04
+Alamitos,35,9.1,9,9320,02,04
+Alamitos,9,3.0,9,9320,03,04
+Alamitos,22,5.3,9,9320,01,05
+Alamitos,28,6.4,9,9320,02,05
+Alamitos,34,11.0,9,9320,03,05
+Alamitos,7,2.5,9,9320,01,06
+Alamitos,4,0.9,9,9320,02,06
+Alamitos,0,0.0,9,9320,03,06
+Alamitos,24,6.3,9,9320,01,07
+Alamitos,23,6.4,9,9320,02,07
+Alamitos,0,0.0,9,9320,03,07
+Alamitos,26,7.2,9,9320,02,08
+Alamitos,18,5.4,9,9320,03,08
+Alamitos,18,5.6,9,9320,02,09
+Alamitos,18,3.5,9,9320,01,10
+Alamitos,18,3.4,9,9320,02,10
+Alamitos,29,6.2,9,9320,03,10
+Alamitos,31,8.4,9,9320,03,10
+Alamitos,10,1.9,9,9320,01,11
+Alamitos,12,3.4,9,9320,03,11
+Alamitos,0,0.0,9,9320,03,11
+Alamitos,14,2.1,9,9320,01,12
+Alamitos,18,3.6,9,9320,02,12
+Alamitos,13,1.5,9,9320,02,13
+Alamitos,1,0.0,9,9320,03,13
+Alamitos,0,0.0,9,9320,02,14
+Alamitos,14,2.9,9,9320,03,14
+Alamitos,14,2.6,9,9320,02,15
+Alamitos,4,1.9,9,9320,03,15
+Alamitos,27,5.6,9,9320,01,16
+Alamitos,14,4.2,9,9320,02,16
+Alamitos,1,0.2,9,9320,03,16
+"Aztec #2",6,1.2,9,9880,01,00
+"Aztec #2",2,0.6,9,9880,02,00
+"Aztec #2",12,3.8,9,9880,03,00
+"Aztec #2",15,2.5,9,9880,01,01
+"Aztec #2",13,3.1,9,9880,02,01
+"Aztec #2",18,5.3,9,9880,03,01
+"Aztec #2",4,1.1,9,9880,01,02
+"Aztec #2",8,2.0,9,9880,02,02
+"Aztec #2",6,1.8,9,9880,03,02
+"Aztec #2",10,3.2,9,9880,01,03
+"Aztec #2",17,4.3,9,9880,02,03
+"Aztec #2",15,4.6,9,9880,03,03
+"Aztec #2",6,1.2,9,9880,01,04
+"Aztec #2",18,4.2,9,9880,02,04
+"Aztec #2",0,0.0,9,9880,03,04
+"Aztec #2",28,6.0,9,9880,01,05
+"Aztec #2",25,6.0,9,9880,02,05
+"Aztec #2",27,8.0,9,9880,03,05
+"Aztec #2",3,0.6,9,9880,01,06
+"Aztec #2",2,0.7,9,9880,02,06
+"Aztec #2",5,1.3,9,9880,03,06
+"Aztec #2",20,6.6,9,9880,01,07
+"Aztec #2",19,6.0,9,9880,02,07
+"Aztec #2",8,0.3,9,9880,03,07
+"Aztec #2",16,3.9,9,9880,01,08
+"Aztec #2",21,6.0,9,9880,02,08
+"Aztec #2",13,4.4,9,9880,04,08
+"Aztec #2",11,3.6,9,9880,02,09
+"Aztec #2",8,2.5,9,9880,02,09
+"Aztec #2",0,0.0,9,9880,03,09
+"Aztec #2",13,2.6,9,9880,01,10
+"Aztec #2",23,5.6,9,9880,02,10
+"Aztec #2",38,9.1,9,9880,03,10
+"Aztec #2",0,0.0,9,9880,01,11
+"Aztec #2",10,2.0,9,9880,02,11
+"Aztec #2",0,0.0,9,9880,03,11
+"Aztec #2",14,3.2,9,9880,01,12
+"Aztec #2",14,3.2,9,9880,02,12
+"Aztec #2",0,0.0,9,9880,03,12
+"Aztec #2",8,2.0,9,9880,01,13
+"Aztec #2",14,3.0,9,9880,02,13
+"Aztec #2",5,1.8,9,9880,03,13
+"Aztec #2",0,0.0,9,9880,01,14
+"Aztec #2",0,0.0,9,9880,02,14
+"Aztec #2",0,0.0,9,9880,03,14
+"Aztec #2",8,1.6,9,9880,01,15
+"Aztec #2",18,6.2,9,9880,03,15
+"Aztec #2",19,3.0,9,9880,01,16
+"Aztec #2",13,3.8,9,9880,02,16
+"Aztec #2",2,0.4,9,9880,03,16
+Bateman,,1.4,9,9300,01,00
+Bateman,,4.1,9,9300,02,00
+Bateman,,5.6,9,9300,03,00
+Bateman,,8.5,9,9300,04,00
+Bateman,,0.0,9,9300,05,00
+Bateman,,0.0,9,9300,06,00
+Bateman,15,3.5,9,9300,01,01
+Bateman,29,6.1,9,9300,02,01
+Bateman,39,9.0,9,9300,03,01
+Bateman,25,9.7,9,9300,04,01
+Bateman,,0.4,9,9300,05,01
+Bateman,,0.0,9,9300,06,01
+Bateman,18,4.0,9,9300,01,02
+Bateman,27,5.4,9,9300,02,02
+Bateman,25,6.3,9,9300,03,02
+Bateman,12,4.9,9,9300,04,02
+Bateman,0,0.0,9,9300,05,02
+Bateman,0,0.0,9,9300,06,02
+Bateman,,5.8,9,9300,01,03
+Bateman,22,6.1,9,9300,02,03
+Bateman,44,10.1,9,9300,03,03
+Bateman,31,11.3,9,9300,04,03
+Bateman,0,1.0,9,9300,05,03
+Bateman,0,0.0,9,9300,06,03
+Bateman,15,3.8,9,9300,01,04
+Bateman,31,6.8,9,9300,02,04
+Bateman,38,9.3,9,9300,03,04
+Bateman,12,6.7,9,9300,04,04
+Bateman,0,0.4,9,9300,05,04
+Bateman,0,0.0,9,9300,06,04
+Bateman,12,3.2,9,9300,01,05
+Bateman,37,7.7,9,9300,02,05
+Bateman,43,12.1,9,9300,03,05
+Bateman,45,14.8,9,9300,04,05
+Bateman,132,10.6,9,9300,05,05
+Bateman,1,0.0,9,9300,06,05
+Bateman,4,1.1,9,9300,01,06
+Bateman,14,2.6,9,9300,02,06
+Bateman,12,3.1,9,9300,03,06
+Bateman,18,6.6,9,9300,04,06
+Bateman,,0.0,9,9300,05,06
+Bateman,,0.0,9,9300,06,06
+Bateman,,3.6,9,9300,01,07
+Bateman,,7.5,9,9300,02,07
+Bateman,41,9.8,9,9300,03,07
+Bateman,23,9.7,9,9300,04,07
+Bateman,2,0.0,9,9300,05,07
+Bateman,1,0.0,9,9300,06,07
+Bateman,26,6.3,9,9300,01,08
+Bateman,45,11.3,9,9300,02,08
+Bateman,54,16.2,9,9300,03,08
+Bateman,38,15.8,9,9300,04,08
+Bateman,9,2.4,9,9300,05,08
+Bateman,1,0.0,9,9300,06,08
+Bateman,35,8.5,9,9300,01,09
+Bateman,35,10.4,9,9300,02,09
+Bateman,33,11.4,9,9300,03,09
+Bateman,29,12.3,9,9300,04,09
+Bateman,1,0.2,9,9300,05,09
+Bateman,1,0.0,9,9300,06,09
+Bateman,23,4.0,9,9300,01,10
+Bateman,32,6.6,9,9300,02,10
+Bateman,42,9.3,9,9300,03,10
+Bateman,37,12.1,9,9300,04,10
+Bateman,9,3.2,9,9300,05,10
+Bateman,0,0.0,9,9300,06,10
+Bateman,24,3.9,9,9300,01,11
+Bateman,17,4.9,9,9300,02,11
+Bateman,20,6.1,9,9300,03,11
+Bateman,9,3.0,9,9300,04,11
+Bateman,0,0.0,9,9300,05,11
+Bateman,0,0.0,9,9300,06,11
+Bateman,19,4.1,9,9300,01,12
+Bateman,25,5.5,9,9300,02,12
+Bateman,34,7.8,9,9300,03,12
+Bateman,12,4.3,9,9300,04,12
+Bateman,0,0.0,9,9300,05,12
+Bateman,0,0.0,9,9300,06,12
+Bateman,22,3.6,9,9300,01,13
+Bateman,23,5.8,9,9300,02,13
+Bateman,33,8.0,9,9300,03,13
+Bateman,21,7.7,9,9300,04,13
+Bateman,0,0.0,9,9300,05,13
+Bateman,0,0.0,9,9300,06,13
+Bateman,16,3.4,9,9300,01,14
+Bateman,15,3.8,9,9300,02,14
+Bateman,20,4.8,9,9300,03,14
+Bateman,17,5.3,9,9300,04,14
+Bateman,0,0.0,9,9300,05,14
+Bateman,0,0.0,9,9300,06,14
+Bateman,18,4.2,9,9300,01,15
+Bateman,32,6.8,9,9300,02,15
+Bateman,50,10.3,9,9300,03,15
+Bateman,19,7.0,9,9300,04,15
+Bateman,0,0.0,9,9300,05,15
+Bateman,0,0.0,9,9300,06,15
+Bateman,26,5.0,9,9300,01,16
+Bateman,30,8.0,9,9300,02,16
+Bateman,29,9.1,9,9300,03,16
+Bateman,19,7.1,9,9300,04,16
+Bateman,1,0.1,9,9300,05,16
+Bateman,0,0.0,9,9300,06,16
+Boon,3,0.4,8,8140,01,00
+Boon,2,0.4,8,8140,02,00
+Boon,0,0.0,8,8140,03,00
+Boon,21,3.9,8,8140,01,01
+Boon,15,4.4,8,8140,02,01
+Boon,6,2.0,8,8140,03,01
+Boon,20,4.2,8,8140,01,02
+Boon,10,2.2,8,8140,02,02
+Boon,0,0.0,8,8140,03,02
+Boon,6,1.6,8,8140,01,03
+Boon,7,1.6,8,8140,02,03
+Boon,5,1.8,8,8140,03,03
+Boon,11,1.4,8,8140,01,04
+Boon,12,2.7,8,8140,02,04
+Boon,0,0.0,8,8140,03,04
+Boon,7,1.6,8,8140,01,05
+Boon,10,3.6,8,8140,02,05
+Boon,9,3.2,8,8140,03,05
+Boon,4,0.6,8,8140,01,06
+Boon,0,0.0,8,8140,02,06
+Boon,2,0.4,8,8140,03,06
+Boon,9,1.4,8,8140,01,07
+Boon,20,3.0,8,8140,01,07
+Boon,15,4.5,8,8140,02,07
+Boon,0,0.0,8,8140,03,07
+Boon,9,1.8,8,8140,01,08
+Boon,22,5.9,8,8140,02,08
+Boon,23,5.2,8,8140,02,08
+Boon,2,0.8,8,8140,03,08
+Boon,29,6.3,8,8140,01,09
+Boon,16,5.7,8,8140,01,09
+Boon,12,4.2,8,8140,02,09
+Boon,4,1.0,8,8140,03,09
+Boon,32,7.1,8,8140,01,10
+Boon,36,8.9,8,8140,02,10
+Boon,23,6.5,8,8140,03,10
+Boon,10,2.8,8,8140,01,11
+Boon,10,2.8,8,8140,02,11
+Boon,0,0.0,8,8140,03,11
+Boon,13,2.8,8,8140,01,12
+Boon,15,3.8,8,8140,02,12
+Boon,0,0.0,8,8140,03,12
+Boon,10,1.8,8,8140,01,13
+Boon,10,3.0,8,8140,02,13
+Boon,0,0.0,8,8140,03,13
+Boon,0,0.0,8,8140,01,14
+Boon,0,0.0,8,8140,02,14
+Boon,0,0.0,8,8140,03,14
+Boon,9,2.2,8,8140,01,15
+Boon,5,1.4,8,8140,02,15
+Boon,0,0.0,8,8140,03,15
+Boon,15,3.5,8,8140,01,16
+Boon,7,2.1,8,8140,02,16
+Boon,0,0.0,8,8140,03,16
+"Bowl Canyon",18,4.2,8,8980,02,00
+"Bowl Canyon",19,5.5,8,8980,02,00
+"Bowl Canyon",20,6.6,8,8980,03,00
+"Bowl Canyon",12,2.8,8,8980,01,01
+"Bowl Canyon",29,6.0,8,8980,02,01
+"Bowl Canyon",33,8.7,8,8980,03,01
+"Bowl Canyon",22,8.4,8,8980,03,01
+"Bowl Canyon",21,4.3,8,8980,01,02
+"Bowl Canyon",18,4.8,8,8980,02,02
+"Bowl Canyon",6,1.8,8,8980,03,02
+"Bowl Canyon",11,2.5,8,8980,01,03
+"Bowl Canyon",12,3.3,8,8980,01,03
+"Bowl Canyon",34,7.2,8,8980,02,03
+"Bowl Canyon",21,8.1,8,8980,03,03
+"Bowl Canyon",20,4.0,8,8980,01,04
+"Bowl Canyon",25,6.0,8,8980,02,04
+"Bowl Canyon",5,1.3,8,8980,03,04
+"Bowl Canyon",14,3.2,8,8980,01,05
+"Bowl Canyon",23,5.8,8,8980,01,05
+"Bowl Canyon",43,13.3,8,8980,02,05
+"Bowl Canyon",42,14.7,8,8980,03,05
+"Bowl Canyon",5,0.8,8,8980,01,06
+"Bowl Canyon",3,0.6,8,8980,02,06
+"Bowl Canyon",9,2.7,8,8980,03,06
+"Bowl Canyon",17,3.7,8,8980,01,07
+"Bowl Canyon",28,7.3,8,8980,02,07
+"Bowl Canyon",6,1.2,8,8980,03,07
+"Bowl Canyon",37,8.2,8,8980,01,08
+"Bowl Canyon",50,13.2,8,8980,02,08
+"Bowl Canyon",26,9.6,8,8980,03,08
+"Bowl Canyon",27,9.1,8,8980,01,09
+"Bowl Canyon",29,10.2,8,8980,02,09
+"Bowl Canyon",22,7.8,8,8980,03,09
+"Bowl Canyon",50,11.1,8,8980,01,10
+"Bowl Canyon",53,15.6,8,8980,02,10
+"Bowl Canyon",39,14.3,8,8980,03,10
+"Bowl Canyon",23,6.1,8,8980,01,11
+"Bowl Canyon",30,7.5,8,8980,02,11
+"Bowl Canyon",11,3.9,8,8980,03,11
+"Bowl Canyon",21,5.2,8,8980,01,12
+"Bowl Canyon",29,6.8,8,8980,02,12
+"Bowl Canyon",9,2.6,8,8980,03,12
+"Bowl Canyon",28,6.4,8,8980,01,13
+"Bowl Canyon",32,9.2,8,8980,02,13
+"Bowl Canyon",13,4.7,8,8980,03,13
+"Bowl Canyon",10,2.2,8,8980,01,14
+"Bowl Canyon",10,2.7,8,8980,02,14
+"Bowl Canyon",4,0.9,8,8980,03,14
+"Bowl Canyon",16,3.2,8,8980,01,15
+"Bowl Canyon",25,4.5,8,8980,02,15
+"Bowl Canyon",15,4.1,8,8980,03,15
+"Bowl Canyon",28,7.6,8,8980,01,16
+"Bowl Canyon",26,8.4,8,8980,02,16
+"Bowl Canyon",7,2.8,8,8980,03,16
+Chamita,,0.6,8,8400,01,00
+Chamita,,3.2,8,8400,02,00
+Chamita,,4.9,8,8400,03,00
+Chamita,,5.4,8,8400,04,00
+Chamita,,0.0,8,8400,05,00
+Chamita,,0.0,8,8400,06,00
+Chamita,,3.5,8,8400,01,01
+Chamita,,7.3,8,8400,02,01
+Chamita,,10.7,8,8400,03,01
+Chamita,,9.4,8,8400,04,01
+Chamita,,0.0,8,8400,05,01
+Chamita,,0.0,8,8400,06,01
+Chamita,17,4.2,8,8400,01,02
+Chamita,25,5.1,8,8400,02,02
+Chamita,20,5.8,8,8400,03,02
+Chamita,0,0.8,8,8400,04,02
+Chamita,0,0.0,8,8400,05,02
+Chamita,0,0.0,8,8400,06,02
+Chamita,14,3.9,8,8400,01,03
+Chamita,14,4.4,8,8400,02,03
+Chamita,33,7.8,8,8400,03,03
+Chamita,19,7.2,8,8400,04,03
+Chamita,0,0.0,8,8400,05,03
+Chamita,0,0.0,8,8400,06,03
+Chamita,13,3.4,8,8400,01,04
+Chamita,27,6.8,8,8400,02,04
+Chamita,34,9.1,8,8400,03,04
+Chamita,1,0.6,8,8400,04,04
+Chamita,1,0.0,8,8400,05,04
+Chamita,0,0.0,8,8400,06,04
+Chamita,5,2.5,8,8400,01,05
+Chamita,32,8.6,8,8400,02,05
+Chamita,43,12.9,8,8400,03,05
+Chamita,38,15.3,8,8400,04,05
+Chamita,5,3.6,8,8400,05,05
+Chamita,,0.0,8,8400,06,05
+Chamita,1,1.5,8,8400,01,06
+Chamita,12,3.3,8,8400,02,06
+Chamita,10,4.0,8,8400,03,06
+Chamita,6,4.2,8,8400,04,06
+Chamita,,0.0,8,8400,05,06
+Chamita,,0.0,8,8400,06,06
+Chamita,7,2.3,8,8400,01,07
+Chamita,25,6.0,8,8400,02,07
+Chamita,26,8.1,8,8400,03,07
+Chamita,,0.9,8,8400,04,07
+Chamita,,0.0,8,8400,05,07
+Chamita,2,0.0,8,8400,06,07
+Chamita,22,6.0,8,8400,01,08
+Chamita,45,11.7,8,8400,02,08
+Chamita,48,15.7,8,8400,03,08
+Chamita,26,12.7,8,8400,04,08
+Chamita,,0.0,8,8400,05,08
+Chamita,,0.0,8,8400,06,08
+Chamita,32,8.7,8,8400,01,09
+Chamita,31,10.0,8,8400,02,09
+Chamita,29,11.0,8,8400,03,09
+Chamita,12,6.6,8,8400,04,09
+Chamita,,0.0,8,8400,05,09
+Chamita,,0.0,8,8400,06,09
+Chamita,23,5.4,8,8400,01,10
+Chamita,39,9.9,8,8400,02,10
+Chamita,44,12.4,8,8400,03,10
+Chamita,32,13.3,8,8400,04,10
+Chamita,,0.0,8,8400,05,10
+Chamita,1,0.0,8,8400,06,10
+Chamita,33,6.1,8,8400,01,11
+Chamita,25,6.7,8,8400,02,11
+Chamita,28,8.5,8,8400,03,11
+Chamita,9,4.7,8,8400,04,11
+Chamita,0,0.0,8,8400,05,11
+Chamita,0,0.0,8,8400,06,11
+Chamita,17,4.0,8,8400,01,12
+Chamita,24,5.7,8,8400,02,12
+Chamita,31,8.3,8,8400,03,12
+Chamita,1,0.2,8,8400,04,12
+Chamita,0,0.0,8,8400,05,12
+Chamita,0,0.0,8,8400,06,12
+Chamita,16,2.2,8,8400,01,13
+Chamita,20,4.8,8,8400,02,13
+Chamita,29,6.5,8,8400,03,13
+Chamita,6,2.3,8,8400,04,13
+Chamita,0,0.0,8,8400,05,13
+Chamita,0,0.0,8,8400,06,13
+Chamita,13,2.6,8,8400,01,14
+Chamita,18,3.0,8,8400,02,14
+Chamita,14,3.2,8,8400,03,14
+Chamita,2,0.8,8,8400,04,14
+Chamita,0,0.0,8,8400,05,14
+Chamita,0,0.0,8,8400,06,14
+Chamita,13,2.3,8,8400,01,15
+Chamita,27,5.3,8,8400,02,15
+Chamita,44,8.6,8,8400,03,15
+Chamita,5,1.5,8,8400,04,15
+Chamita,0,0.0,8,8400,05,15
+Chamita,0,0.0,8,8400,06,15
+Chamita,25,5.2,8,8400,01,16
+Chamita,32,7.7,8,8400,02,16
+Chamita,23,7.9,8,8400,03,16
+Chamita,7,3.1,8,8400,04,16
+Chamita,0,0.0,8,8400,05,16
+Chamita,0,0.0,8,8400,06,16
+"Dan Valley",2,0.4,7,7640,01,00
+"Dan Valley",0,0.0,7,7640,02,00
+"Dan Valley",0,0.0,7,7640,03,00
+"Dan Valley",17,2.7,7,7640,01,01
+"Dan Valley",17,3.5,7,7640,02,01
+"Dan Valley",1,0.4,7,7640,03,01
+"Dan Valley",18,2.7,7,7640,01,02
+"Dan Valley",11,2.7,7,7640,02,02
+"Dan Valley",0,0.0,7,7640,03,02
+"Dan Valley",8,1.6,7,7640,01,03
+"Dan Valley",8,2.0,7,7640,02,03
+"Dan Valley",3,0.9,7,7640,03,03
+"Dan Valley",9,1.6,7,7640,01,04
+"Dan Valley",11,2.5,7,7640,02,04
+"Dan Valley",0,0.0,7,7640,03,04
+"Dan Valley",4,1.0,7,7640,01,05
+"Dan Valley",4,1.1,7,7640,02,05
+"Dan Valley",0,0.0,7,7640,03,05
+"Dan Valley",2,0.4,7,7640,01,06
+"Dan Valley",0,0.0,7,7640,02,06
+"Dan Valley",3,0.4,7,7640,03,06
+"Dan Valley",9,1.6,7,7640,01,07
+"Dan Valley",16,3.0,7,7640,01,07
+"Dan Valley",18,4.4,7,7640,02,07
+"Dan Valley",0,0.0,7,7640,03,07
+"Dan Valley",8,1.6,7,7640,01,08
+"Dan Valley",14,3.8,7,7640,01,08
+"Dan Valley",20,5.2,7,7640,02,08
+"Dan Valley",4,1.4,7,7640,03,08
+"Dan Valley",22,5.2,7,7640,01,09
+"Dan Valley",13,4.3,7,7640,01,09
+"Dan Valley",10,3.8,7,7640,02,09
+"Dan Valley",1,0.1,7,7640,03,09
+"Dan Valley",24,4.1,7,7640,01,10
+"Dan Valley",30,7.4,7,7640,02,10
+"Dan Valley",16,4.6,7,7640,03,10
+"Dan Valley",8,1.4,7,7640,01,11
+"Dan Valley",6,1.2,7,7640,02,11
+"Dan Valley",0,0.0,7,7640,03,11
+"Dan Valley",10,2.0,7,7640,01,12
+"Dan Valley",12,2.6,7,7640,02,12
+"Dan Valley",0,0.0,7,7640,03,12
+"Dan Valley",6,1.4,7,7640,01,13
+"Dan Valley",12,3.0,7,7640,02,13
+"Dan Valley",0,0.0,7,7640,03,13
+"Dan Valley",0,0.0,7,7640,01,14
+"Dan Valley",0,0.0,7,7640,02,14
+"Dan Valley",0,0.0,7,7640,03,14
+"Dan Valley",9,2.4,7,7640,01,15
+"Dan Valley",5,1.6,7,7640,02,15
+"Dan Valley",0,0.0,7,7640,03,15
+"Dan Valley",13,3.1,7,7640,01,16
+"Dan Valley",7,2.5,7,7640,02,16
+"Dan Valley",0,0.0,7,7640,03,16
+"Elk Cabin",,0.6,8,8210,01,00
+"Elk Cabin",,0.8,8,8210,02,00
+"Elk Cabin",,0.0,8,8210,03,00
+"Elk Cabin",,0.3,8,8210,04,00
+"Elk Cabin",,0.0,8,8210,05,00
+"Elk Cabin",,0.0,8,8210,06,00
+"Elk Cabin",,1.8,8,8210,01,01
+"Elk Cabin",,3.7,8,8210,02,01
+"Elk Cabin",,5.1,8,8210,03,01
+"Elk Cabin",,5.0,8,8210,04,01
+"Elk Cabin",,0.0,8,8210,05,01
+"Elk Cabin",,0.0,8,8210,06,01
+"Elk Cabin",6,0.8,8,8210,01,02
+"Elk Cabin",10,1.7,8,8210,02,02
+"Elk Cabin",5,2.0,8,8210,03,02
+"Elk Cabin",0,0.0,8,8210,04,02
+"Elk Cabin",0,0.0,8,8210,05,02
+"Elk Cabin",0,0.0,8,8210,06,02
+"Elk Cabin",4,1.1,8,8210,01,03
+"Elk Cabin",0,0.5,8,8210,02,03
+"Elk Cabin",10,1.9,8,8210,03,03
+"Elk Cabin",2,1.4,8,8210,04,03
+"Elk Cabin",0,0.0,8,8210,05,03
+"Elk Cabin",0,0.0,8,8210,06,03
+"Elk Cabin",6,2.2,8,8210,01,04
+"Elk Cabin",7,2.5,8,8210,02,04
+"Elk Cabin",11,3.7,8,8210,03,04
+"Elk Cabin",0,0.2,8,8210,04,04
+"Elk Cabin",0,0.0,8,8210,05,04
+"Elk Cabin",,0.0,8,8210,06,04
+"Elk Cabin",5,1.9,8,8210,01,05
+"Elk Cabin",14,3.6,8,8210,02,05
+"Elk Cabin",15,4.8,8,8210,03,05
+"Elk Cabin",24,6.0,8,8210,04,05
+"Elk Cabin",1,0.0,8,8210,05,05
+"Elk Cabin",0,0.0,8,8210,06,05
+"Elk Cabin",0,0.0,8,8210,01,06
+"Elk Cabin",1,0.0,8,8210,02,06
+"Elk Cabin",0,0.0,8,8210,03,06
+"Elk Cabin",0,0.0,8,8210,04,06
+"Elk Cabin",0,0.0,8,8210,05,06
+"Elk Cabin",0,0.0,8,8210,06,06
+"Elk Cabin",17,2.4,8,8210,01,07
+"Elk Cabin",19,4.3,8,8210,02,07
+"Elk Cabin",18,4.7,8,8210,03,07
+"Elk Cabin",1,0.0,8,8210,04,07
+"Elk Cabin",0,0.0,8,8210,05,07
+"Elk Cabin",0,0.0,8,8210,06,07
+"Elk Cabin",8,1.3,8,8210,01,08
+"Elk Cabin",11,3.3,8,8210,02,08
+"Elk Cabin",14,4.3,8,8210,03,08
+"Elk Cabin",3,1.6,8,8210,04,08
+"Elk Cabin",0,0.0,8,8210,05,08
+"Elk Cabin",0,0.0,8,8210,06,08
+"Elk Cabin",14,3.6,8,8210,01,09
+"Elk Cabin",11,3.5,8,8210,02,09
+"Elk Cabin",7,3.3,8,8210,03,09
+"Elk Cabin",1,0.6,8,8210,04,09
+"Elk Cabin",0,0.0,8,8210,05,09
+"Elk Cabin",0,0.0,8,8210,06,09
+"Elk Cabin",10,1.9,8,8210,01,10
+"Elk Cabin",17,4.0,8,8210,02,10
+"Elk Cabin",,5.9,8,8210,03,10
+"Elk Cabin",22,8.4,8,8210,04,10
+"Elk Cabin",1,0.2,8,8210,05,10
+"Elk Cabin",,0.0,8,8210,06,10
+"Elk Cabin",11,2.0,8,8210,01,11
+"Elk Cabin",12,2.4,8,8210,02,11
+"Elk Cabin",8,2.7,8,8210,03,11
+"Elk Cabin",0,0.0,8,8210,04,11
+"Elk Cabin",0,0.0,8,8210,05,11
+"Elk Cabin",0,0.0,8,8210,06,11
+"Elk Cabin",9,2.9,8,8210,01,12
+"Elk Cabin",12,3.8,8,8210,02,12
+"Elk Cabin",15,4.5,8,8210,03,12
+"Elk Cabin",2,0.5,8,8210,04,12
+"Elk Cabin",0,0.0,8,8210,05,12
+"Elk Cabin",0,0.0,8,8210,06,12
+"Elk Cabin",11,1.5,8,8210,01,13
+"Elk Cabin",6,2.2,8,8210,02,13
+"Elk Cabin",11,2.8,8,8210,03,13
+"Elk Cabin",0,0.0,8,8210,04,13
+"Elk Cabin",0,0.0,8,8210,05,13
+"Elk Cabin",0,0.0,8,8210,06,13
+"Elk Cabin",2,1.0,8,8210,01,14
+"Elk Cabin",1,0.1,8,8210,02,14
+"Elk Cabin",0,0.0,8,8210,03,14
+"Elk Cabin",0,0.0,8,8210,04,14
+"Elk Cabin",0,0.0,8,8210,05,14
+"Elk Cabin",0,0.0,8,8210,06,14
+"Elk Cabin",6,1.4,8,8210,01,15
+"Elk Cabin",7,1.5,8,8210,02,15
+"Elk Cabin",5,1.1,8,8210,03,15
+"Elk Cabin",0,0.0,8,8210,04,15
+"Elk Cabin",0,0.0,8,8210,05,15
+"Elk Cabin",0,0.0,8,8210,06,15
+"Elk Cabin",10,2.1,8,8210,01,16
+"Elk Cabin",11,3.5,8,8210,02,16
+"Elk Cabin",0,0.0,8,8210,03,16
+"Elk Cabin",0,0.0,8,8210,04,16
+"Elk Cabin",0,0.0,8,8210,05,16
+"Elk Cabin",0,0.0,8,8210,06,16
+"Emory Pass #2",0,0.0,7,7800,01,00
+"Emory Pass #2",0,0.0,7,7800,02,00
+"Emory Pass #2",0,0.0,7,7800,03,00
+"Emory Pass #2",11,2.4,7,7800,01,01
+"Emory Pass #2",1,0.5,7,7800,02,01
+"Emory Pass #2",0,0.0,7,7800,03,01
+"Emory Pass #2",2,0.2,7,7800,01,02
+"Emory Pass #2",0,0.0,7,7800,02,02
+"Emory Pass #2",0,0.0,7,7800,03,02
+"Emory Pass #2",0,0.0,7,7800,01,03
+"Emory Pass #2",3,0.6,7,7800,02,03
+"Emory Pass #2",0,0.0,7,7800,03,03
+"Emory Pass #2",5,0.8,7,7800,01,04
+"Emory Pass #2",2,0.5,7,7800,02,04
+"Emory Pass #2",0,0.0,7,7800,03,04
+"Emory Pass #2",1,0.2,7,7800,01,05
+"Emory Pass #2",2,0.2,7,7800,02,05
+"Emory Pass #2",0,0.0,7,7800,03,05
+"Emory Pass #2",0,0.0,7,7800,02,06
+"Emory Pass #2",0,0.0,7,7800,03,06
+"Emory Pass #2",0,0.0,7,7800,03,06
+"Emory Pass #2",15,4.3,7,7800,01,07
+"Emory Pass #2",4,1.3,7,7800,02,07
+"Emory Pass #2",0,0.0,7,7800,03,07
+"Emory Pass #2",0,0.0,7,7800,01,08
+"Emory Pass #2",0,0.0,7,7800,02,08
+"Emory Pass #2",0,0.0,7,7800,03,08
+"Emory Pass #2",0,0.0,7,7800,01,09
+"Emory Pass #2",0,0.0,7,7800,03,09
+"Emory Pass #2",0,0.0,7,7800,03,09
+"Emory Pass #2",10,3.1,7,7800,01,10
+"Emory Pass #2",19,5.4,7,7800,03,10
+"Emory Pass #2",2,0.7,7,7800,03,10
+"Emory Pass #2",0,0.0,7,7800,01,11
+"Emory Pass #2",0,0.0,7,7800,02,11
+"Emory Pass #2",0,0.0,7,7800,03,11
+"Emory Pass #2",11,2.7,7,7800,01,12
+"Emory Pass #2",5,1.7,7,7800,02,12
+"Emory Pass #2",0,0.0,7,7800,03,12
+"Emory Pass #2",0,0.0,7,7800,04,12
+"Emory Pass #2",4,0.5,7,7800,01,13
+"Emory Pass #2",4,0.4,7,7800,01,13
+"Emory Pass #2",0,0.0,7,7800,03,13
+"Emory Pass #2",0,0.0,7,7800,04,13
+"Frisco Divide",,0.0,7,8000,01,00
+"Frisco Divide",,0.0,7,8000,02,00
+"Frisco Divide",,0.0,7,8000,03,00
+"Frisco Divide",,0.0,7,8000,04,00
+"Frisco Divide",,0.0,7,8000,05,00
+"Frisco Divide",,0.0,7,8000,06,00
+"Frisco Divide",,1.5,7,8000,01,01
+"Frisco Divide",,3.7,7,8000,02,01
+"Frisco Divide",,4.6,7,8000,03,01
+"Frisco Divide",,0.0,7,8000,04,01
+"Frisco Divide",,0.0,7,8000,05,01
+"Frisco Divide",,0.0,7,8000,06,01
+"Frisco Divide",6,1.2,7,8000,01,02
+"Frisco Divide",8,1.9,7,8000,02,02
+"Frisco Divide",1,0.0,7,8000,03,02
+"Frisco Divide",0,0.0,7,8000,04,02
+"Frisco Divide",0,0.0,7,8000,05,02
+"Frisco Divide",0,0.0,7,8000,06,02
+"Frisco Divide",9,1.9,7,8000,01,03
+"Frisco Divide",4,2.2,7,8000,02,03
+"Frisco Divide",8,2.4,7,8000,03,03
+"Frisco Divide",0,0.0,7,8000,04,03
+"Frisco Divide",0,0.0,7,8000,05,03
+"Frisco Divide",,0.0,7,8000,06,03
+"Frisco Divide",2,0.4,7,8000,01,04
+"Frisco Divide",4,1.2,7,8000,02,04
+"Frisco Divide",4,2.3,7,8000,03,04
+"Frisco Divide",,0.0,7,8000,04,04
+"Frisco Divide",,0.0,7,8000,05,04
+"Frisco Divide",0,0.0,7,8000,06,04
+"Frisco Divide",2,1.0,7,8000,01,05
+"Frisco Divide",4,1.8,7,8000,02,05
+"Frisco Divide",0,0.5,7,8000,03,05
+"Frisco Divide",0,0.0,7,8000,04,05
+"Frisco Divide",,0.0,7,8000,05,05
+"Frisco Divide",,0.0,7,8000,06,05
+"Frisco Divide",0,0.0,7,8000,01,06
+"Frisco Divide",1,0.8,7,8000,02,06
+"Frisco Divide",0,0.0,7,8000,03,06
+"Frisco Divide",0,0.0,7,8000,04,06
+"Frisco Divide",,0.0,7,8000,05,06
+"Frisco Divide",,0.0,7,8000,06,06
+"Frisco Divide",4,1.1,7,8000,01,07
+"Frisco Divide",12,2.9,7,8000,02,07
+"Frisco Divide",5,2.9,7,8000,03,07
+"Frisco Divide",0,0.0,7,8000,04,07
+"Frisco Divide",,0.0,7,8000,05,07
+"Frisco Divide",,0.0,7,8000,06,07
+"Frisco Divide",10,1.8,7,8000,01,08
+"Frisco Divide",10,3.7,7,8000,02,08
+"Frisco Divide",5,3.3,7,8000,03,08
+"Frisco Divide",0,0.0,7,8000,04,08
+"Frisco Divide",,0.0,7,8000,05,08
+"Frisco Divide",,0.0,7,8000,06,08
+"Frisco Divide",11,3.0,7,8000,01,09
+"Frisco Divide",6,2.9,7,8000,02,09
+"Frisco Divide",2,1.8,7,8000,03,09
+"Frisco Divide",,0.0,7,8000,04,09
+"Frisco Divide",25,0.0,7,8000,05,09
+"Frisco Divide",0,0.0,7,8000,06,09
+"Frisco Divide",9,1.7,7,8000,01,10
+"Frisco Divide",24,6.6,7,8000,02,10
+"Frisco Divide",,7.6,7,8000,03,10
+"Frisco Divide",1,0.0,7,8000,04,10
+"Frisco Divide",1,0.0,7,8000,05,10
+"Frisco Divide",0,0.0,7,8000,06,10
+"Frisco Divide",13,1.3,7,8000,01,11
+"Frisco Divide",7,1.6,7,8000,02,11
+"Frisco Divide",3,1.7,7,8000,03,11
+"Frisco Divide",0,0.0,7,8000,04,11
+"Frisco Divide",0,0.0,7,8000,05,11
+"Frisco Divide",0,0.0,7,8000,06,11
+"Frisco Divide",10,2.7,7,8000,01,12
+"Frisco Divide",9,3.2,7,8000,02,12
+"Frisco Divide",5,2.4,7,8000,03,12
+"Frisco Divide",0,0.0,7,8000,04,12
+"Frisco Divide",0,0.0,7,8000,05,12
+"Frisco Divide",0,0.0,7,8000,06,12
+"Frisco Divide",10,2.0,7,8000,01,13
+"Frisco Divide",5,1.5,7,8000,02,13
+"Frisco Divide",4,1.6,7,8000,03,13
+"Frisco Divide",0,0.0,7,8000,04,13
+"Frisco Divide",0,0.0,7,8000,05,13
+"Frisco Divide",0,0.0,7,8000,06,13
+"Frisco Divide",8,2.0,7,8000,01,14
+"Frisco Divide",4,1.4,7,8000,02,14
+"Frisco Divide",0,0.0,7,8000,03,14
+"Frisco Divide",0,0.0,7,8000,04,14
+"Frisco Divide",0,0.0,7,8000,05,14
+"Frisco Divide",0,0.0,7,8000,06,14
+"Frisco Divide",1,0.3,7,8000,01,15
+"Frisco Divide",5,2.0,7,8000,02,15
+"Frisco Divide",1,0.1,7,8000,03,15
+"Frisco Divide",0,0.0,7,8000,04,15
+"Frisco Divide",0,0.0,7,8000,05,15
+"Frisco Divide",0,0.0,7,8000,06,15
+"Frisco Divide",6,1.3,7,8000,01,16
+"Frisco Divide",8,2.2,7,8000,02,16
+"Frisco Divide",0,0.0,7,8000,03,16
+"Frisco Divide",0,0.0,7,8000,04,16
+"Frisco Divide",0,0.0,7,8000,05,16
+"Frisco Divide",0,0.0,7,8000,06,16
+"Gallegos Peak",,1.7,9,9800,01,00
+"Gallegos Peak",,4.4,9,9800,02,00
+"Gallegos Peak",,5.8,9,9800,03,00
+"Gallegos Peak",,10.0,9,9800,04,00
+"Gallegos Peak",,0.0,9,9800,05,00
+"Gallegos Peak",,0.0,9,9800,06,00
+"Gallegos Peak",,3.4,9,9800,01,01
+"Gallegos Peak",,5.7,9,9800,02,01
+"Gallegos Peak",,8.0,9,9800,03,01
+"Gallegos Peak",,8.0,9,9800,04,01
+"Gallegos Peak",,0.0,9,9800,05,01
+"Gallegos Peak",,0.0,9,9800,06,01
+"Gallegos Peak",22,4.0,9,9800,01,02
+"Gallegos Peak",32,5.5,9,9800,02,02
+"Gallegos Peak",27,6.3,9,9800,03,02
+"Gallegos Peak",15,5.2,9,9800,04,02
+"Gallegos Peak",0,0.0,9,9800,05,02
+"Gallegos Peak",0,0.0,9,9800,06,02
+"Gallegos Peak",23,5.3,9,9800,01,03
+"Gallegos Peak",,6.1,9,9800,02,03
+"Gallegos Peak",46,10.0,9,9800,03,03
+"Gallegos Peak",49,14.8,9,9800,04,03
+"Gallegos Peak",15,4.8,9,9800,05,03
+"Gallegos Peak",0,0.0,9,9800,06,03
+"Gallegos Peak",12,2.3,9,9800,01,04
+"Gallegos Peak",19,3.4,9,9800,02,04
+"Gallegos Peak",29,5.8,9,9800,03,04
+"Gallegos Peak",14,5.1,9,9800,04,04
+"Gallegos Peak",3,1.2,9,9800,05,04
+"Gallegos Peak",0,0.0,9,9800,06,04
+"Gallegos Peak",18,4.6,9,9800,01,05
+"Gallegos Peak",41,8.8,9,9800,02,05
+"Gallegos Peak",44,12.1,9,9800,03,05
+"Gallegos Peak",53,15.7,9,9800,04,05
+"Gallegos Peak",22,8.4,9,9800,05,05
+"Gallegos Peak",0,0.0,9,9800,06,05
+"Gallegos Peak",8,1.5,9,9800,01,06
+"Gallegos Peak",15,2.9,9,9800,02,06
+"Gallegos Peak",11,3.0,9,9800,03,06
+"Gallegos Peak",21,6.5,9,9800,04,06
+"Gallegos Peak",0,0.0,9,9800,05,06
+"Gallegos Peak",0,0.0,9,9800,06,06
+"Gallegos Peak",26,5.0,9,9800,01,07
+"Gallegos Peak",36,7.6,9,9800,02,07
+"Gallegos Peak",39,10.1,9,9800,03,07
+"Gallegos Peak",25,8.9,9,9800,04,07
+"Gallegos Peak",3,1.9,9,9800,05,07
+"Gallegos Peak",0,0.0,9,9800,06,07
+"Gallegos Peak",19,3.8,9,9800,01,08
+"Gallegos Peak",37,7.7,9,9800,02,08
+"Gallegos Peak",42,11.4,9,9800,03,08
+"Gallegos Peak",23,8.7,9,9800,04,08
+"Gallegos Peak",0,0.0,9,9800,05,08
+"Gallegos Peak",,0.0,9,9800,06,08
+"Gallegos Peak",30,7.2,9,9800,01,09
+"Gallegos Peak",33,8.7,9,9800,02,09
+"Gallegos Peak",31,9.7,9,9800,03,09
+"Gallegos Peak",20,7.5,9,9800,04,09
+"Gallegos Peak",0,0.0,9,9800,05,09
+"Gallegos Peak",0,0.0,9,9800,06,09
+"Gallegos Peak",20,3.3,9,9800,01,10
+"Gallegos Peak",28,5.8,9,9800,02,10
+"Gallegos Peak",40,8.7,9,9800,03,10
+"Gallegos Peak",35,11.6,9,9800,04,10
+"Gallegos Peak",2,0.6,9,9800,05,10
+"Gallegos Peak",0,0.0,9,9800,06,10
+"Gallegos Peak",22,3.7,9,9800,01,11
+"Gallegos Peak",25,5.2,9,9800,02,11
+"Gallegos Peak",30,7.7,9,9800,03,11
+"Gallegos Peak",8,4.5,9,9800,04,11
+"Gallegos Peak",0,0.0,9,9800,05,11
+"Gallegos Peak",0,0.0,9,9800,06,11
+"Gallegos Peak",21,4.6,9,9800,01,12
+"Gallegos Peak",28,6.2,9,9800,02,12
+"Gallegos Peak",37,8.9,9,9800,03,12
+"Gallegos Peak",6,2.3,9,9800,04,12
+"Gallegos Peak",0,0.0,9,9800,05,12
+"Gallegos Peak",0,0.0,9,9800,06,12
+"Gallegos Peak",25,4.1,9,9800,01,13
+"Gallegos Peak",29,6.2,9,9800,02,13
+"Gallegos Peak",34,8.1,9,9800,03,13
+"Gallegos Peak",15,5.9,9,9800,04,13
+"Gallegos Peak",0,0.0,9,9800,05,13
+"Gallegos Peak",0,0.0,9,9800,06,13
+"Gallegos Peak",19,3.9,9,9800,01,14
+"Gallegos Peak",19,4.4,9,9800,02,14
+"Gallegos Peak",22,5.2,9,9800,03,14
+"Gallegos Peak",12,3.6,9,9800,04,14
+"Gallegos Peak",0,0.0,9,9800,05,14
+"Gallegos Peak",0,0.0,9,9800,06,14
+"Gallegos Peak",24,4.9,9,9800,01,15
+"Gallegos Peak",30,6.4,9,9800,02,15
+"Gallegos Peak",43,8.5,9,9800,03,15
+"Gallegos Peak",11,3.8,9,9800,04,15
+"Gallegos Peak",0,0.0,9,9800,05,15
+"Gallegos Peak",0,0.0,9,9800,06,15
+"Gallegos Peak",32,6.7,9,9800,01,16
+"Gallegos Peak",39,9.5,9,9800,02,16
+"Gallegos Peak",35,10.5,9,9800,03,16
+"Gallegos Peak",16,6.8,9,9800,04,16
+"Gallegos Peak",0,0.0,9,9800,05,16
+"Gallegos Peak",0,0.0,9,9800,06,16
+"Hematite Park",0,0.0,9,9500,01,00
+"Hematite Park",2,0.4,9,9500,02,00
+"Hematite Park",5,1.6,9,9500,03,00
+"Hematite Park",12,1.3,9,9500,01,01
+"Hematite Park",20,4.0,9,9500,02,01
+"Hematite Park",10,3.4,9,9500,03,01
+"Hematite Park",9,1.4,9,9500,01,02
+"Hematite Park",12,2.5,9,9500,02,02
+"Hematite Park",3,0.6,9,9500,03,02
+"Hematite Park",9,1.6,9,9500,01,03
+"Hematite Park",16,3.1,9,9500,02,03
+"Hematite Park",15,3.5,9,9500,03,03
+"Hematite Park",20,3.0,9,9500,02,04
+"Hematite Park",22,4.1,9,9500,02,04
+"Hematite Park",0,0.0,9,9500,03,04
+"Hematite Park",16,3.6,9,9500,01,05
+"Hematite Park",29,7.1,9,9500,02,05
+"Hematite Park",29,8.9,9,9500,03,05
+"Hematite Park",5,0.5,9,9500,01,06
+"Hematite Park",2,0.0,9,9500,02,06
+"Hematite Park",7,2.1,9,9500,03,06
+"Hematite Park",23,4.5,9,9500,02,07
+"Hematite Park",1,0.6,9,9500,03,07
+"Hematite Park",27,4.5,9,9500,01,08
+"Hematite Park",33,7.9,9,9500,02,08
+"Hematite Park",21,5.8,9,9500,03,08
+"Hematite Park",20,5.0,9,9500,01,09
+"Hematite Park",18,5.1,9,9500,02,09
+"Hematite Park",8,2.1,9,9500,03,09
+"Hematite Park",22,4.0,9,9500,01,10
+"Hematite Park",27,5.1,9,9500,02,10
+"Hematite Park",41,9.3,9,9500,03,10
+"Hematite Park",8,1.3,9,9500,01,11
+"Hematite Park",13,2.7,9,9500,02,11
+"Hematite Park",0,0.0,9,9500,03,11
+"Hematite Park",19,3.8,9,9500,01,12
+"Hematite Park",24,5.2,9,9500,02,12
+"Hematite Park",11,3.0,9,9500,03,12
+"Hematite Park",14,3.0,9,9500,01,13
+"Hematite Park",26,4.7,9,9500,02,13
+"Hematite Park",17,5.3,9,9500,03,13
+"Hematite Park",12,2.4,9,9500,01,14
+"Hematite Park",5,1.0,9,9500,02,14
+"Hematite Park",4,1.3,9,9500,03,14
+"Hematite Park",12,1.8,9,9500,01,15
+"Hematite Park",28,5.0,9,9500,02,15
+"Hematite Park",16,5.3,9,9500,03,15
+"Hematite Park",20,4.0,9,9500,01,16
+"Hematite Park",20,4.4,9,9500,02,16
+"Hematite Park",2,0.5,9,9500,03,16
+"Hidden Valley",11,1.9,8,8480,02,00
+"Hidden Valley",9,2.8,8,8480,02,00
+"Hidden Valley",13,4.0,8,8480,03,00
+"Hidden Valley",8,1.6,8,8480,01,01
+"Hidden Valley",26,6.9,8,8480,03,01
+"Hidden Valley",9,3.2,8,8480,04,01
+"Hidden Valley",18,3.9,8,8480,01,02
+"Hidden Valley",14,3.5,8,8480,02,02
+"Hidden Valley",0,0.0,8,8480,03,02
+"Hidden Valley",12,3.5,8,8480,01,03
+"Hidden Valley",24,5.5,8,8480,02,03
+"Hidden Valley",22,9.4,8,8480,03,03
+"Hidden Valley",14,3.6,8,8480,01,04
+"Hidden Valley",21,5.5,8,8480,02,04
+"Hidden Valley",0,0.0,8,8480,03,04
+"Hidden Valley",9,2.2,8,8480,01,05
+"Hidden Valley",16,5.2,8,8480,01,05
+"Hidden Valley",29,10.2,8,8480,03,05
+"Hidden Valley",32,11.8,8,8480,03,05
+"Hidden Valley",7,1.5,8,8480,02,06
+"Hidden Valley",0,0.0,8,8480,02,06
+"Hidden Valley",0,0.0,8,8480,03,06
+"Hidden Valley",13,2.5,8,8480,01,07
+"Hidden Valley",25,5.8,8,8480,03,07
+"Hidden Valley",2,0.4,8,8480,03,07
+"Hidden Valley",10,2.6,8,8480,01,08
+"Hidden Valley",30,7.1,8,8480,02,08
+"Hidden Valley",45,12.6,8,8480,02,08
+"Hidden Valley",23,9.3,8,8480,03,08
+"Hidden Valley",23,8.0,8,8480,01,09
+"Hidden Valley",25,9.1,8,8480,02,09
+"Hidden Valley",11,4.7,8,8480,03,09
+"Hidden Valley",42,12.3,8,8480,02,10
+"Hidden Valley",49,15.9,8,8480,02,10
+"Hidden Valley",37,14.0,8,8480,03,10
+"Hidden Valley",18,5.0,8,8480,01,11
+"Hidden Valley",21,6.5,8,8480,02,11
+"Hidden Valley",7,2.2,8,8480,03,11
+"Hidden Valley",15,3.4,8,8480,01,12
+"Hidden Valley",23,5.4,8,8480,02,12
+"Hidden Valley",3,1.0,8,8480,03,12
+"Hidden Valley",22,5.9,8,8480,01,13
+"Hidden Valley",28,8.3,8,8480,02,13
+"Hidden Valley",10,3.7,8,8480,03,13
+"Hidden Valley",6,1.1,8,8480,01,14
+"Hidden Valley",2,0.7,8,8480,02,14
+"Hidden Valley",0,0.0,8,8480,03,14
+"Hidden Valley",9,2.5,8,8480,01,15
+"Hidden Valley",12,3.2,8,8480,02,15
+"Hidden Valley",7,2.5,8,8480,03,15
+"Hidden Valley",25,6.6,8,8480,01,16
+"Hidden Valley",20,5.6,8,8480,02,16
+"Hidden Valley",0,0.0,8,8480,03,16
+Hopewell,,1.1,9,10000,01,00
+Hopewell,,4.2,9,10000,02,00
+Hopewell,,8.1,9,10000,03,00
+Hopewell,,14.4,9,10000,04,00
+Hopewell,,3.0,9,10000,05,00
+Hopewell,,0.0,9,10000,06,00
+Hopewell,,6.8,9,10000,01,01
+Hopewell,,10.2,9,10000,02,01
+Hopewell,,14.5,9,10000,03,01
+Hopewell,,17.0,9,10000,04,01
+Hopewell,,11.1,9,10000,05,01
+Hopewell,,0.0,9,10000,06,01
+Hopewell,27,6.4,9,10000,01,02
+Hopewell,38,8.0,9,10000,02,02
+Hopewell,36,8.8,9,10000,03,02
+Hopewell,31,9.9,9,10000,04,02
+Hopewell,0,0.0,9,10000,05,02
+Hopewell,0,0.0,9,10000,06,02
+Hopewell,36,7.9,9,10000,01,03
+Hopewell,32,8.4,9,10000,02,03
+Hopewell,68,13.6,9,10000,03,03
+Hopewell,56,17.4,9,10000,04,03
+Hopewell,24,7.9,9,10000,05,03
+Hopewell,0,0.0,9,10000,06,03
+Hopewell,29,6.3,9,10000,01,04
+Hopewell,52,11.7,9,10000,02,04
+Hopewell,62,16.1,9,10000,03,04
+Hopewell,40,15.3,9,10000,04,04
+Hopewell,31,14.0,9,10000,05,04
+Hopewell,0,0.0,9,10000,06,04
+Hopewell,25,5.9,9,10000,01,05
+Hopewell,55,13.1,9,10000,02,05
+Hopewell,64,18.8,9,10000,03,05
+Hopewell,75,23.9,9,10000,04,05
+Hopewell,44,18.5,9,10000,05,05
+Hopewell,0,0.0,9,10000,06,05
+Hopewell,14,2.8,9,10000,01,06
+Hopewell,27,5.6,9,10000,02,06
+Hopewell,28,6.8,9,10000,03,06
+Hopewell,45,12.0,9,10000,04,06
+Hopewell,6,2.3,9,10000,05,06
+Hopewell,,0.0,9,10000,06,06
+Hopewell,27,6.2,9,10000,01,07
+Hopewell,48,9.7,9,10000,02,07
+Hopewell,58,13.3,9,10000,03,07
+Hopewell,42,14.3,9,10000,04,07
+Hopewell,22,9.5,9,10000,05,07
+Hopewell,,0.0,9,10000,06,07
+Hopewell,37,9.6,9,10000,01,08
+Hopewell,69,18.4,9,10000,02,08
+Hopewell,80,25.5,9,10000,03,08
+Hopewell,68,26.3,9,10000,04,08
+Hopewell,41,21.8,9,10000,05,08
+Hopewell,,0.0,9,10000,06,08
+Hopewell,49,12.2,9,10000,01,09
+Hopewell,52,15.1,9,10000,02,09
+Hopewell,53,17.5,9,10000,03,09
+Hopewell,59,20.8,9,10000,04,09
+Hopewell,33,14.7,9,10000,05,09
+Hopewell,0,0.0,9,10000,06,09
+Hopewell,42,8.4,9,10000,01,10
+Hopewell,53,12.8,9,10000,02,10
+Hopewell,66,17.0,9,10000,03,10
+Hopewell,60,20.7,9,10000,04,10
+Hopewell,36,14.2,9,10000,05,10
+Hopewell,,0.0,9,10000,06,10
+Hopewell,44,7.4,9,10000,01,11
+Hopewell,35,8.6,9,10000,02,11
+Hopewell,46,11.6,9,10000,03,11
+Hopewell,47,14.4,9,10000,04,11
+Hopewell,34,11.9,9,10000,05,11
+Hopewell,0,0.0,9,10000,06,11
+Hopewell,26,6.3,9,10000,01,12
+Hopewell,38,9.5,9,10000,02,12
+Hopewell,51,12.9,9,10000,03,12
+Hopewell,33,11.3,9,10000,04,12
+Hopewell,0,0.0,9,10000,05,12
+Hopewell,0,0.0,9,10000,06,12
+Hopewell,30,5.7,9,10000,01,13
+Hopewell,36,8.4,9,10000,02,13
+Hopewell,47,11.7,9,10000,03,13
+Hopewell,35,12.1,9,10000,04,13
+Hopewell,7,2.3,9,10000,05,13
+Hopewell,0,0.0,9,10000,06,13
+Hopewell,24,5.3,9,10000,01,14
+Hopewell,33,6.4,9,10000,02,14
+Hopewell,41,8.1,9,10000,03,14
+Hopewell,41,10.2,9,10000,04,14
+Hopewell,4,1.4,9,10000,05,14
+Hopewell,0,0.0,9,10000,06,14
+Hopewell,29,6.0,9,10000,01,15
+Hopewell,43,9.2,9,10000,02,15
+Hopewell,70,13.9,9,10000,03,15
+Hopewell,37,13.0,9,10000,04,15
+Hopewell,9,2.5,9,10000,05,15
+Hopewell,0,0.0,9,10000,06,15
+Hopewell,39,8.1,9,10000,01,16
+Hopewell,44,10.9,9,10000,02,16
+Hopewell,45,13.0,9,10000,03,16
+Hopewell,38,12.8,9,10000,04,16
+Hopewell,23,7.7,9,10000,05,16
+Hopewell,0,0.0,9,10000,06,16
+"Hummingbird - Aerial And Snow Course",30,4.8,10,10550,01,00
+"Hummingbird - Aerial And Snow Course",0,0.0,10,10550,01,00
+"Hummingbird - Aerial And Snow Course",12,3.0,10,10550,05,00
+"Hummingbird - Aerial And Snow Course",56,11.2,10,10550,01,01
+"Hummingbird - Aerial And Snow Course",48,12.5,10,10550,02,01
+"Hummingbird - Aerial And Snow Course",41,12.7,10,10550,03,01
+"Hummingbird - Aerial And Snow Course",15,3.0,10,10550,01,02
+"Hummingbird - Aerial And Snow Course",11,2.5,10,10550,03,02
+"Hummingbird - Aerial And Snow Course",12,3.6,10,10550,05,02
+"Hummingbird - Aerial And Snow Course",13,3.9,10,10550,03,02
+"Hummingbird - Aerial And Snow Course",20,4.4,10,10550,01,03
+"Hummingbird - Aerial And Snow Course",16,3.2,10,10550,03,03
+"Hummingbird - Aerial And Snow Course",60,14.4,10,10550,05,03
+"Hummingbird - Aerial And Snow Course",6,1.2,10,10550,01,04
+"Hummingbird - Aerial And Snow Course",30,7.5,10,10550,03,04
+"Hummingbird - Aerial And Snow Course",30,7.8,10,10550,05,04
+"Hummingbird - Aerial And Snow Course",33,9.2,10,10550,01,05
+"Hummingbird - Aerial And Snow Course",93,29.8,10,10550,02,05
+"Hummingbird - Aerial And Snow Course",76,28.1,10,10550,03,05
+"Hummingbird - Aerial And Snow Course",14,2.8,10,10550,01,06
+"Hummingbird - Aerial And Snow Course",0,0.0,10,10550,02,06
+"Hummingbird - Aerial And Snow Course",6,2.9,10,10550,03,06
+"Hummingbird - Aerial And Snow Course",55,18.7,10,10550,01,08
+"Hummingbird - Aerial And Snow Course",55,18.7,10,10550,02,08
+"Hummingbird - Aerial And Snow Course",22,7.9,10,10550,03,08
+"Hummingbird - Aerial And Snow Course",30,11.7,10,10550,01,09
+"Hummingbird - Aerial And Snow Course",22,9.0,10,10550,02,09
+"Hummingbird - Aerial And Snow Course",2,1.0,10,10550,03,09
+"Hummingbird - Aerial And Snow Course",78,23.4,10,10550,01,10
+"Hummingbird - Aerial And Snow Course",95,29.4,10,10550,02,10
+"Hummingbird - Aerial And Snow Course",84,32.8,10,10550,03,10
+"Hummingbird - Aerial And Snow Course",18,5.9,10,10550,01,11
+"Hummingbird - Aerial And Snow Course",18,6.7,10,10550,02,11
+"Hummingbird - Aerial And Snow Course",0,0.0,10,10550,03,11
+"Hummingbird - Aerial And Snow Course",41,12.7,10,10550,01,12
+"Hummingbird - Aerial And Snow Course",35,11.6,10,10550,02,12
+"Hummingbird - Aerial And Snow Course",16,6.9,10,10550,03,12
+"Hummingbird - Aerial And Snow Course",20,4.8,10,10550,01,13
+"Hummingbird - Aerial And Snow Course",28,8.1,10,10550,01,13
+"Hummingbird - Aerial And Snow Course",36,9.0,10,10550,02,13
+"Hummingbird - Aerial And Snow Course",0,0.0,10,10550,03,13
+"Lookout Mountain",,1.7,8,8500,01,00
+"Lookout Mountain",,1.6,8,8500,02,00
+"Lookout Mountain",,0.0,8,8500,03,00
+"Lookout Mountain",,0.0,8,8500,04,00
+"Lookout Mountain",,0.0,8,8500,05,00
+"Lookout Mountain",,0.0,8,8500,06,00
+"Lookout Mountain",,1.9,8,8500,01,01
+"Lookout Mountain",,3.6,8,8500,02,01
+"Lookout Mountain",,3.4,8,8500,03,01
+"Lookout Mountain",,0.0,8,8500,04,01
+"Lookout Mountain",,0.0,8,8500,05,01
+"Lookout Mountain",,0.0,8,8500,06,01
+"Lookout Mountain",8,1.8,8,8500,01,02
+"Lookout Mountain",10,2.2,8,8500,02,02
+"Lookout Mountain",1,0.0,8,8500,03,02
+"Lookout Mountain",0,0.0,8,8500,04,02
+"Lookout Mountain",0,0.0,8,8500,05,02
+"Lookout Mountain",0,0.0,8,8500,06,02
+"Lookout Mountain",8,1.4,8,8500,01,03
+"Lookout Mountain",2,1.0,8,8500,02,03
+"Lookout Mountain",,0.2,8,8500,03,03
+"Lookout Mountain",1,0.1,8,8500,04,03
+"Lookout Mountain",1,0.0,8,8500,05,03
+"Lookout Mountain",0,0.0,8,8500,06,03
+"Lookout Mountain",1,0.4,8,8500,01,04
+"Lookout Mountain",2,1.4,8,8500,02,04
+"Lookout Mountain",1,0.4,8,8500,03,04
+"Lookout Mountain",0,0.0,8,8500,04,04
+"Lookout Mountain",1,0.0,8,8500,05,04
+"Lookout Mountain",0,0.0,8,8500,06,04
+"Lookout Mountain",1,0.8,8,8500,01,05
+"Lookout Mountain",2,1.2,8,8500,02,05
+"Lookout Mountain",0,0.3,8,8500,03,05
+"Lookout Mountain",1,0.0,8,8500,04,05
+"Lookout Mountain",0,0.0,8,8500,05,05
+"Lookout Mountain",0,0.0,8,8500,06,05
+"Lookout Mountain",0,0.0,8,8500,01,06
+"Lookout Mountain",0,0.1,8,8500,02,06
+"Lookout Mountain",0,0.0,8,8500,03,06
+"Lookout Mountain",0,0.0,8,8500,04,06
+"Lookout Mountain",,0.0,8,8500,05,06
+"Lookout Mountain",,0.0,8,8500,06,06
+"Lookout Mountain",3,1.3,8,8500,01,07
+"Lookout Mountain",12,3.4,8,8500,02,07
+"Lookout Mountain",2,0.8,8,8500,03,07
+"Lookout Mountain",1,0.0,8,8500,04,07
+"Lookout Mountain",,0.0,8,8500,05,07
+"Lookout Mountain",,0.0,8,8500,06,07
+"Lookout Mountain",4,1.4,8,8500,01,08
+"Lookout Mountain",4,1.7,8,8500,02,08
+"Lookout Mountain",0,0.2,8,8500,03,08
+"Lookout Mountain",0,0.0,8,8500,04,08
+"Lookout Mountain",,0.0,8,8500,05,08
+"Lookout Mountain",0,0.0,8,8500,06,08
+"Lookout Mountain",5,1.8,8,8500,01,09
+"Lookout Mountain",0,0.0,8,8500,02,09
+"Lookout Mountain",0,0.0,8,8500,03,09
+"Lookout Mountain",0,0.0,8,8500,04,09
+"Lookout Mountain",,0.0,8,8500,05,09
+"Lookout Mountain",0,0.0,8,8500,06,09
+"Lookout Mountain",10,2.3,8,8500,01,10
+"Lookout Mountain",16,4.4,8,8500,02,10
+"Lookout Mountain",16,5.1,8,8500,03,10
+"Lookout Mountain",,0.0,8,8500,04,10
+"Lookout Mountain",0,0.0,8,8500,05,10
+"Lookout Mountain",0,0.0,8,8500,06,10
+"Lookout Mountain",9,1.2,8,8500,01,11
+"Lookout Mountain",0,0.4,8,8500,02,11
+"Lookout Mountain",0,0.1,8,8500,03,11
+"Lookout Mountain",0,0.0,8,8500,04,11
+"Lookout Mountain",0,0.0,8,8500,05,11
+"Lookout Mountain",0,0.0,8,8500,06,11
+"Lookout Mountain",13,3.5,8,8500,01,12
+"Lookout Mountain",5,2.1,8,8500,02,12
+"Lookout Mountain",0,0.0,8,8500,03,12
+"Lookout Mountain",0,0.0,8,8500,04,12
+"Lookout Mountain",0,0.0,8,8500,05,12
+"Lookout Mountain",0,0.0,8,8500,06,12
+"Lookout Mountain",3,0.8,8,8500,01,13
+"Lookout Mountain",3,1.2,8,8500,02,13
+"Lookout Mountain",1,0.4,8,8500,03,13
+"Lookout Mountain",0,0.0,8,8500,04,13
+"Lookout Mountain",0,0.0,8,8500,05,13
+"Lookout Mountain",0,0.0,8,8500,06,13
+"Lookout Mountain",3,1.1,8,8500,01,14
+"Lookout Mountain",1,0.3,8,8500,02,14
+"Lookout Mountain",0,0.0,8,8500,03,14
+"Lookout Mountain",0,0.0,8,8500,04,14
+"Lookout Mountain",0,0.0,8,8500,05,14
+"Lookout Mountain",0,0.0,8,8500,06,14
+"Lookout Mountain",1,0.4,8,8500,01,15
+"Lookout Mountain",2,0.5,8,8500,02,15
+"Lookout Mountain",0,0.0,8,8500,03,15
+"Lookout Mountain",0,0.0,8,8500,04,15
+"Lookout Mountain",0,0.0,8,8500,05,15
+"Lookout Mountain",0,0.0,8,8500,06,15
+"Lookout Mountain",8,2.2,8,8500,01,16
+"Lookout Mountain",7,2.5,8,8500,02,16
+"Lookout Mountain",0,0.0,8,8500,03,16
+"Lookout Mountain",0,0.0,8,8500,04,16
+"Lookout Mountain",0,0.0,8,8500,05,16
+"Lookout Mountain",0,0.0,8,8500,06,16
+Mcgaffey,1,0.1,8,8120,01,00
+Mcgaffey,0,0.0,8,8120,02,00
+Mcgaffey,0,0.0,8,8120,03,00
+Mcgaffey,16,3.0,8,8120,01,01
+Mcgaffey,9,2.6,8,8120,02,01
+Mcgaffey,0,0.0,8,8120,03,01
+Mcgaffey,11,2.2,8,8120,01,02
+Mcgaffey,3,0.9,8,8120,02,02
+Mcgaffey,0,0.0,8,8120,03,02
+Mcgaffey,0,0.0,8,8120,01,03
+Mcgaffey,4,0.5,8,8120,02,03
+Mcgaffey,0,0.0,8,8120,03,03
+Mcgaffey,5,0.9,8,8120,01,04
+Mcgaffey,5,1.4,8,8120,02,04
+Mcgaffey,0,0.0,8,8120,03,04
+Mcgaffey,1,0.2,8,8120,01,05
+Mcgaffey,1,0.2,8,8120,02,05
+Mcgaffey,0,0.0,8,8120,03,05
+Mcgaffey,1,0.2,8,8120,01,06
+Mcgaffey,0,0.0,8,8120,02,06
+Mcgaffey,0,0.0,8,8120,03,06
+Mcgaffey,5,1.0,8,8120,01,07
+Mcgaffey,12,1.8,8,8120,01,07
+Mcgaffey,8,2.6,8,8120,02,07
+Mcgaffey,0,0.0,8,8120,03,07
+Mcgaffey,6,1.2,8,8120,01,08
+Mcgaffey,14,3.6,8,8120,02,08
+Mcgaffey,13,4.6,8,8120,02,08
+Mcgaffey,0,0.0,8,8120,03,08
+Mcgaffey,19,4.4,8,8120,01,09
+Mcgaffey,8,2.8,8,8120,01,09
+Mcgaffey,3,1.4,8,8120,02,09
+Mcgaffey,2,0.3,8,8120,03,09
+Mcgaffey,23,4.2,8,8120,01,10
+Mcgaffey,24,6.0,8,8120,02,10
+Mcgaffey,9,3.0,8,8120,03,10
+Mcgaffey,4,1.2,8,8120,01,11
+Mcgaffey,2,0.4,8,8120,02,11
+Mcgaffey,0,0.0,8,8120,03,11
+Mcgaffey,4,1.2,8,8120,01,12
+Mcgaffey,6,1.2,8,8120,02,12
+Mcgaffey,0,0.0,8,8120,03,12
+Mcgaffey,5,0.8,8,8120,01,13
+Mcgaffey,4,1.0,8,8120,02,13
+Mcgaffey,0,0.0,8,8120,03,13
+Mcgaffey,0,0.0,8,8120,01,14
+Mcgaffey,0,0.0,8,8120,02,14
+Mcgaffey,0,0.0,8,8120,03,14
+Mcgaffey,2,0.6,8,8120,01,15
+Mcgaffey,0,0.0,8,8120,02,15
+Mcgaffey,0,0.0,8,8120,03,15
+Mcgaffey,8,2.5,8,8120,01,16
+Mcgaffey,0,0.0,8,8120,02,16
+Mcgaffey,0,0.0,8,8120,03,16
+"Mcknight Cabin",1,0.2,9,9240,01,04
+"Mcknight Cabin",9,1.9,9,9240,02,04
+"Mcknight Cabin",13,3.4,9,9240,03,04
+"Mcknight Cabin",1,0.0,9,9240,04,04
+"Mcknight Cabin",2,0.0,9,9240,05,04
+"Mcknight Cabin",1,0.0,9,9240,06,04
+"Mcknight Cabin",10,3.5,9,9240,01,05
+"Mcknight Cabin",18,5.0,9,9240,02,05
+"Mcknight Cabin",71,6.3,9,9240,03,05
+"Mcknight Cabin",,0.0,9,9240,04,05
+"Mcknight Cabin",,0.0,9,9240,05,05
+"Mcknight Cabin",,0.0,9,9240,06,05
+"Mcknight Cabin",0,0.0,9,9240,01,06
+"Mcknight Cabin",1,0.6,9,9240,02,06
+"Mcknight Cabin",0,0.0,9,9240,03,06
+"Mcknight Cabin",0,0.0,9,9240,04,06
+"Mcknight Cabin",0,0.0,9,9240,05,06
+"Mcknight Cabin",,0.0,9,9240,06,06
+"Mcknight Cabin",8,1.7,9,9240,01,07
+"Mcknight Cabin",21,4.7,9,9240,02,07
+"Mcknight Cabin",21,6.5,9,9240,03,07
+"Mcknight Cabin",0,0.0,9,9240,04,07
+"Mcknight Cabin",0,0.0,9,9240,05,07
+"Mcknight Cabin",0,0.0,9,9240,06,07
+"Mcknight Cabin",9,1.8,9,9240,01,08
+"Mcknight Cabin",9,2.8,9,9240,02,08
+"Mcknight Cabin",2,1.7,9,9240,03,08
+"Mcknight Cabin",0,0.0,9,9240,04,08
+"Mcknight Cabin",,0.0,9,9240,05,08
+"Mcknight Cabin",,0.0,9,9240,06,08
+"Mcknight Cabin",7,1.8,9,9240,01,09
+"Mcknight Cabin",3,1.5,9,9240,02,09
+"Mcknight Cabin",0,0.0,9,9240,03,09
+"Mcknight Cabin",0,0.0,9,9240,04,09
+"Mcknight Cabin",0,0.0,9,9240,05,09
+"Mcknight Cabin",0,0.0,9,9240,06,09
+"Mcknight Cabin",20,4.8,9,9240,01,10
+"Mcknight Cabin",36,9.3,9,9240,02,10
+"Mcknight Cabin",48,13.1,9,9240,03,10
+"Mcknight Cabin",27,10.5,9,9240,04,10
+"Mcknight Cabin",1,0.0,9,9240,05,10
+"Mcknight Cabin",0,0.0,9,9240,06,10
+"Mcknight Cabin",10,1.5,9,9240,01,11
+"Mcknight Cabin",7,1.7,9,9240,02,11
+"Mcknight Cabin",0,0.0,9,9240,03,11
+"Mcknight Cabin",0,0.0,9,9240,04,11
+"Mcknight Cabin",0,0.0,9,9240,05,11
+"Mcknight Cabin",0,0.0,9,9240,06,11
+"Mcknight Cabin",22,5.8,9,9240,01,12
+"Mcknight Cabin",21,6.1,9,9240,02,12
+"Mcknight Cabin",22,7.1,9,9240,03,12
+"Mcknight Cabin",1,0.1,9,9240,04,12
+"Mcknight Cabin",0,0.0,9,9240,05,12
+"Mcknight Cabin",0,0.0,9,9240,06,12
+"Mcknight Cabin",11,1.6,9,9240,01,13
+"Mcknight Cabin",8,1.8,9,9240,02,13
+"Mcknight Cabin",9,2.4,9,9240,03,13
+"Mcknight Cabin",0,0.0,9,9240,04,13
+"Mcknight Cabin",0,0.0,9,9240,05,13
+"Mcknight Cabin",0,0.0,9,9240,06,13
+"Mcknight Cabin",12,2.8,9,9240,01,14
+"Mcknight Cabin",8,2.5,9,9240,02,14
+"Mcknight Cabin",2,0.5,9,9240,03,14
+"Mcknight Cabin",0,0.0,9,9240,04,14
+"Mcknight Cabin",0,0.0,9,9240,05,14
+"Mcknight Cabin",0,0.0,9,9240,06,14
+"Mcknight Cabin",5,0.9,9,9240,01,15
+"Mcknight Cabin",9,3.3,9,9240,02,15
+"Mcknight Cabin",5,2.4,9,9240,03,15
+"Mcknight Cabin",0,0.0,9,9240,04,15
+"Mcknight Cabin",0,0.0,9,9240,05,15
+"Mcknight Cabin",0,0.0,9,9240,06,15
+"Mcknight Cabin",13,3.4,9,9240,01,16
+"Mcknight Cabin",14,4.9,9,9240,02,16
+"Mcknight Cabin",0,0.0,9,9240,03,16
+"Mcknight Cabin",0,0.0,9,9240,04,16
+"Mcknight Cabin",0,0.0,9,9240,05,16
+"Mcknight Cabin",0,0.0,9,9240,06,16
+"Mcknight Cabin Aerial Marker",0,0.0,9,9300,01,00
+"Mcknight Cabin Aerial Marker",2,0.8,9,9300,02,00
+"Mcknight Cabin Aerial Marker",3,1.2,9,9300,04,00
+"Mcknight Cabin Aerial Marker",15,3.0,9,9300,01,01
+"Mcknight Cabin Aerial Marker",6,1.3,9,9300,02,01
+"Mcknight Cabin Aerial Marker",0,0.0,9,9300,03,01
+"Mcknight Cabin Aerial Marker",0,0.0,9,9300,03,02
+"Mcknight Cabin Aerial Marker",5,1.1,9,9300,01,03
+"Mcknight Cabin Aerial Marker",0,0.0,9,9300,03,03
+"Mcknight Cabin Snow Course",5,1.2,9,9300,01,00
+"Mcknight Cabin Snow Course",2,0.6,9,9300,02,00
+"Mcknight Cabin Snow Course",1,0.7,9,9300,03,00
+"Mcknight Cabin Snow Course",19,4.2,9,9300,02,01
+"Mcknight Cabin Snow Course",14,2.2,9,9300,02,02
+"Mcknight Cabin Snow Course",8,2.0,9,9300,02,02
+"Mcknight Cabin Snow Course",7,1.2,9,9300,01,03
+"Mcknight Cabin Snow Course",14,2.8,9,9300,02,03
+"Mcknight Cabin Snow Course",11,2.0,9,9300,01,04
+"Mcknight Cabin Snow Course",13,2.2,9,9300,02,04
+"Mcknight Cabin Snow Course",0,0.0,9,9300,03,04
+"Mcknight Cabin Snow Course",21,4.7,9,9300,01,05
+"Mcknight Cabin Snow Course",24,7.7,9,9300,02,05
+"Mcknight Cabin Snow Course",13,4.2,9,9300,03,05
+"Mcknight Cabin Snow Course",0,0.0,9,9300,02,06
+"Mcknight Cabin Snow Course",0,0.0,9,9300,02,06
+"Mcknight Cabin Snow Course",0,0.0,9,9300,03,06
+"Mcknight Cabin Snow Course",23,4.4,9,9300,02,07
+"Mcknight Cabin Snow Course",19,4.9,9,9300,02,07
+"Mcknight Cabin Snow Course",0,0.0,9,9300,03,07
+"Mcknight Cabin Snow Course",13,3.2,9,9300,01,08
+"Mcknight Cabin Snow Course",4,1.8,9,9300,02,08
+"Mcknight Cabin Snow Course",0,0.0,9,9300,04,08
+"Mcknight Cabin Snow Course",6,1.7,9,9300,01,09
+"Mcknight Cabin Snow Course",2,0.7,9,9300,03,09
+"Mcknight Cabin Snow Course",0,0.0,9,9300,03,09
+"Mcknight Cabin Snow Course",40,9.3,9,9300,01,10
+"Mcknight Cabin Snow Course",49,12.8,9,9300,03,10
+"Mcknight Cabin Snow Course",28,10.0,9,9300,03,10
+"Mcknight Cabin Snow Course",7,1.6,9,9300,01,11
+"Mcknight Cabin Snow Course",3,0.7,9,9300,02,11
+"Mcknight Cabin Snow Course",0,0.0,9,9300,03,11
+"Mcknight Cabin Snow Course",21,5.4,9,9300,01,12
+"Mcknight Cabin Snow Course",19,5.3,9,9300,02,12
+"Mcknight Cabin Snow Course",17,4.5,9,9300,03,12
+"Mcknight Cabin Snow Course",5,1.4,9,9300,04,12
+"Missionary Spring",2,0.4,7,7940,01,00
+"Missionary Spring",1,0.2,7,7940,02,00
+"Missionary Spring",6,1.5,7,7940,03,00
+"Missionary Spring",4,0.7,7,7940,01,01
+"Missionary Spring",22,5.3,7,7940,02,01
+"Missionary Spring",16,5.9,7,7940,02,01
+"Missionary Spring",2,1.2,7,7940,03,01
+"Missionary Spring",10,2.8,7,7940,02,02
+"Missionary Spring",3,1.1,7,7940,02,02
+"Missionary Spring",0,0.0,7,7940,03,02
+"Missionary Spring",3,1.1,7,7940,01,03
+"Missionary Spring",19,3.2,7,7940,02,03
+"Missionary Spring",3,0.2,7,7940,03,03
+"Missionary Spring",14,3.3,7,7940,01,04
+"Missionary Spring",15,4.6,7,7940,02,04
+"Missionary Spring",0,0.0,7,7940,03,04
+"Missionary Spring",5,0.8,7,7940,01,05
+"Missionary Spring",5,1.3,7,7940,01,05
+"Missionary Spring",9,3.3,7,7940,03,05
+"Missionary Spring",2,0.2,7,7940,03,05
+"Missionary Spring",4,0.6,7,7940,01,06
+"Missionary Spring",0,0.0,7,7940,02,06
+"Missionary Spring",2,0.4,7,7940,03,06
+"Missionary Spring",13,2.9,7,7940,01,07
+"Missionary Spring",10,3.7,7,7940,02,07
+"Missionary Spring",0,0.0,7,7940,03,07
+"Missionary Spring",18,3.8,7,7940,01,08
+"Missionary Spring",27,7.5,7,7940,02,08
+"Missionary Spring",0,0.0,7,7940,03,08
+"Missionary Spring",12,4.6,7,7940,01,09
+"Missionary Spring",9,4.1,7,7940,02,09
+"Missionary Spring",2,0.2,7,7940,03,09
+"Missionary Spring",33,7.8,7,7940,01,10
+"Missionary Spring",37,10.7,7,7940,02,10
+"Missionary Spring",15,6.0,7,7940,03,10
+"Missionary Spring",7,2.2,7,7940,01,11
+"Missionary Spring",5,1.8,7,7940,02,11
+"Missionary Spring",0,0.0,7,7940,03,11
+"Missionary Spring",4,0.7,7,7940,01,12
+"Missionary Spring",4,0.8,7,7940,02,12
+"Missionary Spring",0,0.0,7,7940,03,12
+"Missionary Spring",11,2.8,7,7940,01,13
+"Missionary Spring",10,3.6,7,7940,02,13
+"Missionary Spring",0,0.0,7,7940,03,13
+"Missionary Spring",0,0.0,7,7940,01,14
+"Missionary Spring",0,0.0,7,7940,02,14
+"Missionary Spring",0,0.0,7,7940,03,14
+"Missionary Spring",3,0.9,7,7940,01,15
+"Missionary Spring",10,1.1,7,7940,02,15
+"Missionary Spring",0,0.0,7,7940,03,15
+"Missionary Spring",11,2.4,7,7940,01,16
+"Missionary Spring",1,0.4,7,7940,02,16
+"Missionary Spring",0,0.0,7,7940,03,16
+"Navajo Whiskey Ck",1,0.0,9,9050,06,09
+"Navajo Whiskey Ck",26,4.6,9,9050,01,10
+"Navajo Whiskey Ck",51,12.4,9,9050,02,10
+"Navajo Whiskey Ck",58,18.2,9,9050,03,10
+"Navajo Whiskey Ck",40,16.6,9,9050,04,10
+"Navajo Whiskey Ck",,0.0,9,9050,05,10
+"Navajo Whiskey Ck",0,0.0,9,9050,06,10
+"Navajo Whiskey Ck",24,5.8,9,9050,01,11
+"Navajo Whiskey Ck",19,6.2,9,9050,02,11
+"Navajo Whiskey Ck",18,7.3,9,9050,03,11
+"Navajo Whiskey Ck",0,0.0,9,9050,04,11
+"Navajo Whiskey Ck",0,0.0,9,9050,05,11
+"Navajo Whiskey Ck",0,0.0,9,9050,06,11
+"Navajo Whiskey Ck",11,3.2,9,9050,01,12
+"Navajo Whiskey Ck",12,4.4,9,9050,02,12
+"Navajo Whiskey Ck",18,6.4,9,9050,03,12
+"Navajo Whiskey Ck",1,0.1,9,9050,04,12
+"Navajo Whiskey Ck",0,0.0,9,9050,05,12
+"Navajo Whiskey Ck",0,0.0,9,9050,06,12
+"Navajo Whiskey Ck",21,3.0,9,9050,01,13
+"Navajo Whiskey Ck",24,6.8,9,9050,02,13
+"Navajo Whiskey Ck",31,8.4,9,9050,03,13
+"Navajo Whiskey Ck",0,0.0,9,9050,04,13
+"Navajo Whiskey Ck",0,0.0,9,9050,05,13
+"Navajo Whiskey Ck",0,0.0,9,9050,06,13
+"Navajo Whiskey Ck",6,2.5,9,9050,01,14
+"Navajo Whiskey Ck",4,1.0,9,9050,02,14
+"Navajo Whiskey Ck",0,0.0,9,9050,03,14
+"Navajo Whiskey Ck",0,0.0,9,9050,04,14
+"Navajo Whiskey Ck",3,1.1,9,9050,05,14
+"Navajo Whiskey Ck",0,0.0,9,9050,06,14
+"Navajo Whiskey Ck",6,1.4,9,9050,01,15
+"Navajo Whiskey Ck",14,3.5,9,9050,02,15
+"Navajo Whiskey Ck",16,3.4,9,9050,03,15
+"Navajo Whiskey Ck",0,0.0,9,9050,04,15
+"Navajo Whiskey Ck",0,0.0,9,9050,05,15
+"Navajo Whiskey Ck",0,0.0,9,9050,06,15
+"Navajo Whiskey Ck",22,5.8,9,9050,01,16
+"Navajo Whiskey Ck",29,8.7,9,9050,02,16
+"Navajo Whiskey Ck",9,4.2,9,9050,03,16
+"Navajo Whiskey Ck",0,0.0,9,9050,04,16
+"Navajo Whiskey Ck",3,0.1,9,9050,05,16
+"Navajo Whiskey Ck",0,0.0,9,9050,06,16
+"North Costilla",,1.6,10,10600,01,00
+"North Costilla",,1.6,10,10600,02,00
+"North Costilla",,3.5,10,10600,03,00
+"North Costilla",,4.5,10,10600,04,00
+"North Costilla",,0.0,10,10600,05,00
+"North Costilla",,0.0,10,10600,06,00
+"North Costilla",,3.6,10,10600,01,01
+"North Costilla",,5.1,10,10600,02,01
+"North Costilla",,7.5,10,10600,03,01
+"North Costilla",,7.9,10,10600,04,01
+"North Costilla",,0.0,10,10600,05,01
+"North Costilla",,0.0,10,10600,06,01
+"North Costilla",,1.2,10,10600,01,02
+"North Costilla",,1.9,10,10600,02,02
+"North Costilla",,3.0,10,10600,03,02
+"North Costilla",,0.6,10,10600,04,02
+"North Costilla",,0.0,10,10600,05,02
+"North Costilla",,0.0,10,10600,06,02
+"North Costilla",9,3.7,10,10600,01,03
+"North Costilla",9,4.5,10,10600,02,03
+"North Costilla",24,7.0,10,10600,03,03
+"North Costilla",23,8.6,10,10600,04,03
+"North Costilla",0,0.8,10,10600,05,03
+"North Costilla",0,0.0,10,10600,06,03
+"North Costilla",10,1.5,10,10600,01,04
+"North Costilla",15,2.3,10,10600,02,04
+"North Costilla",30,6.0,10,10600,03,04
+"North Costilla",7,1.4,10,10600,04,04
+"North Costilla",14,3.1,10,10600,05,04
+"North Costilla",0,0.0,10,10600,06,04
+"North Costilla",17,4.7,10,10600,01,05
+"North Costilla",35,7.0,10,10600,02,05
+"North Costilla",33,8.5,10,10600,03,05
+"North Costilla",48,12.2,10,10600,04,05
+"North Costilla",17,5.7,10,10600,05,05
+"North Costilla",1,0.0,10,10600,06,05
+"North Costilla",3,1.5,10,10600,01,06
+"North Costilla",5,1.6,10,10600,02,06
+"North Costilla",1,0.0,10,10600,03,06
+"North Costilla",14,3.6,10,10600,04,06
+"North Costilla",0,0.0,10,10600,05,06
+"North Costilla",4,0.0,10,10600,06,06
+"North Costilla",19,4.2,10,10600,01,07
+"North Costilla",26,5.5,10,10600,02,07
+"North Costilla",28,6.8,10,10600,03,07
+"North Costilla",14,4.9,10,10600,04,07
+"North Costilla",1,0.9,10,10600,05,07
+"North Costilla",1,0.0,10,10600,06,07
+"North Costilla",21,4.3,10,10600,01,08
+"North Costilla",38,8.0,10,10600,02,08
+"North Costilla",35,10.1,10,10600,03,08
+"North Costilla",27,8.1,10,10600,04,08
+"North Costilla",0,0.0,10,10600,05,08
+"North Costilla",1,0.0,10,10600,06,08
+"North Costilla",19,5.3,10,10600,01,09
+"North Costilla",23,6.6,10,10600,02,09
+"North Costilla",20,6.0,10,10600,03,09
+"North Costilla",14,3.9,10,10600,04,09
+"North Costilla",1,0.0,10,10600,05,09
+"North Costilla",2,0.0,10,10600,06,09
+"North Costilla",12,3.4,10,10600,01,10
+"North Costilla",18,4.7,10,10600,02,10
+"North Costilla",34,7.3,10,10600,03,10
+"North Costilla",31,9.8,10,10600,04,10
+"North Costilla",16,4.1,10,10600,05,10
+"North Costilla",1,0.0,10,10600,06,10
+"North Costilla",4,0.9,10,10600,01,11
+"North Costilla",13,2.7,10,10600,02,11
+"North Costilla",11,4.8,10,10600,03,11
+"North Costilla",1,1.1,10,10600,04,11
+"North Costilla",2,1.1,10,10600,05,11
+"North Costilla",0,0.0,10,10600,06,11
+"North Costilla",11,1.7,10,10600,01,12
+"North Costilla",12,1.8,10,10600,02,12
+"North Costilla",12,3.6,10,10600,03,12
+"North Costilla",0,0.0,10,10600,04,12
+"North Costilla",0,0.0,10,10600,05,12
+"North Costilla",0,0.0,10,10600,06,12
+"North Costilla",8,1.8,10,10600,01,13
+"North Costilla",14,2.7,10,10600,02,13
+"North Costilla",23,4.8,10,10600,03,13
+"North Costilla",10,3.1,10,10600,04,13
+"North Costilla",0,0.0,10,10600,05,13
+"North Costilla",0,0.0,10,10600,06,13
+"North Costilla",5,0.7,10,10600,01,14
+"North Costilla",5,0.6,10,10600,02,14
+"North Costilla",5,0.5,10,10600,03,14
+"North Costilla",0,0.0,10,10600,04,14
+"North Costilla",0,0.0,10,10600,05,14
+"North Costilla",0,0.0,10,10600,06,14
+"North Costilla",10,2.2,10,10600,01,15
+"North Costilla",19,4.1,10,10600,02,15
+"North Costilla",33,7.1,10,10600,03,15
+"North Costilla",13,4.8,10,10600,04,15
+"North Costilla",0,0.0,10,10600,05,15
+"North Costilla",0,0.0,10,10600,06,15
+"North Costilla",16,3.2,10,10600,01,16
+"North Costilla",18,4.7,10,10600,02,16
+"North Costilla",16,5.0,10,10600,03,16
+"North Costilla",10,2.6,10,10600,04,16
+"North Costilla",7,1.3,10,10600,05,16
+"North Costilla",0,0.0,10,10600,06,16
+"Ojo Redondo",2,0.2,8,8200,01,00
+"Ojo Redondo",2,0.4,8,8200,02,00
+"Ojo Redondo",0,0.0,8,8200,03,00
+"Ojo Redondo",15,4.1,8,8200,02,01
+"Ojo Redondo",3,1.3,8,8200,03,01
+"Ojo Redondo",16,2.8,8,8200,01,02
+"Ojo Redondo",7,2.0,8,8200,02,02
+"Ojo Redondo",0,0.0,8,8200,03,02
+"Ojo Redondo",5,1.6,8,8200,01,03
+"Ojo Redondo",18,3.2,8,8200,02,03
+"Ojo Redondo",11,2.4,8,8200,01,04
+"Ojo Redondo",11,2.8,8,8200,02,04
+"Ojo Redondo",0,0.0,8,8200,03,04
+"Ojo Redondo",6,1.4,8,8200,01,05
+"Ojo Redondo",7,2.4,8,8200,02,05
+"Ojo Redondo",5,1.6,8,8200,03,05
+"Ojo Redondo",3,0.5,8,8200,01,06
+"Ojo Redondo",0,0.0,8,8200,02,06
+"Ojo Redondo",1,0.2,8,8200,03,06
+"Ojo Redondo",13,2.9,8,8200,01,07
+"Ojo Redondo",11,3.5,8,8200,02,07
+"Ojo Redondo",0,0.0,8,8200,04,07
+"Ojo Redondo",15,2.6,8,8200,01,08
+"Ojo Redondo",20,5.6,8,8200,02,08
+"Ojo Redondo",3,1.3,8,8200,03,08
+"Ojo Redondo",12,4.1,8,8200,01,09
+"Ojo Redondo",11,4.2,8,8200,02,09
+"Ojo Redondo",3,0.2,8,8200,03,09
+"Ojo Redondo",26,6.4,8,8200,02,10
+"Ojo Redondo",32,7.9,8,8200,02,10
+"Ojo Redondo",18,6.2,8,8200,03,10
+"Ojo Redondo",7,1.6,8,8200,01,11
+"Ojo Redondo",7,1.8,8,8200,02,11
+"Ojo Redondo",0,0.0,8,8200,03,11
+"Ojo Redondo",15,3.6,8,8200,01,12
+"Ojo Redondo",14,3.9,8,8200,02,12
+"Ojo Redondo",0,0.0,8,8200,03,12
+"Ojo Redondo",5,1.2,8,8200,02,13
+"Ojo Redondo",7,1.2,8,8200,02,13
+"Ojo Redondo",0,0.0,8,8200,03,13
+"Ojo Redondo",0,0.0,8,8200,01,14
+"Ojo Redondo",0,0.0,8,8200,02,14
+"Ojo Redondo",0,0.0,8,8200,03,14
+"Ojo Redondo",6,1.4,8,8200,01,15
+"Ojo Redondo",2,0.0,8,8200,02,15
+"Ojo Redondo",0,0.0,8,8200,03,15
+"Ojo Redondo",2,0.6,8,8200,02,16
+"Ojo Redondo",0,0.0,8,8200,04,16
+Palo,6,1.2,9,9300,01,00
+Palo,14,3.7,9,9300,02,00
+Palo,19,5.0,9,9300,03,00
+Palo,29,4.1,9,9300,01,01
+Palo,27,6.2,9,9300,03,01
+Palo,23,6.2,9,9300,03,01
+Palo,14,2.9,9,9300,01,02
+Palo,19,3.4,9,9300,02,02
+Palo,15,3.2,9,9300,03,02
+Palo,18,4.6,9,9300,01,03
+Palo,26,6.6,9,9300,02,03
+Palo,27,7.4,9,9300,03,03
+Palo,18,3.0,9,9300,01,04
+Palo,24,4.8,9,9300,02,04
+Palo,2,0.8,9,9300,03,04
+Palo,18,4.7,9,9300,01,05
+Palo,25,7.2,9,9300,02,05
+Palo,37,10.4,9,9300,03,05
+Palo,6,1.0,9,9300,01,06
+Palo,5,0.1,9,9300,02,06
+Palo,8,2.3,9,9300,03,06
+Palo,25,5.2,9,9300,01,07
+Palo,28,7.6,9,9300,02,07
+Palo,18,5.8,9,9300,03,07
+Palo,25,4.3,9,9300,02,08
+Palo,33,7.9,9,9300,02,08
+Palo,28,8.2,9,9300,03,08
+Palo,23,6.8,9,9300,01,09
+Palo,23,7.0,9,9300,02,09
+Palo,20,6.4,9,9300,03,09
+Palo,21,4.0,9,9300,01,10
+Palo,37,6.8,9,9300,02,10
+Palo,40,9.8,9,9300,03,10
+Palo,14,3.2,9,9300,01,11
+Palo,24,4.6,9,9300,02,11
+Palo,9,2.0,9,9300,03,11
+Palo,21,4.1,9,9300,01,12
+Palo,26,6.0,9,9300,02,12
+Palo,16,4.8,9,9300,03,12
+Palo,12,3.1,9,9300,01,13
+Palo,23,5.0,9,9300,02,13
+Palo,17,4.6,9,9300,03,13
+Palo,11,2.4,9,9300,01,14
+Palo,10,2.6,9,9300,02,14
+Palo,11,2.9,9,9300,03,14
+Palo,17,4.0,9,9300,01,15
+Palo,24,4.6,9,9300,02,15
+Palo,19,6.2,9,9300,03,15
+Palo,25,4.8,9,9300,01,16
+Palo,24,4.8,9,9300,02,16
+Palo,8,2.4,9,9300,03,16
+Palo,12,2.1,9,9350,01,11
+Palo,17,2.7,9,9350,02,11
+Palo,15,4.7,9,9350,03,11
+Palo,0,0.0,9,9350,04,11
+Palo,0,0.0,9,9350,05,11
+Palo,0,0.0,9,9350,06,11
+Palo,11,3.1,9,9350,01,12
+Palo,14,3.9,9,9350,02,12
+Palo,19,5.5,9,9350,03,12
+Palo,0,0.0,9,9350,04,12
+Palo,0,0.0,9,9350,05,12
+Palo,0,0.0,9,9350,06,12
+Palo,12,2.4,9,9350,01,13
+Palo,14,3.8,9,9350,02,13
+Palo,15,4.8,9,9350,03,13
+Palo,0,0.0,9,9350,04,13
+Palo,0,0.0,9,9350,05,13
+Palo,0,0.0,9,9350,06,13
+Palo,8,1.6,9,9350,01,14
+Palo,6,1.6,9,9350,02,14
+Palo,2,0.4,9,9350,03,14
+Palo,0,0.0,9,9350,04,14
+Palo,0,0.0,9,9350,05,14
+Palo,0,0.0,9,9350,06,14
+Palo,12,3.1,9,9350,01,15
+Palo,15,3.9,9,9350,02,15
+Palo,29,6.6,9,9350,03,15
+Palo,0,0.0,9,9350,04,15
+Palo,0,0.0,9,9350,05,15
+Palo,0,0.0,9,9350,06,15
+Palo,13,3.1,9,9350,01,16
+Palo,20,4.9,9,9350,02,16
+Palo,9,3.9,9,9350,03,16
+Palo,0,0.0,9,9350,04,16
+Palo,2,0.4,9,9350,05,16
+Palo,0,0.0,9,9350,06,16
+Panchuela,6,1.0,8,8400,01,00
+Panchuela,17,2.6,8,8400,02,01
+Panchuela,18,3.2,8,8400,03,01
+Panchuela,3,1.0,8,8400,04,01
+Panchuela,7,1.4,8,8400,02,02
+Panchuela,2,0.4,8,8400,01,03
+Panchuela,8,1.5,8,8400,03,03
+Panchuela,12,2.4,8,8400,01,04
+Panchuela,19,4.4,8,8400,02,04
+Panchuela,0,0.0,8,8400,04,04
+Panchuela,19,4.1,8,8400,02,05
+Panchuela,20,5.0,8,8400,03,05
+Panchuela,18,4.9,8,8400,04,05
+Panchuela,2,0.2,8,8400,02,06
+Panchuela,0,0.0,8,8400,03,06
+Panchuela,22,5.2,8,8400,02,07
+Panchuela,17,5.5,8,8400,03,07
+Panchuela,15,3.9,8,8400,02,08
+Panchuela,15,4.6,8,8400,01,09
+Panchuela,9,3.3,8,8400,02,09
+Panchuela,21,4.7,8,8400,03,10
+Panchuela,0,3.5,8,8400,04,10
+Panchuela,7,0.9,8,8400,01,11
+Panchuela,5,0.3,8,8400,03,11
+Panchuela,10,1.1,8,8400,01,12
+Panchuela,14,1.4,8,8400,03,12
+Panchuela,0,0.0,8,8400,04,12
+Panchuela,9,1.9,8,8400,01,13
+Panchuela,11,3.0,8,8400,03,13
+Panchuela,0,0.0,8,8400,04,13
+Panchuela,3,0.0,8,8400,01,14
+Panchuela,0,0.0,8,8400,02,14
+Panchuela,0,0.0,8,8400,03,14
+Panchuela,12,2.4,8,8400,01,15
+Panchuela,12,1.8,8,8400,03,15
+Panchuela,0,0.0,8,8400,03,15
+Panchuela,22,5.2,8,8400,02,16
+Panchuela,6,2.0,8,8400,02,16
+Panchuela,0,0.0,8,8400,04,16
+"Post Office Flats",1,0.2,8,8400,01,00
+"Post Office Flats",2,0.2,8,8400,02,00
+"Post Office Flats",0,0.0,8,8400,03,00
+"Post Office Flats",18,2.6,8,8400,01,01
+"Post Office Flats",17,4.2,8,8400,02,01
+"Post Office Flats",0,0.0,8,8400,03,01
+"Post Office Flats",12,2.2,8,8400,01,02
+"Post Office Flats",5,1.4,8,8400,02,02
+"Post Office Flats",0,0.0,8,8400,03,02
+"Post Office Flats",5,1.6,8,8400,01,03
+"Post Office Flats",17,3.4,8,8400,02,03
+"Post Office Flats",12,2.4,8,8400,01,04
+"Post Office Flats",10,2.8,8,8400,02,04
+"Post Office Flats",0,0.0,8,8400,03,04
+"Post Office Flats",6,1.4,8,8400,01,05
+"Post Office Flats",8,2.8,8,8400,02,05
+"Post Office Flats",1,0.3,8,8400,03,05
+"Post Office Flats",3,0.6,8,8400,01,06
+"Post Office Flats",0,0.0,8,8400,02,06
+"Post Office Flats",0,0.0,8,8400,03,06
+"Post Office Flats",12,2.5,8,8400,01,07
+"Post Office Flats",10,2.8,8,8400,02,07
+"Post Office Flats",0,0.0,8,8400,04,07
+"Post Office Flats",13,2.4,8,8400,01,08
+"Post Office Flats",18,5.0,8,8400,02,08
+"Post Office Flats",0,0.0,8,8400,03,08
+"Post Office Flats",11,3.6,8,8400,01,09
+"Post Office Flats",9,3.6,8,8400,02,09
+"Post Office Flats",3,0.3,8,8400,03,09
+"Post Office Flats",25,6.0,8,8400,02,10
+"Post Office Flats",29,6.8,8,8400,02,10
+"Post Office Flats",14,5.0,8,8400,03,10
+"Post Office Flats",8,1.8,8,8400,01,11
+"Post Office Flats",10,2.5,8,8400,02,11
+"Post Office Flats",0,0.0,8,8400,03,11
+"Post Office Flats",16,3.0,8,8400,01,12
+"Post Office Flats",14,3.6,8,8400,02,12
+"Post Office Flats",0,0.0,8,8400,03,12
+"Post Office Flats",4,0.9,8,8400,02,13
+"Post Office Flats",8,1.7,8,8400,02,13
+"Post Office Flats",0,0.0,8,8400,03,13
+"Post Office Flats",0,0.0,8,8400,01,14
+"Post Office Flats",0,0.0,8,8400,02,14
+"Post Office Flats",0,0.0,8,8400,03,14
+"Post Office Flats",7,1.6,8,8400,01,15
+"Post Office Flats",4,0.6,8,8400,02,15
+"Post Office Flats",0,0.0,8,8400,03,15
+"Post Office Flats",0,0.0,8,8400,02,16
+"Post Office Flats",0,0.0,8,8400,04,16
+Quemazon,,1.3,9,9500,01,00
+Quemazon,,2.5,9,9500,02,00
+Quemazon,,3.0,9,9500,03,00
+Quemazon,,4.5,9,9500,04,00
+Quemazon,,0.0,9,9500,05,00
+Quemazon,,0.0,9,9500,06,00
+Quemazon,,4.5,9,9500,01,01
+Quemazon,,9.6,9,9500,02,01
+Quemazon,,11.9,9,9500,03,01
+Quemazon,,10.8,9,9500,04,01
+Quemazon,,0.0,9,9500,05,01
+Quemazon,,0.0,9,9500,06,01
+Quemazon,11,2.2,9,9500,01,02
+Quemazon,18,3.2,9,9500,02,02
+Quemazon,15,3.5,9,9500,03,02
+Quemazon,1,0.0,9,9500,04,02
+Quemazon,0,0.0,9,9500,05,02
+Quemazon,0,0.0,9,9500,06,02
+Quemazon,20,4.5,9,9500,01,03
+Quemazon,17,4.7,9,9500,02,03
+Quemazon,31,7.0,9,9500,03,03
+Quemazon,17,6.0,9,9500,04,03
+Quemazon,0,0.0,9,9500,05,03
+Quemazon,,0.0,9,9500,06,03
+Quemazon,10,2.4,9,9500,01,04
+Quemazon,16,3.3,9,9500,02,04
+Quemazon,34,6.8,9,9500,03,04
+Quemazon,0,0.3,9,9500,04,04
+Quemazon,0,0.0,9,9500,05,04
+Quemazon,0,0.0,9,9500,06,04
+Quemazon,18,4.6,9,9500,01,05
+Quemazon,39,9.3,9,9500,02,05
+Quemazon,45,13.1,9,9500,03,05
+Quemazon,40,14.3,9,9500,04,05
+Quemazon,0,0.0,9,9500,05,05
+Quemazon,0,0.0,9,9500,06,05
+Quemazon,1,1.0,9,9500,01,06
+Quemazon,4,1.7,9,9500,02,06
+Quemazon,1,1.1,9,9500,03,06
+Quemazon,1,0.8,9,9500,04,06
+Quemazon,0,0.0,9,9500,05,06
+Quemazon,0,0.0,9,9500,06,06
+Quemazon,28,6.0,9,9500,01,07
+Quemazon,40,9.1,9,9500,02,07
+Quemazon,34,10.5,9,9500,03,07
+Quemazon,6,4.9,9,9500,04,07
+Quemazon,0,0.0,9,9500,05,07
+Quemazon,,0.0,9,9500,06,07
+Quemazon,15,3.0,9,9500,01,08
+Quemazon,32,7.2,9,9500,02,08
+Quemazon,37,10.0,9,9500,03,08
+Quemazon,12,4.5,9,9500,04,08
+Quemazon,1,0.0,9,9500,05,08
+Quemazon,1,0.0,9,9500,06,08
+Quemazon,25,6.3,9,9500,01,09
+Quemazon,23,7.0,9,9500,02,09
+Quemazon,20,6.6,9,9500,03,09
+Quemazon,7,2.9,9,9500,04,09
+Quemazon,2,0.0,9,9500,05,09
+Quemazon,2,0.0,9,9500,06,09
+Quemazon,18,3.8,9,9500,01,10
+Quemazon,37,8.6,9,9500,02,10
+Quemazon,45,11.1,9,9500,03,10
+Quemazon,28,11.4,9,9500,04,10
+Quemazon,1,0.0,9,9500,05,10
+Quemazon,1,0.0,9,9500,06,10
+Quemazon,20,3.1,9,9500,01,11
+Quemazon,13,3.4,9,9500,02,11
+Quemazon,12,3.8,9,9500,03,11
+Quemazon,0,0.0,9,9500,04,11
+Quemazon,1,0.0,9,9500,05,11
+Quemazon,0,0.0,9,9500,06,11
+Quemazon,18,4.5,9,9500,01,12
+Quemazon,22,5.6,9,9500,02,12
+Quemazon,27,6.9,9,9500,03,12
+Quemazon,0,0.0,9,9500,04,12
+Quemazon,0,0.0,9,9500,05,12
+Quemazon,0,0.0,9,9500,06,12
+Quemazon,13,2.0,9,9500,01,13
+Quemazon,14,3.4,9,9500,02,13
+Quemazon,18,4.6,9,9500,03,13
+Quemazon,0,0.0,9,9500,04,13
+Quemazon,0,0.0,9,9500,05,13
+Quemazon,0,0.0,9,9500,06,13
+Quemazon,11,2.3,9,9500,01,14
+Quemazon,10,2.4,9,9500,02,14
+Quemazon,2,0.6,9,9500,03,14
+Quemazon,0,0.0,9,9500,04,14
+Quemazon,0,0.0,9,9500,05,14
+Quemazon,0,0.0,9,9500,06,14
+Quemazon,7,1.7,9,9500,01,15
+Quemazon,17,3.7,9,9500,02,15
+Quemazon,27,6.1,9,9500,03,15
+Quemazon,0,0.0,9,9500,04,15
+Quemazon,0,0.0,9,9500,05,15
+Quemazon,0,0.0,9,9500,06,15
+Quemazon,21,5.2,9,9500,01,16
+Quemazon,23,6.4,9,9500,02,16
+Quemazon,12,5.1,9,9500,03,16
+Quemazon,0,0.0,9,9500,04,16
+Quemazon,2,0.2,9,9500,05,16
+Quemazon,0,0.0,9,9500,06,16
+"Red River Pass #2",,1.5,9,9850,01,00
+"Red River Pass #2",,2.6,9,9850,02,00
+"Red River Pass #2",,4.1,9,9850,03,00
+"Red River Pass #2",,7.4,9,9850,04,00
+"Red River Pass #2",,0.0,9,9850,05,00
+"Red River Pass #2",,0.0,9,9850,06,00
+"Red River Pass #2",,4.0,9,9850,01,01
+"Red River Pass #2",,5.7,9,9850,02,01
+"Red River Pass #2",,7.9,9,9850,03,01
+"Red River Pass #2",,8.4,9,9850,04,01
+"Red River Pass #2",,0.0,9,9850,05,01
+"Red River Pass #2",,0.0,9,9850,06,01
+"Red River Pass #2",14,3.1,9,9850,01,02
+"Red River Pass #2",22,4.5,9,9850,02,02
+"Red River Pass #2",20,5.4,9,9850,03,02
+"Red River Pass #2",3,0.0,9,9850,04,02
+"Red River Pass #2",0,0.0,9,9850,05,02
+"Red River Pass #2",0,0.0,9,9850,06,02
+"Red River Pass #2",13,3.4,9,9850,01,03
+"Red River Pass #2",15,4.1,9,9850,02,03
+"Red River Pass #2",30,6.6,9,9850,03,03
+"Red River Pass #2",20,7.5,9,9850,04,03
+"Red River Pass #2",1,0.0,9,9850,05,03
+"Red River Pass #2",0,0.0,9,9850,06,03
+"Red River Pass #2",13,3.5,9,9850,01,04
+"Red River Pass #2",23,4.8,9,9850,02,04
+"Red River Pass #2",28,6.7,9,9850,03,04
+"Red River Pass #2",0,0.0,9,9850,04,04
+"Red River Pass #2",0,0.0,9,9850,05,04
+"Red River Pass #2",0,0.0,9,9850,06,04
+"Red River Pass #2",16,3.7,9,9850,01,05
+"Red River Pass #2",31,6.1,9,9850,02,05
+"Red River Pass #2",,8.7,9,9850,03,05
+"Red River Pass #2",35,12.8,9,9850,04,05
+"Red River Pass #2",,0.0,9,9850,05,05
+"Red River Pass #2",,0.0,9,9850,06,05
+"Red River Pass #2",2,0.9,9,9850,01,06
+"Red River Pass #2",6,1.7,9,9850,02,06
+"Red River Pass #2",5,2.0,9,9850,03,06
+"Red River Pass #2",9,4.1,9,9850,04,06
+"Red River Pass #2",0,0.0,9,9850,05,06
+"Red River Pass #2",0,0.0,9,9850,06,06
+"Red River Pass #2",27,6.3,9,9850,01,07
+"Red River Pass #2",32,8.7,9,9850,02,07
+"Red River Pass #2",33,9.5,9,9850,03,07
+"Red River Pass #2",12,5.5,9,9850,04,07
+"Red River Pass #2",0,0.0,9,9850,05,07
+"Red River Pass #2",0,0.0,9,9850,06,07
+"Red River Pass #2",19,4.2,9,9850,01,08
+"Red River Pass #2",34,6.7,9,9850,02,08
+"Red River Pass #2",37,11.1,9,9850,03,08
+"Red River Pass #2",22,8.3,9,9850,04,08
+"Red River Pass #2",,0.0,9,9850,05,08
+"Red River Pass #2",0,0.0,9,9850,06,08
+"Red River Pass #2",26,6.0,9,9850,01,09
+"Red River Pass #2",30,7.6,9,9850,02,09
+"Red River Pass #2",27,7.8,9,9850,03,09
+"Red River Pass #2",22,6.4,9,9850,04,09
+"Red River Pass #2",,0.0,9,9850,05,09
+"Red River Pass #2",0,0.0,9,9850,06,09
+"Red River Pass #2",15,2.9,9,9850,01,10
+"Red River Pass #2",24,4.9,9,9850,02,10
+"Red River Pass #2",34,7.0,9,9850,03,10
+"Red River Pass #2",34,10.0,9,9850,04,10
+"Red River Pass #2",0,0.0,9,9850,05,10
+"Red River Pass #2",0,0.0,9,9850,06,10
+"Red River Pass #2",14,1.8,9,9850,01,11
+"Red River Pass #2",16,2.6,9,9850,02,11
+"Red River Pass #2",19,4.7,9,9850,03,11
+"Red River Pass #2",0,0.0,9,9850,04,11
+"Red River Pass #2",0,0.0,9,9850,05,11
+"Red River Pass #2",0,0.0,9,9850,06,11
+"Red River Pass #2",19,3.9,9,9850,01,12
+"Red River Pass #2",26,5.2,9,9850,02,12
+"Red River Pass #2",32,7.3,9,9850,03,12
+"Red River Pass #2",3,1.2,9,9850,04,12
+"Red River Pass #2",0,0.0,9,9850,05,12
+"Red River Pass #2",0,0.0,9,9850,06,12
+"Red River Pass #2",16,2.3,9,9850,01,13
+"Red River Pass #2",21,4.3,9,9850,02,13
+"Red River Pass #2",30,6.4,9,9850,03,13
+"Red River Pass #2",17,6.1,9,9850,04,13
+"Red River Pass #2",0,0.0,9,9850,05,13
+"Red River Pass #2",0,0.0,9,9850,06,13
+"Red River Pass #2",14,3.2,9,9850,01,14
+"Red River Pass #2",14,3.4,9,9850,02,14
+"Red River Pass #2",2,1.0,9,9850,03,14
+"Red River Pass #2",0,0.0,9,9850,04,14
+"Red River Pass #2",0,0.0,9,9850,05,14
+"Red River Pass #2",0,0.0,9,9850,06,14
+"Red River Pass #2",13,2.2,9,9850,01,15
+"Red River Pass #2",22,4.3,9,9850,02,15
+"Red River Pass #2",40,7.5,9,9850,03,15
+"Red River Pass #2",11,3.9,9,9850,04,15
+"Red River Pass #2",0,0.0,9,9850,05,15
+"Red River Pass #2",0,0.0,9,9850,06,15
+"Red River Pass #2",20,4.1,9,9850,01,16
+"Red River Pass #2",24,5.6,9,9850,02,16
+"Red River Pass #2",17,5.4,9,9850,03,16
+"Red River Pass #2",2,0.4,9,9850,04,16
+"Red River Pass #2",5,0.7,9,9850,05,16
+"Red River Pass #2",0,0.0,9,9850,06,16
+"Rice Park",3,0.4,8,8460,01,00
+"Rice Park",2,0.2,8,8460,02,00
+"Rice Park",0,0.0,8,8460,03,00
+"Rice Park",19,3.1,8,8460,01,01
+"Rice Park",16,4.6,8,8460,02,01
+"Rice Park",5,1.6,8,8460,03,01
+"Rice Park",16,2.8,8,8460,01,02
+"Rice Park",6,1.8,8,8460,02,02
+"Rice Park",0,0.0,8,8460,03,02
+"Rice Park",6,1.8,8,8460,01,03
+"Rice Park",20,3.7,8,8460,02,03
+"Rice Park",12,2.5,8,8460,01,04
+"Rice Park",12,2.8,8,8460,02,04
+"Rice Park",0,0.0,8,8460,03,04
+"Rice Park",9,2.2,8,8460,01,05
+"Rice Park",12,3.8,8,8460,02,05
+"Rice Park",9,2.8,8,8460,03,05
+"Rice Park",4,0.7,8,8460,01,06
+"Rice Park",0,0.0,8,8460,02,06
+"Rice Park",1,0.3,8,8460,03,06
+"Rice Park",12,3.7,8,8460,02,07
+"Rice Park",0,0.0,8,8460,04,07
+"Rice Park",21,4.0,8,8460,01,08
+"Rice Park",26,7.0,8,8460,02,08
+"Rice Park",3,1.4,8,8460,03,08
+"Rice Park",15,5.2,8,8460,01,09
+"Rice Park",12,5.0,8,8460,02,09
+"Rice Park",4,0.4,8,8460,03,09
+"Rice Park",30,7.5,8,8460,02,10
+"Rice Park",35,8.8,8,8460,02,10
+"Rice Park",21,7.7,8,8460,03,10
+"Rice Park",10,2.5,8,8460,01,11
+"Rice Park",10,2.8,8,8460,02,11
+"Rice Park",0,0.0,8,8460,03,11
+"Rice Park",15,3.6,8,8460,01,12
+"Rice Park",16,3.8,8,8460,02,12
+"Rice Park",0,0.0,8,8460,03,12
+"Rice Park",9,2.4,8,8460,02,13
+"Rice Park",13,3.1,8,8460,02,13
+"Rice Park",0,0.0,8,8460,03,13
+"Rice Park",0,0.0,8,8460,01,14
+"Rice Park",0,0.0,8,8460,02,14
+"Rice Park",0,0.0,8,8460,03,14
+"Rice Park",9,1.9,8,8460,01,15
+"Rice Park",4,1.4,8,8460,02,15
+"Rice Park",0,0.0,8,8460,03,15
+"Rice Park",4,0.8,8,8460,01,00
+"Rice Park",6,1.6,8,8460,02,00
+"Rice Park",0,0.1,8,8460,03,00
+"Rice Park",2,0.3,8,8460,04,00
+"Rice Park",0,0.0,8,8460,05,00
+"Rice Park",0,0.0,8,8460,06,00
+"Rice Park",9,1.9,8,8460,01,01
+"Rice Park",25,4.5,8,8460,02,01
+"Rice Park",26,6.9,8,8460,03,01
+"Rice Park",2,0.8,8,8460,04,01
+"Rice Park",0,0.0,8,8460,05,01
+"Rice Park",0,0.0,8,8460,06,01
+"Rice Park",18,3.5,8,8460,01,02
+"Rice Park",23,4.4,8,8460,02,02
+"Rice Park",10,4.6,8,8460,03,02
+"Rice Park",0,0.0,8,8460,04,02
+"Rice Park",0,0.0,8,8460,05,02
+"Rice Park",0,0.0,8,8460,06,02
+"Rice Park",14,2.7,8,8460,01,03
+"Rice Park",11,3.1,8,8460,02,03
+"Rice Park",30,6.0,8,8460,03,03
+"Rice Park",6,2.2,8,8460,04,03
+"Rice Park",0,0.0,8,8460,05,03
+"Rice Park",0,0.0,8,8460,06,03
+"Rice Park",7,1.0,8,8460,01,04
+"Rice Park",20,2.9,8,8460,02,04
+"Rice Park",27,5.2,8,8460,03,04
+"Rice Park",0,0.0,8,8460,04,04
+"Rice Park",0,0.0,8,8460,05,04
+"Rice Park",,0.0,8,8460,06,04
+"Rice Park",4,1.6,8,8460,01,05
+"Rice Park",15,3.8,8,8460,02,05
+"Rice Park",20,6.6,8,8460,03,05
+"Rice Park",15,6.1,8,8460,04,05
+"Rice Park",1,0.0,8,8460,05,05
+"Rice Park",0,0.0,8,8460,06,05
+"Rice Park",2,0.7,8,8460,01,06
+"Rice Park",7,1.1,8,8460,02,06
+"Rice Park",0,0.0,8,8460,03,06
+"Rice Park",0,0.0,8,8460,04,06
+"Rice Park",0,0.0,8,8460,05,06
+"Rice Park",0,0.0,8,8460,06,06
+"Rice Park",,2.0,8,8460,01,07
+"Rice Park",,4.7,8,8460,02,07
+"Rice Park",19,5.8,8,8460,03,07
+"Rice Park",1,0.0,8,8460,04,07
+"Rice Park",1,0.0,8,8460,05,07
+"Rice Park",0,0.0,8,8460,06,07
+"Rice Park",13,2.1,8,8460,01,08
+"Rice Park",27,5.9,8,8460,02,08
+"Rice Park",30,8.6,8,8460,03,08
+"Rice Park",1,0.0,8,8460,04,08
+"Rice Park",1,0.0,8,8460,05,08
+"Rice Park",,0.0,8,8460,06,08
+"Rice Park",26,6.5,8,8460,01,09
+"Rice Park",21,7.2,8,8460,02,09
+"Rice Park",16,7.3,8,8460,03,09
+"Rice Park",2,0.0,8,8460,04,09
+"Rice Park",1,0.0,8,8460,05,09
+"Rice Park",1,0.0,8,8460,06,09
+"Rice Park",24,4.0,8,8460,01,10
+"Rice Park",37,9.0,8,8460,02,10
+"Rice Park",,11.9,8,8460,03,10
+"Rice Park",18,8.6,8,8460,04,10
+"Rice Park",0,0.0,8,8460,05,10
+"Rice Park",,0.0,8,8460,06,10
+"Rice Park",21,3.9,8,8460,01,11
+"Rice Park",16,4.3,8,8460,02,11
+"Rice Park",14,5.5,8,8460,03,11
+"Rice Park",0,0.0,8,8460,04,11
+"Rice Park",0,0.0,8,8460,05,11
+"Rice Park",0,0.0,8,8460,06,11
+"Rice Park",14,3.3,8,8460,01,12
+"Rice Park",20,4.8,8,8460,02,12
+"Rice Park",22,6.2,8,8460,03,12
+"Rice Park",0,0.0,8,8460,04,12
+"Rice Park",0,0.0,8,8460,05,12
+"Rice Park",0,0.0,8,8460,06,12
+"Rice Park",12,2.7,8,8460,01,13
+"Rice Park",12,3.3,8,8460,02,13
+"Rice Park",18,5.2,8,8460,03,13
+"Rice Park",0,0.0,8,8460,04,13
+"Rice Park",0,0.0,8,8460,05,13
+"Rice Park",0,0.0,8,8460,06,13
+"Rice Park",4,0.9,8,8460,01,14
+"Rice Park",1,0.6,8,8460,02,14
+"Rice Park",1,0.1,8,8460,03,14
+"Rice Park",0,0.0,8,8460,04,14
+"Rice Park",0,0.0,8,8460,05,14
+"Rice Park",0,0.0,8,8460,06,14
+"Rice Park",7,1.3,8,8460,01,15
+"Rice Park",21,5.2,8,8460,02,15
+"Rice Park",18,5.3,8,8460,03,15
+"Rice Park",0,0.0,8,8460,04,15
+"Rice Park",0,0.0,8,8460,05,15
+"Rice Park",0,0.0,8,8460,06,15
+"Rice Park",16,3.5,8,8460,01,16
+"Rice Park",17,5.0,8,8460,02,16
+"Rice Park",7,2.8,8,8460,03,16
+"Rice Park",0,0.0,8,8460,04,16
+"Rice Park",1,0.1,8,8460,05,16
+"Rice Park",0,0.0,8,8460,06,16
+"Rio En Medio",20,4.2,10,10300,01,00
+"Rio En Medio",19,4.4,10,10300,02,00
+"Rio En Medio",18,5.9,10,10300,04,00
+"Rio En Medio",0,0.0,10,10300,05,00
+"Rio En Medio",34,7.4,10,10300,01,01
+"Rio En Medio",37,9.6,10,10300,03,01
+"Rio En Medio",26,9.1,10,10300,04,01
+"Rio En Medio",2,0.4,10,10300,04,01
+"Rio En Medio",25,4.7,10,10300,02,02
+"Rio En Medio",20,5.1,10,10300,03,02
+"Rio En Medio",4,1.2,10,10300,03,02
+"Rio En Medio",0,0.0,10,10300,04,02
+"Rio En Medio",18,5.3,10,10300,01,03
+"Rio En Medio",40,9.5,10,10300,03,03
+"Rio En Medio",38,11.6,10,10300,04,03
+"Rio En Medio",10,4.1,10,10300,04,03
+"Rio En Medio",17,3.9,10,10300,01,04
+"Rio En Medio",27,5.6,10,10300,02,04
+"Rio En Medio",6,1.5,10,10300,03,04
+"Rio En Medio",36,8.5,10,10300,02,05
+"Rio En Medio",49,14.3,10,10300,03,05
+"Rio En Medio",56,18.4,10,10300,04,05
+"Rio En Medio",31,11.8,10,10300,05,05
+"Rio En Medio",0,0.0,10,10300,02,06
+"Rio En Medio",0,0.0,10,10300,03,06
+"Rio En Medio",0,0.0,10,10300,03,06
+"Rio En Medio",0,0.0,10,10300,05,06
+"Rio En Medio",24,6.1,10,10300,01,07
+"Rio En Medio",33,8.8,10,10300,03,07
+"Rio En Medio",21,7.7,10,10300,04,07
+"Rio En Medio",7,2.9,10,10300,05,07
+"Rio En Medio",33,8.5,10,10300,02,08
+"Rio En Medio",39,11.2,10,10300,03,08
+"Rio En Medio",29,9.5,10,10300,03,08
+"Rio En Medio",23,7.5,10,10300,02,09
+"Rio En Medio",24,8.0,10,10300,02,09
+"Rio En Medio",18,6.0,10,10300,03,09
+"Rio En Medio",9,3.6,10,10300,05,09
+"Rio En Medio",27,7.5,10,10300,02,10
+"Rio En Medio",39,9.3,10,10300,02,10
+"Rio En Medio",42,13.0,10,10300,03,10
+"Rio En Medio",28,10.0,10,10300,04,10
+"Rio En Medio",16,4.1,10,10300,01,11
+"Rio En Medio",20,5.2,10,10300,03,11
+"Rio En Medio",9,2.8,10,10300,03,11
+"Rio En Medio",1,0.6,10,10300,04,11
+"Rio En Medio",25,6.6,10,10300,01,12
+"Rio En Medio",31,8.5,10,10300,02,12
+"Rio En Medio",18,6.1,10,10300,03,12
+"Rio En Medio",0,0.0,10,10300,04,12
+"Rio En Medio",16,3.3,10,10300,01,13
+"Rio En Medio",23,5.1,10,10300,02,13
+"Rio En Medio",16,4.9,10,10300,03,13
+"Rio En Medio",0,0.0,10,10300,04,13
+"Rio En Medio",12,2.9,10,10300,01,14
+"Rio En Medio",11,3.1,10,10300,02,14
+"Rio En Medio",14,4.3,10,10300,03,14
+"Rio En Medio",3,0.7,10,10300,04,14
+"Rio En Medio",22,5.7,10,10300,02,15
+"Rio En Medio",20,4.9,10,10300,02,15
+"Rio En Medio",19,6.3,10,10300,03,15
+"Rio En Medio",0,0.0,10,10300,04,15
+"Rio En Medio",29,8.1,10,10300,01,16
+"Rio En Medio",26,7.4,10,10300,02,16
+"Rio En Medio",14,5.0,10,10300,03,16
+"Rio En Medio",4,1.4,10,10300,04,16
+"Rio Santa Barbara",23,5.4,10,10664,01,14
+"Rio Santa Barbara",23,5.4,10,10664,02,14
+"Rio Santa Barbara",26,6.1,10,10664,03,14
+"Rio Santa Barbara",31,8.4,10,10664,04,14
+"Rio Santa Barbara",24,8.1,10,10664,05,14
+"Rio Santa Barbara",0,0.0,10,10664,06,14
+"Rio Santa Barbara",30,7.3,10,10664,01,15
+"Rio Santa Barbara",36,9.0,10,10664,02,15
+"Rio Santa Barbara",45,10.9,10,10664,03,15
+"Rio Santa Barbara",36,13.1,10,10664,04,15
+"Rio Santa Barbara",17,8.1,10,10664,05,15
+"Rio Santa Barbara",0,0.0,10,10664,06,15
+"Rio Santa Barbara",45,10.5,10,10664,01,16
+"Rio Santa Barbara",46,13.3,10,10664,02,16
+"Rio Santa Barbara",44,14.6,10,10664,03,16
+"Rio Santa Barbara",40,14.9,10,10664,04,16
+"Rio Santa Barbara",28,13.3,10,10664,05,16
+"Rio Santa Barbara",0,0.0,10,10664,06,16
+"San Antonio Sink",8,1.1,9,9200,01,00
+"San Antonio Sink",10,2.1,9,9200,02,00
+"San Antonio Sink",10,2.5,9,9200,03,00
+"San Antonio Sink",30,4.4,9,9200,01,01
+"San Antonio Sink",24,5.2,9,9200,02,01
+"San Antonio Sink",17,4.8,9,9200,03,01
+"San Antonio Sink",21,2.8,9,9200,01,02
+"San Antonio Sink",17,3.7,9,9200,02,02
+"San Antonio Sink",7,1.9,9,9200,03,02
+"San Antonio Sink",17,4.0,9,9200,01,03
+"San Antonio Sink",29,5.2,9,9200,02,03
+"San Antonio Sink",19,5.4,9,9200,03,03
+"San Antonio Sink",0,0.0,9,9200,04,03
+"San Antonio Sink",26,6.2,9,9200,01,04
+"San Antonio Sink",35,7.8,9,9200,02,04
+"San Antonio Sink",8,2.3,9,9200,03,04
+"San Antonio Sink",23,5.9,9,9200,01,05
+"San Antonio Sink",35,9.7,9,9200,02,05
+"San Antonio Sink",38,9.5,9,9200,03,05
+"San Antonio Sink",5,1.8,9,9200,04,05
+"San Antonio Sink",15,2.8,9,9200,01,06
+"San Antonio Sink",15,3.1,9,9200,02,06
+"San Antonio Sink",14,4.3,9,9200,03,06
+"San Antonio Sink",24,5.5,9,9200,01,07
+"San Antonio Sink",30,7.5,9,9200,02,07
+"San Antonio Sink",6,2.1,9,9200,03,07
+"San Antonio Sink",0,0.0,9,9200,04,07
+"San Antonio Sink",46,10.9,9,9200,01,08
+"San Antonio Sink",54,15.8,9,9200,02,08
+"San Antonio Sink",41,14.0,9,9200,03,08
+"San Antonio Sink",8,3.6,9,9200,04,08
+"San Antonio Sink",34,9.7,9,9200,01,09
+"San Antonio Sink",32,11.8,9,9200,02,09
+"San Antonio Sink",26,10.0,9,9200,03,09
+"San Antonio Sink",4,1.8,9,9200,04,09
+"San Antonio Sink",40,9.8,9,9200,01,10
+"San Antonio Sink",44,10.8,9,9200,02,10
+"San Antonio Sink",40,12.0,9,9200,03,10
+"San Antonio Sink",1,0.4,9,9200,04,10
+"San Antonio Sink",16,2.3,9,9200,01,11
+"San Antonio Sink",24,4.7,9,9200,02,11
+"San Antonio Sink",11,3.6,9,9200,03,11
+"San Antonio Sink",0,0.0,9,9200,04,11
+"San Antonio Sink",25,4.9,9,9200,01,12
+"San Antonio Sink",27,6.1,9,9200,02,12
+"San Antonio Sink",7,2.1,9,9200,03,12
+"San Antonio Sink",0,0.0,9,9200,04,12
+"San Antonio Sink",19,3.3,9,9200,01,13
+"San Antonio Sink",28,4.6,9,9200,02,13
+"San Antonio Sink",13,3.8,9,9200,03,13
+"San Antonio Sink",0,0.0,9,9200,04,13
+"San Antonio Sink",16,3.4,9,9200,01,14
+"San Antonio Sink",19,4.8,9,9200,02,14
+"San Antonio Sink",14,2.9,9,9200,03,14
+"San Antonio Sink",0,0.0,9,9200,04,14
+"San Antonio Sink",17,2.9,9,9200,01,15
+"San Antonio Sink",30,5.2,9,9200,02,15
+"San Antonio Sink",12,3.5,9,9200,03,15
+"San Antonio Sink",0,0.0,9,9200,04,15
+"San Antonio Sink",25,5.6,9,9200,01,16
+"San Antonio Sink",33,7.0,9,9200,02,16
+"San Antonio Sink",8,2.4,9,9200,03,16
+"San Antonio Sink",0,0.0,9,9200,04,16
+"San Antonio Sink",20,4.3,9,9100,01,12
+"San Antonio Sink",25,6.2,9,9100,02,12
+"San Antonio Sink",35,8.2,9,9100,03,12
+"San Antonio Sink",2,0.5,9,9100,04,12
+"San Antonio Sink",0,0.0,9,9100,05,12
+"San Antonio Sink",0,0.0,9,9100,06,12
+"San Antonio Sink",17,3.4,9,9100,01,13
+"San Antonio Sink",20,5.0,9,9100,02,13
+"San Antonio Sink",27,6.1,9,9100,03,13
+"San Antonio Sink",5,2.5,9,9100,04,13
+"San Antonio Sink",0,0.0,9,9100,05,13
+"San Antonio Sink",0,0.0,9,9100,06,13
+"San Antonio Sink",19,4.7,9,9100,01,14
+"San Antonio Sink",27,6.3,9,9100,02,14
+"San Antonio Sink",25,7.1,9,9100,03,14
+"San Antonio Sink",14,5.1,9,9100,04,14
+"San Antonio Sink",0,0.0,9,9100,05,14
+"San Antonio Sink",0,0.0,9,9100,06,14
+"San Antonio Sink",13,2.8,9,9100,01,15
+"San Antonio Sink",26,5.1,9,9100,02,15
+"San Antonio Sink",44,8.6,9,9100,03,15
+"San Antonio Sink",8,3.1,9,9100,04,15
+"San Antonio Sink",0,0.0,9,9100,05,15
+"San Antonio Sink",0,0.0,9,9100,06,15
+"San Antonio Sink",24,5.5,9,9100,01,16
+"San Antonio Sink",33,7.7,9,9100,02,16
+"San Antonio Sink",31,9.2,9,9100,03,16
+"San Antonio Sink",15,5.5,9,9100,04,16
+"San Antonio Sink",0,0.0,9,9100,05,16
+"San Antonio Sink",0,0.0,9,9100,06,16
+"Santa Fe",,1.4,10,11445,01,00
+"Santa Fe",,4.8,10,11445,02,00
+"Santa Fe",,5.1,10,11445,03,00
+"Santa Fe",,10.1,10,11445,04,00
+"Santa Fe",,6.0,10,11445,05,00
+"Santa Fe",,0.0,10,11445,06,00
+"Santa Fe",,7.7,10,11445,01,01
+"Santa Fe",,11.2,10,11445,02,01
+"Santa Fe",,14.3,10,11445,03,01
+"Santa Fe",,15.9,10,11445,04,01
+"Santa Fe",,13.8,10,11445,05,01
+"Santa Fe",,0.0,10,11445,06,01
+"Santa Fe",18,3.2,10,11445,01,02
+"Santa Fe",30,4.7,10,11445,02,02
+"Santa Fe",25,5.5,10,11445,03,02
+"Santa Fe",21,5.5,10,11445,04,02
+"Santa Fe",6,0.4,10,11445,05,02
+"Santa Fe",0,0.0,10,11445,06,02
+"Santa Fe",31,8.1,10,11445,01,03
+"Santa Fe",30,8.2,10,11445,02,03
+"Santa Fe",141,13.2,10,11445,03,03
+"Santa Fe",68,18.1,10,11445,04,03
+"Santa Fe",49,17.1,10,11445,05,03
+"Santa Fe",3,0.7,10,11445,06,03
+"Santa Fe",20,4.4,10,11445,01,04
+"Santa Fe",29,5.8,10,11445,02,04
+"Santa Fe",43,9.6,10,11445,03,04
+"Santa Fe",36,11.6,10,11445,04,04
+"Santa Fe",47,15.9,10,11445,05,04
+"Santa Fe",0,0.0,10,11445,06,04
+"Santa Fe",26,6.4,10,11445,01,05
+"Santa Fe",53,12.2,10,11445,02,05
+"Santa Fe",72,20.3,10,11445,03,05
+"Santa Fe",87,25.7,10,11445,04,05
+"Santa Fe",69,25.3,10,11445,05,05
+"Santa Fe",29,11.7,10,11445,06,05
+"Santa Fe",3,0.0,10,11445,01,06
+"Santa Fe",5,0.7,10,11445,02,06
+"Santa Fe",2,0.7,10,11445,03,06
+"Santa Fe",10,2.4,10,11445,04,06
+"Santa Fe",4,0.9,10,11445,05,06
+"Santa Fe",1,0.0,10,11445,06,06
+"Santa Fe",26,3.9,10,11445,01,07
+"Santa Fe",31,6.9,10,11445,02,07
+"Santa Fe",40,10.3,10,11445,03,07
+"Santa Fe",40,12.2,10,11445,04,07
+"Santa Fe",40,15.4,10,11445,05,07
+"Santa Fe",15,6.1,10,11445,06,07
+"Santa Fe",30,7.7,10,11445,01,08
+"Santa Fe",48,13.0,10,11445,02,08
+"Santa Fe",59,17.1,10,11445,03,08
+"Santa Fe",55,19.2,10,11445,04,08
+"Santa Fe",47,19.5,10,11445,05,08
+"Santa Fe",21,8.2,10,11445,06,08
+"Santa Fe",38,9.9,10,11445,01,09
+"Santa Fe",35,10.6,10,11445,02,09
+"Santa Fe",37,11.6,10,11445,03,09
+"Santa Fe",43,13.5,10,11445,04,09
+"Santa Fe",43,16.6,10,11445,05,09
+"Santa Fe",1,0.0,10,11445,06,09
+"Santa Fe",29,5.7,10,11445,01,10
+"Santa Fe",42,10.7,10,11445,02,10
+"Santa Fe",,14.5,10,11445,03,10
+"Santa Fe",68,20.7,10,11445,04,10
+"Santa Fe",60,20.3,10,11445,05,10
+"Santa Fe",18,6.1,10,11445,06,10
+"Santa Fe",24,4.4,10,11445,01,11
+"Santa Fe",29,5.5,10,11445,02,11
+"Santa Fe",28,7.4,10,11445,03,11
+"Santa Fe",24,8.3,10,11445,04,11
+"Santa Fe",18,7.5,10,11445,05,11
+"Santa Fe",0,0.0,10,11445,06,11
+"Santa Fe",21,6.7,10,11445,01,12
+"Santa Fe",25,8.1,10,11445,02,12
+"Santa Fe",33,10.7,10,11445,03,12
+"Santa Fe",30,8.8,10,11445,04,12
+"Santa Fe",2,0.7,10,11445,05,12
+"Santa Fe",0,0.0,10,11445,06,12
+"Santa Fe",28,4.5,10,11445,01,13
+"Santa Fe",29,6.5,10,11445,02,13
+"Santa Fe",38,8.7,10,11445,03,13
+"Santa Fe",32,9.3,10,11445,04,13
+"Santa Fe",22,6.5,10,11445,05,13
+"Santa Fe",0,0.0,10,11445,06,13
+"Santa Fe",28,6.4,10,11445,01,14
+"Santa Fe",22,4.8,10,11445,02,14
+"Santa Fe",25,5.0,10,11445,03,14
+"Santa Fe",33,6.3,10,11445,04,14
+"Santa Fe",30,4.5,10,11445,05,14
+"Santa Fe",1,0.2,10,11445,06,14
+"Santa Fe",27,5.8,10,11445,01,15
+"Santa Fe",40,9.0,10,11445,02,15
+"Santa Fe",46,10.9,10,11445,03,15
+"Santa Fe",40,13.2,10,11445,04,15
+"Santa Fe",31,11.1,10,11445,05,15
+"Santa Fe",24,8.4,10,11445,06,15
+"Santa Fe",45,11.7,10,11445,01,16
+"Santa Fe",49,14.8,10,11445,02,16
+"Santa Fe",51,16.7,10,11445,03,16
+"Santa Fe",43,16.7,10,11445,04,16
+"Santa Fe",50,18.6,10,11445,05,16
+"Santa Fe",6,2.5,10,11445,06,16
+"Senorita Divide #2",,0.3,8,8600,01,00
+"Senorita Divide #2",,2.3,8,8600,02,00
+"Senorita Divide #2",,2.5,8,8600,03,00
+"Senorita Divide #2",,6.9,8,8600,04,00
+"Senorita Divide #2",,0.0,8,8600,05,00
+"Senorita Divide #2",,0.0,8,8600,06,00
+"Senorita Divide #2",,1.8,8,8600,01,01
+"Senorita Divide #2",,4.7,8,8600,02,01
+"Senorita Divide #2",,8.1,8,8600,03,01
+"Senorita Divide #2",,8.8,8,8600,04,01
+"Senorita Divide #2",,0.0,8,8600,05,01
+"Senorita Divide #2",,0.0,8,8600,06,01
+"Senorita Divide #2",17,2.9,8,8600,01,02
+"Senorita Divide #2",18,3.5,8,8600,02,02
+"Senorita Divide #2",16,4.0,8,8600,03,02
+"Senorita Divide #2",0,0.0,8,8600,04,02
+"Senorita Divide #2",0,0.0,8,8600,05,02
+"Senorita Divide #2",0,0.0,8,8600,06,02
+"Senorita Divide #2",12,1.6,8,8600,01,03
+"Senorita Divide #2",7,1.7,8,8600,02,03
+"Senorita Divide #2",31,6.1,8,8600,03,03
+"Senorita Divide #2",20,7.2,8,8600,04,03
+"Senorita Divide #2",1,0.0,8,8600,05,03
+"Senorita Divide #2",1,0.0,8,8600,06,03
+"Senorita Divide #2",6,1.5,8,8600,01,04
+"Senorita Divide #2",19,3.6,8,8600,02,04
+"Senorita Divide #2",35,7.2,8,8600,03,04
+"Senorita Divide #2",5,2.0,8,8600,04,04
+"Senorita Divide #2",1,0.0,8,8600,05,04
+"Senorita Divide #2",0,0.0,8,8600,06,04
+"Senorita Divide #2",6,2.5,8,8600,01,05
+"Senorita Divide #2",23,5.7,8,8600,02,05
+"Senorita Divide #2",32,9.7,8,8600,03,05
+"Senorita Divide #2",40,12.3,8,8600,04,05
+"Senorita Divide #2",6,2.3,8,8600,05,05
+"Senorita Divide #2",1,0.0,8,8600,06,05
+"Senorita Divide #2",1,0.0,8,8600,01,06
+"Senorita Divide #2",3,0.6,8,8600,02,06
+"Senorita Divide #2",1,0.0,8,8600,03,06
+"Senorita Divide #2",2,0.9,8,8600,04,06
+"Senorita Divide #2",0,0.0,8,8600,05,06
+"Senorita Divide #2",0,0.0,8,8600,06,06
+"Senorita Divide #2",25,4.0,8,8600,01,07
+"Senorita Divide #2",39,7.5,8,8600,02,07
+"Senorita Divide #2",36,10.1,8,8600,03,07
+"Senorita Divide #2",13,5.3,8,8600,04,07
+"Senorita Divide #2",1,0.0,8,8600,05,07
+"Senorita Divide #2",1,0.0,8,8600,06,07
+"Senorita Divide #2",18,3.5,8,8600,01,08
+"Senorita Divide #2",31,6.6,8,8600,02,08
+"Senorita Divide #2",41,10.8,8,8600,03,08
+"Senorita Divide #2",24,7.9,8,8600,04,08
+"Senorita Divide #2",1,0.0,8,8600,05,08
+"Senorita Divide #2",1,0.0,8,8600,06,08
+"Senorita Divide #2",20,5.0,8,8600,01,09
+"Senorita Divide #2",18,6.1,8,8600,02,09
+"Senorita Divide #2",15,5.9,8,8600,03,09
+"Senorita Divide #2",7,3.2,8,8600,04,09
+"Senorita Divide #2",1,0.0,8,8600,05,09
+"Senorita Divide #2",1,0.0,8,8600,06,09
+"Senorita Divide #2",19,2.8,8,8600,01,10
+"Senorita Divide #2",29,6.4,8,8600,02,10
+"Senorita Divide #2",33,8.5,8,8600,03,10
+"Senorita Divide #2",29,10.7,8,8600,04,10
+"Senorita Divide #2",1,0.0,8,8600,05,10
+"Senorita Divide #2",,0.0,8,8600,06,10
+"Senorita Divide #2",19,3.4,8,8600,01,11
+"Senorita Divide #2",14,3.8,8,8600,02,11
+"Senorita Divide #2",14,4.4,8,8600,03,11
+"Senorita Divide #2",0,0.2,8,8600,04,11
+"Senorita Divide #2",0,0.0,8,8600,05,11
+"Senorita Divide #2",0,0.0,8,8600,06,11
+"Senorita Divide #2",16,4.5,8,8600,01,12
+"Senorita Divide #2",17,5.4,8,8600,02,12
+"Senorita Divide #2",27,7.8,8,8600,03,12
+"Senorita Divide #2",12,4.6,8,8600,04,12
+"Senorita Divide #2",0,0.0,8,8600,05,12
+"Senorita Divide #2",0,0.0,8,8600,06,12
+"Senorita Divide #2",20,2.7,8,8600,01,13
+"Senorita Divide #2",13,3.9,8,8600,02,13
+"Senorita Divide #2",23,4.9,8,8600,03,13
+"Senorita Divide #2",7,3.4,8,8600,04,13
+"Senorita Divide #2",0,0.0,8,8600,05,13
+"Senorita Divide #2",0,0.0,8,8600,06,13
+"Senorita Divide #2",8,2.0,8,8600,01,14
+"Senorita Divide #2",4,1.9,8,8600,02,14
+"Senorita Divide #2",1,0.1,8,8600,03,14
+"Senorita Divide #2",0,0.0,8,8600,04,14
+"Senorita Divide #2",0,0.0,8,8600,05,14
+"Senorita Divide #2",0,0.0,8,8600,06,14
+"Senorita Divide #2",11,1.5,8,8600,01,15
+"Senorita Divide #2",25,5.1,8,8600,02,15
+"Senorita Divide #2",35,6.9,8,8600,03,15
+"Senorita Divide #2",4,1.1,8,8600,04,15
+"Senorita Divide #2",0,0.0,8,8600,05,15
+"Senorita Divide #2",0,0.0,8,8600,06,15
+"Senorita Divide #2",19,4.2,8,8600,01,16
+"Senorita Divide #2",26,7.2,8,8600,02,16
+"Senorita Divide #2",23,7.2,8,8600,03,16
+"Senorita Divide #2",7,3.4,8,8600,04,16
+"Senorita Divide #2",0,0.0,8,8600,05,16
+"Senorita Divide #2",0,0.0,8,8600,06,16
+Shuree,6,0.9,10,10097,01,00
+Shuree,4,0.5,10,10097,02,00
+Shuree,0,0.0,10,10097,03,00
+Shuree,11,2.3,10,10097,01,01
+Shuree,17,3.0,10,10097,02,01
+Shuree,9,2.8,10,10097,03,01
+Shuree,5,1.0,10,10097,01,02
+Shuree,9,1.8,10,10097,02,02
+Shuree,0,0.0,10,10097,03,02
+Shuree,8,1.5,10,10097,01,03
+Shuree,12,2.4,10,10097,02,03
+Shuree,15,2.4,10,10097,03,03
+Shuree,8,1.2,10,10097,01,04
+Shuree,22,2.9,10,10097,02,04
+Shuree,0,0.0,10,10097,03,04
+Shuree,13,2.5,10,10097,01,05
+Shuree,26,6.6,10,10097,02,05
+Shuree,26,7.1,10,10097,03,05
+Shuree,4,0.2,10,10097,01,06
+Shuree,0,0.0,10,10097,02,06
+Shuree,7,2.1,10,10097,03,06
+Shuree,27,4.8,10,10097,02,07
+Shuree,19,4.8,10,10097,03,07
+Shuree,5,1.4,10,10097,03,07
+Shuree,22,4.8,10,10097,02,08
+Shuree,21,3.8,10,10097,02,08
+Shuree,6,2.1,10,10097,03,08
+Shuree,20,4.6,10,10097,01,09
+Shuree,10,3.1,10,10097,02,09
+Shuree,2,0.3,10,10097,03,09
+Shuree,15,2.2,10,10097,01,10
+Shuree,28,5.0,10,10097,02,10
+Shuree,33,8.2,10,10097,03,10
+Shuree,7,0.9,10,10097,01,11
+Shuree,12,2.4,10,10097,02,11
+Shuree,0,0.0,10,10097,03,11
+Shuree,12,2.6,10,10097,01,12
+Shuree,15,3.1,10,10097,02,12
+Shuree,0,0.0,10,10097,03,12
+Shuree,18,2.2,10,10097,01,13
+Shuree,23,3.8,10,10097,02,13
+Shuree,16,5.0,10,10097,03,13
+Shuree,5,0.8,10,10097,01,14
+Shuree,0,0.0,10,10097,02,14
+Shuree,0,0.0,10,10097,03,14
+Shuree,14,2.5,10,10097,01,15
+Shuree,28,5.2,10,10097,02,15
+Shuree,17,4.8,10,10097,03,15
+Shuree,20,4.2,10,10097,02,16
+Shuree,0,0.0,10,10097,03,16
+Shuree,7,1.3,10,10100,01,11
+Shuree,14,2.2,10,10100,02,11
+Shuree,13,3.2,10,10100,03,11
+Shuree,0,0.0,10,10100,04,11
+Shuree,0,0.0,10,10100,05,11
+Shuree,0,0.0,10,10100,06,11
+Shuree,11,2.6,10,10100,01,12
+Shuree,15,3.2,10,10100,02,12
+Shuree,19,4.1,10,10100,03,12
+Shuree,0,0.0,10,10100,04,12
+Shuree,0,0.0,10,10100,05,12
+Shuree,0,0.0,10,10100,06,12
+Shuree,14,2.4,10,10100,01,13
+Shuree,16,3.4,10,10100,02,13
+Shuree,26,5.2,10,10100,03,13
+Shuree,10,4.1,10,10100,04,13
+Shuree,0,0.0,10,10100,05,13
+Shuree,0,0.0,10,10100,06,13
+Shuree,7,1.8,10,10100,01,14
+Shuree,7,1.9,10,10100,02,14
+Shuree,0,0.0,10,10100,03,14
+Shuree,0,0.0,10,10100,04,14
+Shuree,0,0.0,10,10100,05,14
+Shuree,0,0.0,10,10100,06,14
+Shuree,13,2.6,10,10100,01,15
+Shuree,20,4.0,10,10100,02,15
+Shuree,39,7.1,10,10100,03,15
+Shuree,9,3.2,10,10100,04,15
+Shuree,0,0.0,10,10100,05,15
+Shuree,0,0.0,10,10100,06,15
+Shuree,19,4.0,10,10100,01,16
+Shuree,26,5.3,10,10100,02,16
+Shuree,17,5.6,10,10100,03,16
+Shuree,4,0.5,10,10100,04,16
+Shuree,2,0.7,10,10100,05,16
+Shuree,0,0.0,10,10100,06,16
+"Sierra Blanca",,5.3,10,10280,01,03
+"Sierra Blanca",23,5.7,10,10280,02,03
+"Sierra Blanca",40,9.3,10,10280,03,03
+"Sierra Blanca",31,10.8,10,10280,04,03
+"Sierra Blanca",,0.0,10,10280,05,03
+"Sierra Blanca",,0.0,10,10280,06,03
+"Sierra Blanca",3,1.3,10,10280,01,04
+"Sierra Blanca",10,3.0,10,10280,02,04
+"Sierra Blanca",199,8.1,10,10280,03,04
+"Sierra Blanca",18,5.5,10,10280,04,04
+"Sierra Blanca",0,0.0,10,10280,05,04
+"Sierra Blanca",1,0.0,10,10280,06,04
+"Sierra Blanca",27,6.9,10,10280,01,05
+"Sierra Blanca",37,12.3,10,10280,02,05
+"Sierra Blanca",61,18.6,10,10280,03,05
+"Sierra Blanca",54,19.9,10,10280,04,05
+"Sierra Blanca",19,8.3,10,10280,05,05
+"Sierra Blanca",,0.0,10,10280,06,05
+"Sierra Blanca",,0.0,10,10280,01,06
+"Sierra Blanca",,0.0,10,10280,02,06
+"Sierra Blanca",,0.0,10,10280,03,06
+"Sierra Blanca",,0.0,10,10280,04,06
+"Sierra Blanca",,0.0,10,10280,05,06
+"Sierra Blanca",,0.0,10,10280,06,06
+"Sierra Blanca",17,3.3,10,10280,01,07
+"Sierra Blanca",,8.9,10,10280,02,07
+"Sierra Blanca",50,13.6,10,10280,03,07
+"Sierra Blanca",24,8.9,10,10280,04,07
+"Sierra Blanca",,0.0,10,10280,05,07
+"Sierra Blanca",,0.0,10,10280,06,07
+"Sierra Blanca",9,2.6,10,10280,01,08
+"Sierra Blanca",17,5.1,10,10280,02,08
+"Sierra Blanca",12,4.9,10,10280,03,08
+"Sierra Blanca",2,0.0,10,10280,04,08
+"Sierra Blanca",1,0.0,10,10280,05,08
+"Sierra Blanca",,0.0,10,10280,06,08
+"Sierra Blanca",27,8.6,10,10280,01,09
+"Sierra Blanca",26,9.1,10,10280,02,09
+"Sierra Blanca",26,8.9,10,10280,03,09
+"Sierra Blanca",13,2.9,10,10280,04,09
+"Sierra Blanca",,0.0,10,10280,05,09
+"Sierra Blanca",,0.0,10,10280,06,09
+"Sierra Blanca",41,11.3,10,10280,01,10
+"Sierra Blanca",64,19.8,10,10280,02,10
+"Sierra Blanca",71,23.6,10,10280,03,10
+"Sierra Blanca",73,29.4,10,10280,04,10
+"Sierra Blanca",40,18.7,10,10280,05,10
+"Sierra Blanca",0,0.0,10,10280,06,10
+"Sierra Blanca",22,4.7,10,10280,01,11
+"Sierra Blanca",20,5.1,10,10280,02,11
+"Sierra Blanca",21,6.7,10,10280,03,11
+"Sierra Blanca",0,0.0,10,10280,04,11
+"Sierra Blanca",0,0.0,10,10280,05,11
+"Sierra Blanca",0,0.0,10,10280,06,11
+"Sierra Blanca",41,10.0,10,10280,01,12
+"Sierra Blanca",35,10.8,10,10280,02,12
+"Sierra Blanca",36,12.1,10,10280,03,12
+"Sierra Blanca",9,3.4,10,10280,04,12
+"Sierra Blanca",0,0.0,10,10280,05,12
+"Sierra Blanca",0,0.0,10,10280,06,12
+"Sierra Blanca",33,6.6,10,10280,01,13
+"Sierra Blanca",34,8.1,10,10280,02,13
+"Sierra Blanca",41,8.7,10,10280,03,13
+"Sierra Blanca",0,0.0,10,10280,04,13
+"Sierra Blanca",0,0.0,10,10280,05,13
+"Sierra Blanca",0,0.0,10,10280,06,13
+"Sierra Blanca",20,4.3,10,10280,01,14
+"Sierra Blanca",12,2.5,10,10280,02,14
+"Sierra Blanca",1,0.3,10,10280,03,14
+"Sierra Blanca",0,0.0,10,10280,04,14
+"Sierra Blanca",0,0.0,10,10280,05,14
+"Sierra Blanca",0,0.0,10,10280,06,14
+"Sierra Blanca",10,2.3,10,10280,01,15
+"Sierra Blanca",26,6.1,10,10280,02,15
+"Sierra Blanca",25,6.2,10,10280,03,15
+"Sierra Blanca",3,0.5,10,10280,04,15
+"Sierra Blanca",0,0.0,10,10280,05,15
+"Sierra Blanca",0,0.0,10,10280,06,15
+"Sierra Blanca",36,5.8,10,10280,01,16
+"Sierra Blanca",48,14.1,10,10280,02,16
+"Sierra Blanca",38,13.2,10,10280,03,16
+"Sierra Blanca",0,0.0,10,10280,04,16
+"Sierra Blanca",0,0.0,10,10280,05,16
+"Sierra Blanca",0,0.0,10,10280,06,16
+"Signal Peak",,0.7,8,8360,01,00
+"Signal Peak",,0.5,8,8360,02,00
+"Signal Peak",,0.0,8,8360,03,00
+"Signal Peak",,0.0,8,8360,04,00
+"Signal Peak",,0.0,8,8360,05,00
+"Signal Peak",,0.0,8,8360,06,00
+"Signal Peak",,1.8,8,8360,01,01
+"Signal Peak",,4.4,8,8360,02,01
+"Signal Peak",,4.7,8,8360,03,01
+"Signal Peak",,0.0,8,8360,04,01
+"Signal Peak",,0.0,8,8360,05,01
+"Signal Peak",,0.0,8,8360,06,01
+"Signal Peak",5,1.6,8,8360,01,02
+"Signal Peak",14,2.6,8,8360,02,02
+"Signal Peak",,1.4,8,8360,03,02
+"Signal Peak",,0.0,8,8360,04,02
+"Signal Peak",0,0.0,8,8360,05,02
+"Signal Peak",0,0.0,8,8360,06,02
+"Signal Peak",12,2.4,8,8360,01,03
+"Signal Peak",7,2.5,8,8360,02,03
+"Signal Peak",8,3.4,8,8360,03,03
+"Signal Peak",,0.0,8,8360,04,03
+"Signal Peak",,0.0,8,8360,05,03
+"Signal Peak",0,0.0,8,8360,06,03
+"Signal Peak",2,1.0,8,8360,01,04
+"Signal Peak",11,3.0,8,8360,02,04
+"Signal Peak",14,4.5,8,8360,03,04
+"Signal Peak",0,0.1,8,8360,04,04
+"Signal Peak",0,0.0,8,8360,05,04
+"Signal Peak",0,0.0,8,8360,06,04
+"Signal Peak",7,2.7,8,8360,01,05
+"Signal Peak",14,3.7,8,8360,02,05
+"Signal Peak",18,4.2,8,8360,03,05
+"Signal Peak",1,0.0,8,8360,04,05
+"Signal Peak",0,0.0,8,8360,05,05
+"Signal Peak",0,0.0,8,8360,06,05
+"Signal Peak",0,0.0,8,8360,01,06
+"Signal Peak",1,0.0,8,8360,02,06
+"Signal Peak",0,0.0,8,8360,03,06
+"Signal Peak",0,0.0,8,8360,04,06
+"Signal Peak",0,0.0,8,8360,05,06
+"Signal Peak",,0.0,8,8360,06,06
+"Signal Peak",5,1.4,8,8360,01,07
+"Signal Peak",24,5.8,8,8360,02,07
+"Signal Peak",14,6.6,8,8360,03,07
+"Signal Peak",,0.0,8,8360,04,07
+"Signal Peak",,0.0,8,8360,05,07
+"Signal Peak",,0.0,8,8360,06,07
+"Signal Peak",8,2.0,8,8360,01,08
+"Signal Peak",6,2.6,8,8360,02,08
+"Signal Peak",0,0.3,8,8360,03,08
+"Signal Peak",,0.0,8,8360,04,08
+"Signal Peak",,0.0,8,8360,05,08
+"Signal Peak",,0.0,8,8360,06,08
+"Signal Peak",13,3.4,8,8360,01,09
+"Signal Peak",5,2.5,8,8360,02,09
+"Signal Peak",0,0.0,8,8360,03,09
+"Signal Peak",1,0.0,8,8360,04,09
+"Signal Peak",0,0.0,8,8360,05,09
+"Signal Peak",0,0.0,8,8360,06,09
+"Signal Peak",15,4.0,8,8360,01,10
+"Signal Peak",32,9.8,8,8360,02,10
+"Signal Peak",41,13.4,8,8360,03,10
+"Signal Peak",10,5.4,8,8360,04,10
+"Signal Peak",0,0.0,8,8360,05,10
+"Signal Peak",0,0.0,8,8360,06,10
+"Signal Peak",15,1.8,8,8360,01,11
+"Signal Peak",4,2.1,8,8360,02,11
+"Signal Peak",0,0.0,8,8360,03,11
+"Signal Peak",0,0.0,8,8360,04,11
+"Signal Peak",0,0.0,8,8360,05,11
+"Signal Peak",0,0.0,8,8360,06,11
+"Signal Peak",21,6.3,8,8360,01,12
+"Signal Peak",18,6.3,8,8360,02,12
+"Signal Peak",11,4.9,8,8360,03,12
+"Signal Peak",0,0.0,8,8360,04,12
+"Signal Peak",0,0.0,8,8360,05,12
+"Signal Peak",0,0.0,8,8360,06,12
+"Signal Peak",12,2.0,8,8360,01,13
+"Signal Peak",9,1.8,8,8360,02,13
+"Signal Peak",5,2.0,8,8360,03,13
+"Signal Peak",0,0.0,8,8360,04,13
+"Signal Peak",0,0.0,8,8360,05,13
+"Signal Peak",0,0.0,8,8360,06,13
+"Signal Peak",4,0.9,8,8360,01,14
+"Signal Peak",0,0.0,8,8360,02,14
+"Signal Peak",0,0.0,8,8360,03,14
+"Signal Peak",0,0.0,8,8360,04,14
+"Signal Peak",0,0.0,8,8360,05,14
+"Signal Peak",0,0.0,8,8360,06,14
+"Signal Peak",4,0.9,8,8360,01,15
+"Signal Peak",9,3.4,8,8360,02,15
+"Signal Peak",0,0.0,8,8360,03,15
+"Signal Peak",0,0.0,8,8360,04,15
+"Signal Peak",0,0.0,8,8360,05,15
+"Signal Peak",0,0.0,8,8360,06,15
+"Signal Peak",12,3.2,8,8360,01,16
+"Signal Peak",14,5.0,8,8360,02,16
+"Signal Peak",0,0.0,8,8360,03,16
+"Signal Peak",0,0.0,8,8360,04,16
+"Signal Peak",0,0.0,8,8360,05,16
+"Signal Peak",0,0.0,8,8360,06,16
+"Silver Creek Divide",,0.0,8,9000,01,00
+"Silver Creek Divide",,0.0,8,9000,02,00
+"Silver Creek Divide",,1.1,8,9000,03,00
+"Silver Creek Divide",,1.4,8,9000,04,00
+"Silver Creek Divide",,0.0,8,9000,05,00
+"Silver Creek Divide",,0.0,8,9000,06,00
+"Silver Creek Divide",,4.6,8,9000,01,01
+"Silver Creek Divide",,7.7,8,9000,02,01
+"Silver Creek Divide",,10.8,8,9000,03,01
+"Silver Creek Divide",,10.3,8,9000,04,01
+"Silver Creek Divide",,0.4,8,9000,05,01
+"Silver Creek Divide",,0.0,8,9000,06,01
+"Silver Creek Divide",0,2.5,8,9000,01,02
+"Silver Creek Divide",20,3.8,8,9000,02,02
+"Silver Creek Divide",13,4.1,8,9000,03,02
+"Silver Creek Divide",3,2.8,8,9000,04,02
+"Silver Creek Divide",0,0.0,8,9000,05,02
+"Silver Creek Divide",0,0.0,8,9000,06,02
+"Silver Creek Divide",13,2.7,8,9000,01,03
+"Silver Creek Divide",11,3.0,8,9000,02,03
+"Silver Creek Divide",31,6.8,8,9000,03,03
+"Silver Creek Divide",25,10.2,8,9000,04,03
+"Silver Creek Divide",1,0.0,8,9000,05,03
+"Silver Creek Divide",0,0.0,8,9000,06,03
+"Silver Creek Divide",166,0.9,8,9000,01,04
+"Silver Creek Divide",17,3.4,8,9000,02,04
+"Silver Creek Divide",28,6.1,8,9000,03,04
+"Silver Creek Divide",12,4.9,8,9000,04,04
+"Silver Creek Divide",1,0.0,8,9000,05,04
+"Silver Creek Divide",0,0.0,8,9000,06,04
+"Silver Creek Divide",11,3.8,8,9000,01,05
+"Silver Creek Divide",24,6.8,8,9000,02,05
+"Silver Creek Divide",35,11.5,8,9000,03,05
+"Silver Creek Divide",35,12.5,8,9000,04,05
+"Silver Creek Divide",1,2.9,8,9000,05,05
+"Silver Creek Divide",,0.0,8,9000,06,05
+"Silver Creek Divide",1,0.0,8,9000,01,06
+"Silver Creek Divide",2,0.6,8,9000,02,06
+"Silver Creek Divide",0,0.6,8,9000,03,06
+"Silver Creek Divide",4,2.8,8,9000,04,06
+"Silver Creek Divide",,0.0,8,9000,05,06
+"Silver Creek Divide",,0.0,8,9000,06,06
+"Silver Creek Divide",6,1.4,8,9000,01,07
+"Silver Creek Divide",,5.1,8,9000,02,07
+"Silver Creek Divide",26,7.5,8,9000,03,07
+"Silver Creek Divide",17,7.2,8,9000,04,07
+"Silver Creek Divide",0,0.0,8,9000,05,07
+"Silver Creek Divide",0,0.0,8,9000,06,07
+"Silver Creek Divide",17,4.3,8,9000,01,08
+"Silver Creek Divide",23,7.5,8,9000,02,08
+"Silver Creek Divide",23,8.4,8,9000,03,08
+"Silver Creek Divide",15,6.6,8,9000,04,08
+"Silver Creek Divide",0,0.0,8,9000,05,08
+"Silver Creek Divide",0,0.0,8,9000,06,08
+"Silver Creek Divide",17,5.7,8,9000,01,09
+"Silver Creek Divide",14,5.6,8,9000,02,09
+"Silver Creek Divide",14,6.2,8,9000,03,09
+"Silver Creek Divide",9,5.2,8,9000,04,09
+"Silver Creek Divide",1,0.0,8,9000,05,09
+"Silver Creek Divide",1,0.0,8,9000,06,09
+"Silver Creek Divide",14,4.1,8,9000,01,10
+"Silver Creek Divide",44,12.4,8,9000,02,10
+"Silver Creek Divide",53,16.4,8,9000,03,10
+"Silver Creek Divide",49,20.3,8,9000,04,10
+"Silver Creek Divide",17,11.9,8,9000,05,10
+"Silver Creek Divide",,0.0,8,9000,06,10
+"Silver Creek Divide",10,2.8,8,9000,01,11
+"Silver Creek Divide",11,3.2,8,9000,02,11
+"Silver Creek Divide",13,3.9,8,9000,03,11
+"Silver Creek Divide",0,0.3,8,9000,04,11
+"Silver Creek Divide",0,0.0,8,9000,05,11
+"Silver Creek Divide",0,0.0,8,9000,06,11
+"Silver Creek Divide",20,5.5,8,9000,01,12
+"Silver Creek Divide",19,6.5,8,9000,02,12
+"Silver Creek Divide",22,7.0,8,9000,03,12
+"Silver Creek Divide",7,3.6,8,9000,04,12
+"Silver Creek Divide",0,0.0,8,9000,05,12
+"Silver Creek Divide",0,0.0,8,9000,06,12
+"Silver Creek Divide",15,3.2,8,9000,01,13
+"Silver Creek Divide",14,4.5,8,9000,02,13
+"Silver Creek Divide",19,5.5,8,9000,03,13
+"Silver Creek Divide",1,0.4,8,9000,04,13
+"Silver Creek Divide",0,0.0,8,9000,05,13
+"Silver Creek Divide",0,0.0,8,9000,06,13
+"Silver Creek Divide",10,1.8,8,9000,01,14
+"Silver Creek Divide",7,1.5,8,9000,02,14
+"Silver Creek Divide",4,1.3,8,9000,03,14
+"Silver Creek Divide",0,0.0,8,9000,04,14
+"Silver Creek Divide",0,0.0,8,9000,05,14
+"Silver Creek Divide",0,0.0,8,9000,06,14
+"Silver Creek Divide",7,1.7,8,9000,01,15
+"Silver Creek Divide",13,4.8,8,9000,02,15
+"Silver Creek Divide",9,4.4,8,9000,03,15
+"Silver Creek Divide",0,0.0,8,9000,04,15
+"Silver Creek Divide",0,0.0,8,9000,05,15
+"Silver Creek Divide",0,0.0,8,9000,06,15
+"Silver Creek Divide",18,4.4,8,9000,01,16
+"Silver Creek Divide",20,6.2,8,9000,02,16
+"Silver Creek Divide",12,5.7,8,9000,03,16
+"Silver Creek Divide",0,0.0,8,9000,04,16
+"Silver Creek Divide",0,0.0,8,9000,05,16
+"Silver Creek Divide",0,0.0,8,9000,06,16
+"State Line",0,0.0,7,8000,01,00
+"State Line",0,0.0,7,8000,03,00
+"State Line",0,0.0,7,8000,04,00
+"State Line",10,1.8,7,8000,01,01
+"State Line",8,1.9,7,8000,02,01
+"State Line",0,0.0,7,8000,03,01
+"State Line",7,1.4,7,8000,01,02
+"State Line",0,0.0,7,8000,02,02
+"State Line",0,0.0,7,8000,03,02
+"State Line",0,0.0,7,8000,01,03
+"State Line",9,1.2,7,8000,02,03
+"State Line",0,0.0,7,8000,03,03
+"State Line",4,0.6,7,8000,01,04
+"State Line",2,0.8,7,8000,02,04
+"State Line",0,0.0,7,8000,03,04
+"State Line",5,1.5,7,8000,01,05
+"State Line",4,1.5,7,8000,03,05
+"State Line",0,0.0,7,8000,03,05
+"State Line",1,0.3,7,8000,02,06
+"State Line",0,0.0,7,8000,03,06
+"State Line",0,0.0,7,8000,03,06
+"State Line",10,1.8,7,8000,01,07
+"State Line",3,0.9,7,8000,02,07
+"State Line",0,0.0,7,8000,03,07
+"State Line",10,2.4,7,8000,01,08
+"State Line",10,2.9,7,8000,02,08
+"State Line",0,0.0,7,8000,04,08
+"State Line",8,2.4,7,8000,01,09
+"State Line",2,1.0,7,8000,02,09
+"State Line",0,0.0,7,8000,03,09
+"State Line",34,8.2,7,8000,01,10
+"State Line",38,9.5,7,8000,02,10
+"State Line",18,6.9,7,8000,03,10
+"State Line",6,1.5,7,8000,01,11
+"State Line",1,0.1,7,8000,02,11
+"State Line",15,2.8,7,8000,01,12
+"State Line",7,2.2,7,8000,02,12
+"State Line",0,0.0,7,8000,04,12
+"State Line",3,0.8,7,8000,01,13
+"State Line",6,0.9,7,8000,02,13
+"State Line",0,0.0,7,8000,03,13
+"State Line",2,0.6,7,8000,01,14
+"State Line",0,0.0,7,8000,02,14
+"State Line",0,0.0,7,8000,03,14
+"State Line",4,1.1,7,8000,01,15
+"State Line",1,0.1,7,8000,02,15
+"State Line",0,0.0,7,8000,03,15
+"State Line",10,2.2,7,8000,01,16
+"State Line",0,0.0,7,8000,02,16
+"State Line",0,0.0,7,8000,03,16
+"Taos Canyon",0,0.0,9,9100,01,00
+"Taos Canyon",7,1.4,9,9100,02,00
+"Taos Canyon",8,2.1,9,9100,03,00
+"Taos Canyon",20,3.4,9,9100,01,01
+"Taos Canyon",18,4.7,9,9100,03,01
+"Taos Canyon",13,4.2,9,9100,03,01
+"Taos Canyon",12,3.0,9,9100,01,02
+"Taos Canyon",17,3.9,9,9100,02,02
+"Taos Canyon",6,0.9,9,9100,03,02
+"Taos Canyon",13,4.0,9,9100,01,03
+"Taos Canyon",18,4.8,9,9100,02,03
+"Taos Canyon",20,6.6,9,9100,03,03
+"Taos Canyon",14,2.6,9,9100,01,04
+"Taos Canyon",21,4.1,9,9100,02,04
+"Taos Canyon",0,0.0,9,9100,03,04
+"Taos Canyon",14,3.7,9,9100,01,05
+"Taos Canyon",30,7.5,9,9100,02,05
+"Taos Canyon",31,9.9,9,9100,03,05
+"Taos Canyon",4,0.6,9,9100,01,06
+"Taos Canyon",1,0.2,9,9100,02,06
+"Taos Canyon",4,1.2,9,9100,03,06
+"Taos Canyon",27,7.5,9,9100,01,07
+"Taos Canyon",29,9.1,9,9100,02,07
+"Taos Canyon",8,3.2,9,9100,03,07
+"Taos Canyon",22,5.2,9,9100,02,08
+"Taos Canyon",30,7.0,9,9100,02,08
+"Taos Canyon",17,5.3,9,9100,03,08
+"Taos Canyon",22,6.3,9,9100,01,09
+"Taos Canyon",20,5.8,9,9100,02,09
+"Taos Canyon",9,3.1,9,9100,03,09
+"Taos Canyon",20,4.1,9,9100,01,10
+"Taos Canyon",38,7.8,9,9100,02,10
+"Taos Canyon",40,11.1,9,9100,03,10
+"Taos Canyon",10,1.8,9,9100,01,11
+"Taos Canyon",16,3.6,9,9100,02,11
+"Taos Canyon",0,0.0,9,9100,03,11
+"Taos Canyon",14,2.9,9,9100,01,12
+"Taos Canyon",17,4.0,9,9100,02,12
+"Taos Canyon",5,1.0,9,9100,03,12
+"Taos Canyon",11,3.1,9,9100,01,13
+"Taos Canyon",18,1.9,9,9100,02,13
+"Taos Canyon",10,3.3,9,9100,03,13
+"Taos Canyon",6,1.3,9,9100,01,14
+"Taos Canyon",1,0.4,9,9100,02,14
+"Taos Canyon",1,0.3,9,9100,03,14
+"Taos Canyon",13,2.9,9,9100,01,15
+"Taos Canyon",19,4.0,9,9100,02,15
+"Taos Canyon",9,2.5,9,9100,03,15
+"Taos Canyon",23,4.5,9,9100,01,16
+"Taos Canyon",18,3.7,9,9100,02,16
+"Taos Canyon",1,0.2,9,9100,03,16
+"Taos Powderhorn",32,7.2,10,11250,01,00
+"Taos Powderhorn",45,11.7,10,11250,03,00
+"Taos Powderhorn",52,14.9,10,11250,03,00
+"Taos Powderhorn",36,15.1,10,11250,04,00
+"Taos Powderhorn",50,12.8,10,11250,01,01
+"Taos Powderhorn",66,18.9,10,11250,02,01
+"Taos Powderhorn",77,24.7,10,11250,03,01
+"Taos Powderhorn",86,31.0,10,11250,04,01
+"Taos Powderhorn",39,9.8,10,11250,01,02
+"Taos Powderhorn",45,13.7,10,11250,03,02
+"Taos Powderhorn",48,14.3,10,11250,03,02
+"Taos Powderhorn",5,2.0,10,11250,04,02
+"Taos Powderhorn",45,12.3,10,11250,01,03
+"Taos Powderhorn",79,19.7,10,11250,02,03
+"Taos Powderhorn",90,28.9,10,11250,03,03
+"Taos Powderhorn",67,24.7,10,11250,04,03
+"Taos Powderhorn",40,10.8,10,11250,01,04
+"Taos Powderhorn",59,14.1,10,11250,02,04
+"Taos Powderhorn",46,15.8,10,11250,03,04
+"Taos Powderhorn",56,19.1,10,11250,04,04
+"Taos Powderhorn",52,14.2,10,11250,01,05
+"Taos Powderhorn",85,26.1,10,11250,02,05
+"Taos Powderhorn",101,32.9,10,11250,03,05
+"Taos Powderhorn",86,34.4,10,11250,04,05
+"Taos Powderhorn",28,6.0,10,11250,01,06
+"Taos Powderhorn",29,8.5,10,11250,03,06
+"Taos Powderhorn",41,10.1,10,11250,03,06
+"Taos Powderhorn",22,7.3,10,11250,04,06
+"Taos Powderhorn",61,14.2,10,11250,02,07
+"Taos Powderhorn",60,17.4,10,11250,03,07
+"Taos Powderhorn",48,15.6,10,11250,03,07
+"Taos Powderhorn",48,19.2,10,11250,05,07
+"Taos Powderhorn",51,15.4,10,11250,01,08
+"Taos Powderhorn",89,26.0,10,11250,02,08
+"Taos Powderhorn",104,34.3,10,11250,02,08
+"Taos Powderhorn",96,40.7,10,11250,03,08
+"Taos Powderhorn",77,35.7,10,11250,04,08
+"Taos Powderhorn",74,22.5,10,11250,01,09
+"Taos Powderhorn",70,25.9,10,11250,02,09
+"Taos Powderhorn",78,29.3,10,11250,04,09
+"Taos Powderhorn",66,27.9,10,11250,04,09
+"Taos Powderhorn",42,10.6,10,11250,01,10
+"Taos Powderhorn",62,16.1,10,11250,01,10
+"Taos Powderhorn",86,21.6,10,11250,02,10
+"Taos Powderhorn",98,28.8,10,11250,03,10
+"Taos Powderhorn",76,29.8,10,11250,04,10
+"Taos Powderhorn",35,10.2,10,11250,01,11
+"Taos Powderhorn",55,14.8,10,11250,02,11
+"Taos Powderhorn",50,16.2,10,11250,03,11
+"Taos Powderhorn",56,16.9,10,11250,04,11
+"Taos Powderhorn",54,15.1,10,11250,01,12
+"Taos Powderhorn",70,19.9,10,11250,02,12
+"Taos Powderhorn",57,19.7,10,11250,03,12
+"Taos Powderhorn",41,15.9,10,11250,04,12
+"Taos Powderhorn",53,11.7,10,11250,01,13
+"Taos Powderhorn",67,16.3,10,11250,02,13
+"Taos Powderhorn",60,15.8,10,11250,03,13
+"Taos Powderhorn",40,17.1,10,11250,04,13
+"Taos Powderhorn",36,10.1,10,11250,01,14
+"Taos Powderhorn",46,12.4,10,11250,02,14
+"Taos Powderhorn",58,16.8,10,11250,03,14
+"Taos Powderhorn",48,15.4,10,11250,04,14
+"Taos Powderhorn",39,8.8,10,11250,01,15
+"Taos Powderhorn",53,13.0,10,11250,02,15
+"Taos Powderhorn",57,20.2,10,11250,04,15
+"Taos Powderhorn",42,15.5,10,11250,04,15
+"Taos Powderhorn",60,16.7,10,11250,01,16
+"Taos Powderhorn",63,20.6,10,11250,02,16
+"Taos Powderhorn",52,19.1,10,11250,03,16
+"Taos Powderhorn",56,21.3,10,11250,04,16
+"Taos Powderhorn",36,6.9,10,11057,01,11
+"Taos Powderhorn",36,8.0,10,11057,02,11
+"Taos Powderhorn",44,11.2,10,11057,03,11
+"Taos Powderhorn",54,14.5,10,11057,04,11
+"Taos Powderhorn",64,19.6,10,11057,05,11
+"Taos Powderhorn",34,10.5,10,11057,06,11
+"Taos Powderhorn",32,10.0,10,11057,01,12
+"Taos Powderhorn",47,14.5,10,11057,02,12
+"Taos Powderhorn",74,18.4,10,11057,03,12
+"Taos Powderhorn",80,21.8,10,11057,04,12
+"Taos Powderhorn",69,23.1,10,11057,05,12
+"Taos Powderhorn",1,0.6,10,11057,06,12
+"Taos Powderhorn",36,5.9,10,11057,01,13
+"Taos Powderhorn",36,9.1,10,11057,02,13
+"Taos Powderhorn",48,12.5,10,11057,03,13
+"Taos Powderhorn",51,15.7,10,11057,04,13
+"Taos Powderhorn",46,16.8,10,11057,05,13
+"Taos Powderhorn",4,1.8,10,11057,06,13
+"Taos Powderhorn",30,8.5,10,11057,01,14
+"Taos Powderhorn",27,8.4,10,11057,02,14
+"Taos Powderhorn",35,10.2,10,11057,03,14
+"Taos Powderhorn",55,15.7,10,11057,04,14
+"Taos Powderhorn",56,18.5,10,11057,05,14
+"Taos Powderhorn",14,5.9,10,11057,06,14
+"Taos Powderhorn",27,6.3,10,11057,01,15
+"Taos Powderhorn",41,9.5,10,11057,02,15
+"Taos Powderhorn",69,13.6,10,11057,03,15
+"Taos Powderhorn",51,16.0,10,11057,04,15
+"Taos Powderhorn",50,16.5,10,11057,05,15
+"Taos Powderhorn",48,16.9,10,11057,06,15
+"Taos Powderhorn",42,10.6,10,11057,01,16
+"Taos Powderhorn",47,13.9,10,11057,02,16
+"Taos Powderhorn",47,15.2,10,11057,03,16
+"Taos Powderhorn",53,15.5,10,11057,04,16
+"Taos Powderhorn",67,19.7,10,11057,05,16
+"Taos Powderhorn",39,12.7,10,11057,06,16
+Tolby,18,3.9,10,10180,01,00
+Tolby,20,4.9,10,10180,02,00
+Tolby,18,3.7,10,10180,01,01
+Tolby,29,5.5,10,10180,02,01
+Tolby,27,7.4,10,10180,02,01
+Tolby,28,8.6,10,10180,03,01
+Tolby,18,3.7,10,10180,01,02
+Tolby,22,5.6,10,10180,02,02
+Tolby,16,5.0,10,10180,03,02
+Tolby,24,6.3,10,10180,01,03
+Tolby,39,8.9,10,10180,02,03
+Tolby,48,11.8,10,10180,03,03
+Tolby,19,4.6,10,10180,01,04
+Tolby,30,5.6,10,10180,02,04
+Tolby,5,1.2,10,10180,03,04
+Tolby,25,6.0,10,10180,01,05
+Tolby,40,10.2,10,10180,02,05
+Tolby,44,13.0,10,10180,03,05
+Tolby,12,2.6,10,10180,01,06
+Tolby,12,2.5,10,10180,02,06
+Tolby,16,4.1,10,10180,03,06
+Tolby,32,9.0,10,10180,01,07
+Tolby,38,10.8,10,10180,02,07
+Tolby,32,6.6,10,10180,01,08
+Tolby,45,10.4,10,10180,02,08
+Tolby,29,7.9,10,10180,02,09
+Tolby,29,7.8,10,10180,02,09
+Tolby,22,7.2,10,10180,03,09
+Tolby,29,6.8,10,10180,01,10
+Tolby,48,13.0,10,10180,03,10
+Tolby,21,4.0,10,10180,01,11
+Tolby,29,7.0,10,10180,02,11
+Tolby,22,6.1,10,10180,03,11
+Tolby,30,7.0,10,10180,01,12
+Tolby,35,9.0,10,10180,02,12
+Tolby,32,6.2,10,10180,02,13
+Tolby,17,3.8,10,10180,01,14
+Tolby,0,0.0,10,10180,04,14
+Tolby,9,2.0,10,10180,01,00
+Tolby,15,3.0,10,10180,02,00
+Tolby,15,4.2,10,10180,03,00
+Tolby,27,8.1,10,10180,04,00
+Tolby,4,1.2,10,10180,05,00
+Tolby,0,0.0,10,10180,06,00
+Tolby,16,3.6,10,10180,01,01
+Tolby,26,5.2,10,10180,02,01
+Tolby,28,6.9,10,10180,03,01
+Tolby,19,7.8,10,10180,04,01
+Tolby,0,0.0,10,10180,05,01
+Tolby,0,0.0,10,10180,06,01
+Tolby,15,3.2,10,10180,01,02
+Tolby,20,3.5,10,10180,02,02
+Tolby,18,5.1,10,10180,03,02
+Tolby,0,0.0,10,10180,04,02
+Tolby,0,0.0,10,10180,05,02
+Tolby,0,0.0,10,10180,06,02
+Tolby,19,4.5,10,10180,01,03
+Tolby,19,5.5,10,10180,02,03
+Tolby,34,8.3,10,10180,03,03
+Tolby,30,10.7,10,10180,04,03
+Tolby,0,0.0,10,10180,05,03
+Tolby,0,0.0,10,10180,06,03
+Tolby,10,2.1,10,10180,01,04
+Tolby,17,3.2,10,10180,02,04
+Tolby,23,4.8,10,10180,03,04
+Tolby,0,0.0,10,10180,04,04
+Tolby,0,0.0,10,10180,05,04
+Tolby,0,0.0,10,10180,06,04
+Tolby,19,4.2,10,10180,01,05
+Tolby,187,6.9,10,10180,02,05
+Tolby,36,9.3,10,10180,03,05
+Tolby,38,11.0,10,10180,04,05
+Tolby,0,0.5,10,10180,05,05
+Tolby,0,0.0,10,10180,06,05
+Tolby,2,0.8,10,10180,01,06
+Tolby,7,1.5,10,10180,02,06
+Tolby,4,1.9,10,10180,03,06
+Tolby,1,1.1,10,10180,04,06
+Tolby,0,0.0,10,10180,05,06
+Tolby,,0.0,10,10180,06,06
+Tolby,,6.6,10,10180,01,07
+Tolby,,9.3,10,10180,02,07
+Tolby,33,10.7,10,10180,03,07
+Tolby,20,9.0,10,10180,04,07
+Tolby,0,0.0,10,10180,05,07
+Tolby,,0.0,10,10180,06,07
+Tolby,,4.3,10,10180,01,08
+Tolby,31,6.9,10,10180,02,08
+Tolby,35,9.8,10,10180,03,08
+Tolby,22,8.3,10,10180,04,08
+Tolby,0,0.0,10,10180,05,08
+Tolby,,0.0,10,10180,06,08
+Tolby,24,5.5,10,10180,01,09
+Tolby,23,6.7,10,10180,02,09
+Tolby,21,7.4,10,10180,03,09
+Tolby,6,3.1,10,10180,04,09
+Tolby,,0.0,10,10180,05,09
+Tolby,,0.0,10,10180,06,09
+Tolby,20,4.7,10,10180,01,10
+Tolby,29,6.3,10,10180,02,10
+Tolby,40,9.2,10,10180,03,10
+Tolby,38,12.8,10,10180,04,10
+Tolby,1,0.9,10,10180,05,10
+Tolby,0,0.0,10,10180,06,10
+Tolby,17,3.2,10,10180,01,11
+Tolby,24,4.3,10,10180,02,11
+Tolby,24,6.4,10,10180,03,11
+Tolby,6,2.9,10,10180,04,11
+Tolby,0,0.0,10,10180,05,11
+Tolby,0,0.0,10,10180,06,11
+Tolby,20,5.1,10,10180,01,12
+Tolby,24,6.2,10,10180,02,12
+Tolby,30,7.7,10,10180,03,12
+Tolby,4,1.9,10,10180,04,12
+Tolby,0,0.0,10,10180,05,12
+Tolby,0,0.0,10,10180,06,12
+Tolby,16,3.0,10,10180,01,13
+Tolby,19,4.2,10,10180,02,13
+Tolby,24,5.6,10,10180,03,13
+Tolby,6,2.4,10,10180,04,13
+Tolby,0,0.0,10,10180,05,13
+Tolby,0,0.0,10,10180,06,13
+Tolby,10,2.5,10,10180,01,14
+Tolby,12,2.9,10,10180,02,14
+Tolby,7,2.6,10,10180,03,14
+Tolby,2,0.6,10,10180,04,14
+Tolby,1,0.3,10,10180,05,14
+Tolby,0,0.0,10,10180,06,14
+Tolby,17,3.6,10,10180,01,15
+Tolby,22,5.0,10,10180,02,15
+Tolby,47,9.1,10,10180,03,15
+Tolby,16,6.1,10,10180,04,15
+Tolby,2,0.8,10,10180,05,15
+Tolby,0,0.0,10,10180,06,15
+Tolby,24,5.0,10,10180,01,16
+Tolby,28,6.3,10,10180,02,16
+Tolby,24,6.4,10,10180,03,16
+Tolby,0,0.0,10,10180,04,16
+Tolby,3,0.5,10,10180,05,16
+Tolby,0,0.0,10,10180,06,16
+"Tres Ritos",8,2.0,8,8600,01,00
+"Tres Ritos",9,2.2,8,8600,02,00
+"Tres Ritos",10,4.2,8,8600,04,00
+"Tres Ritos",13,2.6,8,8600,01,01
+"Tres Ritos",20,5.1,8,8600,02,01
+"Tres Ritos",17,4.7,8,8600,03,01
+"Tres Ritos",14,3.5,8,8600,01,02
+"Tres Ritos",17,3.1,8,8600,02,02
+"Tres Ritos",1,0.3,8,8600,03,02
+"Tres Ritos",9,2.7,8,8600,01,03
+"Tres Ritos",5,1.4,8,8600,02,03
+"Tres Ritos",8,3.8,8,8600,03,03
+"Tres Ritos",13,3.8,8,8600,01,04
+"Tres Ritos",21,5.9,8,8600,03,04
+"Tres Ritos",2,0.6,8,8600,03,04
+"Tres Ritos",11,2.3,8,8600,01,05
+"Tres Ritos",17,4.4,8,8600,02,05
+"Tres Ritos",19,6.4,8,8600,03,05
+"Tres Ritos",10,1.9,8,8600,01,06
+"Tres Ritos",3,0.8,8,8600,02,06
+"Tres Ritos",0,0.0,8,8600,03,06
+"Tres Ritos",16,4.3,8,8600,01,07
+"Tres Ritos",19,5.8,8,8600,02,07
+"Tres Ritos",0,0.0,8,8600,03,07
+"Tres Ritos",23,6.1,8,8600,02,08
+"Tres Ritos",15,5.5,8,8600,03,08
+"Tres Ritos",18,6.0,8,8600,02,09
+"Tres Ritos",17,2.9,8,8600,02,10
+"Tres Ritos",17,3.0,8,8600,02,10
+"Tres Ritos",24,5.6,8,8600,03,10
+"Tres Ritos",18,4.8,8,8600,03,10
+"Tres Ritos",8,1.4,8,8600,01,11
+"Tres Ritos",12,3.0,8,8600,03,11
+"Tres Ritos",0,0.0,8,8600,03,11
+"Tres Ritos",10,1.8,8,8600,01,12
+"Tres Ritos",18,3.6,8,8600,03,12
+"Tres Ritos",18,3.2,8,8600,02,13
+"Tres Ritos",6,0.0,8,8600,03,13
+"Tres Ritos",1,0.3,8,8600,02,14
+"Tres Ritos",14,2.6,8,8600,02,15
+"Tres Ritos",5,1.3,8,8600,03,15
+"Tres Ritos",26,6.5,8,8600,01,16
+"Tres Ritos",13,4.7,8,8600,02,16
+"Tres Ritos",1,0.2,8,8600,03,16
+"Tres Ritos",14,2.6,8,8600,01,07
+"Tres Ritos",16,4.0,8,8600,02,07
+"Tres Ritos",1,2.2,8,8600,03,07
+"Tres Ritos",0,0.0,8,8600,04,07
+"Tres Ritos",0,0.0,8,8600,05,07
+"Tres Ritos",0,0.0,8,8600,06,07
+"Tres Ritos",7,1.4,8,8600,01,08
+"Tres Ritos",20,4.3,8,8600,02,08
+"Tres Ritos",11,4.2,8,8600,03,08
+"Tres Ritos",,0.0,8,8600,04,08
+"Tres Ritos",0,0.0,8,8600,05,08
+"Tres Ritos",,0.0,8,8600,06,08
+"Tres Ritos",16,3.8,8,8600,01,09
+"Tres Ritos",8,3.5,8,8600,02,09
+"Tres Ritos",,0.0,8,8600,03,09
+"Tres Ritos",,0.0,8,8600,04,09
+"Tres Ritos",,0.0,8,8600,05,09
+"Tres Ritos",,0.0,8,8600,06,09
+"Tres Ritos",6,1.1,8,8600,01,10
+"Tres Ritos",10,2.5,8,8600,02,10
+"Tres Ritos",14,4.0,8,8600,03,10
+"Tres Ritos",1,0.0,8,8600,04,10
+"Tres Ritos",1,0.0,8,8600,05,10
+"Tres Ritos",0,0.0,8,8600,06,10
+"Tres Ritos",4,0.4,8,8600,01,11
+"Tres Ritos",6,0.5,8,8600,02,11
+"Tres Ritos",0,0.0,8,8600,03,11
+"Tres Ritos",0,0.0,8,8600,04,11
+"Tres Ritos",0,0.0,8,8600,05,11
+"Tres Ritos",0,0.0,8,8600,06,11
+"Tres Ritos",5,1.8,8,8600,01,12
+"Tres Ritos",4,2.0,8,8600,02,12
+"Tres Ritos",1,0.0,8,8600,03,12
+"Tres Ritos",0,0.0,8,8600,04,12
+"Tres Ritos",0,0.0,8,8600,05,12
+"Tres Ritos",0,0.0,8,8600,06,12
+"Tres Ritos",10,2.0,8,8600,01,13
+"Tres Ritos",9,2.4,8,8600,02,13
+"Tres Ritos",5,1.9,8,8600,03,13
+"Tres Ritos",0,0.0,8,8600,04,13
+"Tres Ritos",0,0.0,8,8600,05,13
+"Tres Ritos",0,0.0,8,8600,06,13
+"Tres Ritos",0,0.0,8,8600,01,14
+"Tres Ritos",0,0.0,8,8600,02,14
+"Tres Ritos",0,0.0,8,8600,03,14
+"Tres Ritos",0,0.0,8,8600,04,14
+"Tres Ritos",0,0.0,8,8600,05,14
+"Tres Ritos",0,0.0,8,8600,06,14
+"Tres Ritos",9,1.6,8,8600,01,15
+"Tres Ritos",5,1.7,8,8600,02,15
+"Tres Ritos",5,0.9,8,8600,03,15
+"Tres Ritos",0,0.0,8,8600,04,15
+"Tres Ritos",0,0.0,8,8600,05,15
+"Tres Ritos",0,0.0,8,8600,06,15
+"Tres Ritos",11,2.4,8,8600,01,16
+"Tres Ritos",18,3.8,8,8600,02,16
+"Tres Ritos",0,0.0,8,8600,03,16
+"Tres Ritos",0,0.0,8,8600,04,16
+"Tres Ritos",0,0.0,8,8600,05,16
+"Tres Ritos",0,0.0,8,8600,06,16
+"Vacas Locas",19,3.8,9,9306,01,02
+"Vacas Locas",22,4.4,9,9306,02,02
+"Vacas Locas",19,5.2,9,9306,03,02
+"Vacas Locas",0,0.0,9,9306,04,02
+"Vacas Locas",0,0.0,9,9306,05,02
+"Vacas Locas",0,0.0,9,9306,06,02
+"Vacas Locas",19,4.9,9,9306,01,03
+"Vacas Locas",17,5.1,9,9306,02,03
+"Vacas Locas",47,10.7,9,9306,03,03
+"Vacas Locas",28,11.6,9,9306,04,03
+"Vacas Locas",0,0.0,9,9306,05,03
+"Vacas Locas",1,0.0,9,9306,06,03
+"Vacas Locas",0,2.3,9,9306,01,04
+"Vacas Locas",,4.8,9,9306,02,04
+"Vacas Locas",46,9.1,9,9306,03,04
+"Vacas Locas",7,3.1,9,9306,04,04
+"Vacas Locas",0,0.0,9,9306,05,04
+"Vacas Locas",,0.0,9,9306,06,04
+"Vacas Locas",13,3.1,9,9306,01,05
+"Vacas Locas",34,7.1,9,9306,02,05
+"Vacas Locas",47,13.4,9,9306,03,05
+"Vacas Locas",48,17.2,9,9306,04,05
+"Vacas Locas",10,5.8,9,9306,05,05
+"Vacas Locas",,0.0,9,9306,06,05
+"Vacas Locas",2,0.0,9,9306,01,06
+"Vacas Locas",6,1.2,9,9306,02,06
+"Vacas Locas",1,1.1,9,9306,03,06
+"Vacas Locas",2,1.4,9,9306,04,06
+"Vacas Locas",0,0.0,9,9306,05,06
+"Vacas Locas",0,0.0,9,9306,06,06
+"Vacas Locas",30,5.0,9,9306,01,07
+"Vacas Locas",43,8.5,9,9306,02,07
+"Vacas Locas",,10.9,9,9306,03,07
+"Vacas Locas",13,5.7,9,9306,04,07
+"Vacas Locas",0,0.0,9,9306,05,07
+"Vacas Locas",0,0.0,9,9306,06,07
+"Vacas Locas",21,7.0,9,9306,01,08
+"Vacas Locas",40,9.1,9,9306,02,08
+"Vacas Locas",49,14.1,9,9306,03,08
+"Vacas Locas",23,9.6,9,9306,04,08
+"Vacas Locas",0,0.0,9,9306,05,08
+"Vacas Locas",,0.0,9,9306,06,08
+"Vacas Locas",27,6.6,9,9306,01,09
+"Vacas Locas",28,8.0,9,9306,02,09
+"Vacas Locas",26,8.8,9,9306,03,09
+"Vacas Locas",10,4.4,9,9306,04,09
+"Vacas Locas",,0.0,9,9306,05,09
+"Vacas Locas",0,0.0,9,9306,06,09
+"Vacas Locas",28,4.1,9,9306,01,10
+"Vacas Locas",36,8.3,9,9306,02,10
+"Vacas Locas",43,10.7,9,9306,03,10
+"Vacas Locas",32,12.3,9,9306,04,10
+"Vacas Locas",1,0.1,9,9306,05,10
+"Vacas Locas",4,0.0,9,9306,06,10
+"Vacas Locas",28,5.0,9,9306,01,11
+"Vacas Locas",25,5.5,9,9306,02,11
+"Vacas Locas",25,6.9,9,9306,03,11
+"Vacas Locas",1,0.0,9,9306,04,11
+"Vacas Locas",1,0.0,9,9306,05,11
+"Vacas Locas",0,0.0,9,9306,06,11
+"Vacas Locas",24,6.5,9,9306,01,12
+"Vacas Locas",29,7.5,9,9306,02,12
+"Vacas Locas",37,9.4,9,9306,03,12
+"Vacas Locas",4,1.5,9,9306,04,12
+"Vacas Locas",0,0.0,9,9306,05,12
+"Vacas Locas",0,0.0,9,9306,06,12
+"Vacas Locas",28,3.7,9,9306,01,13
+"Vacas Locas",21,6.0,9,9306,02,13
+"Vacas Locas",33,8.6,9,9306,03,13
+"Vacas Locas",9,3.5,9,9306,04,13
+"Vacas Locas",0,0.0,9,9306,05,13
+"Vacas Locas",0,0.0,9,9306,06,13
+"Vacas Locas",16,3.7,9,9306,01,14
+"Vacas Locas",15,3.5,9,9306,02,14
+"Vacas Locas",11,3.7,9,9306,03,14
+"Vacas Locas",0,0.0,9,9306,04,14
+"Vacas Locas",3,1.1,9,9306,05,14
+"Vacas Locas",0,0.0,9,9306,06,14
+"Vacas Locas",16,3.8,9,9306,01,15
+"Vacas Locas",33,7.3,9,9306,02,15
+"Vacas Locas",45,9.8,9,9306,03,15
+"Vacas Locas",5,2.4,9,9306,04,15
+"Vacas Locas",0,0.0,9,9306,05,15
+"Vacas Locas",0,0.0,9,9306,06,15
+"Vacas Locas",29,6.7,9,9306,01,16
+"Vacas Locas",35,9.9,9,9306,02,16
+"Vacas Locas",29,10.6,9,9306,03,16
+"Vacas Locas",8,4.0,9,9306,04,16
+"Vacas Locas",1,0.3,9,9306,05,16
+"Vacas Locas",0,0.0,9,9306,06,16
+"Wesner Springs",,2.9,10,11120,01,00
+"Wesner Springs",,4.8,10,11120,02,00
+"Wesner Springs",,5.2,10,11120,03,00
+"Wesner Springs",,9.6,10,11120,04,00
+"Wesner Springs",,0.0,10,11120,05,00
+"Wesner Springs",,0.0,10,11120,06,00
+"Wesner Springs",,10.8,10,11120,01,01
+"Wesner Springs",,14.4,10,11120,02,01
+"Wesner Springs",,16.4,10,11120,03,01
+"Wesner Springs",,17.9,10,11120,04,01
+"Wesner Springs",,10.8,10,11120,05,01
+"Wesner Springs",,0.0,10,11120,06,01
+"Wesner Springs",24,6.1,10,11120,01,02
+"Wesner Springs",36,8.3,10,11120,02,02
+"Wesner Springs",30,9.2,10,11120,03,02
+"Wesner Springs",14,6.0,10,11120,04,02
+"Wesner Springs",0,0.0,10,11120,05,02
+"Wesner Springs",0,0.0,10,11120,06,02
+"Wesner Springs",32,8.7,10,11120,01,03
+"Wesner Springs",30,9.6,10,11120,02,03
+"Wesner Springs",56,13.7,10,11120,03,03
+"Wesner Springs",48,15.3,10,11120,04,03
+"Wesner Springs",22,8.2,10,11120,05,03
+"Wesner Springs",0,0.0,10,11120,06,03
+"Wesner Springs",15,3.5,10,11120,01,04
+"Wesner Springs",20,4.9,10,11120,02,04
+"Wesner Springs",49,10.6,10,11120,03,04
+"Wesner Springs",24,10.1,10,11120,04,04
+"Wesner Springs",37,14.9,10,11120,05,04
+"Wesner Springs",0,0.0,10,11120,06,04
+"Wesner Springs",29,8.0,10,11120,01,05
+"Wesner Springs",48,12.5,10,11120,02,05
+"Wesner Springs",64,17.2,10,11120,03,05
+"Wesner Springs",78,21.6,10,11120,04,05
+"Wesner Springs",49,18.3,10,11120,05,05
+"Wesner Springs",0,0.0,10,11120,06,05
+"Wesner Springs",1,0.5,10,11120,01,06
+"Wesner Springs",4,1.0,10,11120,02,06
+"Wesner Springs",0,0.3,10,11120,03,06
+"Wesner Springs",3,1.7,10,11120,04,06
+"Wesner Springs",3,1.3,10,11120,05,06
+"Wesner Springs",0,0.0,10,11120,06,06
+"Wesner Springs",41,6.4,10,11120,01,07
+"Wesner Springs",43,10.4,10,11120,02,07
+"Wesner Springs",41,12.6,10,11120,03,07
+"Wesner Springs",29,11.6,10,11120,04,07
+"Wesner Springs",17,8.7,10,11120,05,07
+"Wesner Springs",,0.0,10,11120,06,07
+"Wesner Springs",27,7.4,10,11120,01,08
+"Wesner Springs",49,13.1,10,11120,02,08
+"Wesner Springs",53,16.2,10,11120,03,08
+"Wesner Springs",43,16.0,10,11120,04,08
+"Wesner Springs",24,11.5,10,11120,05,08
+"Wesner Springs",,0.0,10,11120,06,08
+"Wesner Springs",33,8.6,10,11120,01,09
+"Wesner Springs",30,9.9,10,11120,02,09
+"Wesner Springs",28,10.5,10,11120,03,09
+"Wesner Springs",26,10.2,10,11120,04,09
+"Wesner Springs",14,7.6,10,11120,05,09
+"Wesner Springs",,0.0,10,11120,06,09
+"Wesner Springs",22,5.3,10,11120,01,10
+"Wesner Springs",40,9.5,10,11120,02,10
+"Wesner Springs",49,12.6,10,11120,03,10
+"Wesner Springs",51,16.6,10,11120,04,10
+"Wesner Springs",30,12.7,10,11120,05,10
+"Wesner Springs",,0.0,10,11120,06,10
+"Wesner Springs",22,3.9,10,11120,01,11
+"Wesner Springs",25,4.9,10,11120,02,11
+"Wesner Springs",22,6.6,10,11120,03,11
+"Wesner Springs",7,4.0,10,11120,04,11
+"Wesner Springs",0,0.0,10,11120,05,11
+"Wesner Springs",0,0.0,10,11120,06,11
+"Wesner Springs",29,7.7,10,11120,01,12
+"Wesner Springs",33,9.7,10,11120,02,12
+"Wesner Springs",40,12.5,10,11120,03,12
+"Wesner Springs",22,9.6,10,11120,04,12
+"Wesner Springs",1,0.3,10,11120,05,12
+"Wesner Springs",0,0.0,10,11120,06,12
+"Wesner Springs",17,3.2,10,11120,01,13
+"Wesner Springs",21,5.0,10,11120,02,13
+"Wesner Springs",27,6.8,10,11120,03,13
+"Wesner Springs",14,5.9,10,11120,04,13
+"Wesner Springs",0,0.0,10,11120,05,13
+"Wesner Springs",0,0.0,10,11120,06,13
+"Wesner Springs",20,5.8,10,11120,01,14
+"Wesner Springs",17,5.6,10,11120,02,14
+"Wesner Springs",14,6.5,10,11120,03,14
+"Wesner Springs",15,7.4,10,11120,04,14
+"Wesner Springs",4,0.9,10,11120,05,14
+"Wesner Springs",0,0.0,10,11120,06,14
+"Wesner Springs",16,3.7,10,11120,01,15
+"Wesner Springs",28,6.7,10,11120,02,15
+"Wesner Springs",46,10.1,10,11120,03,15
+"Wesner Springs",32,11.4,10,11120,04,15
+"Wesner Springs",18,6.6,10,11120,05,15
+"Wesner Springs",0,0.0,10,11120,06,15
+"Wesner Springs",47,10.2,10,11120,01,16
+"Wesner Springs",48,12.9,10,11120,02,16
+"Wesner Springs",42,14.7,10,11120,03,16
+"Wesner Springs",28,10.9,10,11120,04,16
+"Wesner Springs",26,10.5,10,11120,05,16
+"Wesner Springs",0,0.0,10,11120,06,16
+"Whiskey Creek",17,3.9,9,9050,02,00
+"Whiskey Creek",20,5.9,9,9050,02,00
+"Whiskey Creek",26,9.2,9,9050,03,00
+"Whiskey Creek",13,2.8,9,9050,01,01
+"Whiskey Creek",31,6.5,9,9050,01,01
+"Whiskey Creek",35,9.3,9,9050,03,01
+"Whiskey Creek",16,6.2,9,9050,04,01
+"Whiskey Creek",16,3.3,9,9050,01,02
+"Whiskey Creek",14,3.2,9,9050,02,02
+"Whiskey Creek",0,0.0,9,9050,03,02
+"Whiskey Creek",15,4.3,9,9050,01,03
+"Whiskey Creek",34,8.7,9,9050,03,03
+"Whiskey Creek",29,11.0,9,9050,03,03
+"Whiskey Creek",24,6.3,9,9050,01,04
+"Whiskey Creek",31,8.4,9,9050,02,04
+"Whiskey Creek",6,2.0,9,9050,03,04
+"Whiskey Creek",15,3.5,9,9050,01,05
+"Whiskey Creek",24,7.3,9,9050,01,05
+"Whiskey Creek",44,14.0,9,9050,02,05
+"Whiskey Creek",42,14.3,9,9050,03,05
+"Whiskey Creek",8,1.4,9,9050,01,06
+"Whiskey Creek",2,0.5,9,9050,02,06
+"Whiskey Creek",8,3.0,9,9050,03,06
+"Whiskey Creek",18,4.3,9,9050,01,07
+"Whiskey Creek",30,8.4,9,9050,02,07
+"Whiskey Creek",10,3.4,9,9050,03,07
+"Whiskey Creek",,3.3,9,9050,01,08
+"Whiskey Creek",38,9.6,9,9050,02,08
+"Whiskey Creek",50,14.3,9,9050,02,08
+"Whiskey Creek",28,11.3,9,9050,03,08
+"Whiskey Creek",27,9.5,9,9050,01,09
+"Whiskey Creek",35,12.7,9,9050,02,09
+"Whiskey Creek",27,9.4,9,9050,03,09
+"Whiskey Creek",50,13.7,9,9050,01,10
+"Whiskey Creek",54,17.0,9,9050,02,10
+"Whiskey Creek",42,15.6,9,9050,04,10
+"Whiskey Creek",22,6.6,9,9050,01,11
+"Whiskey Creek",29,8.2,9,9050,02,11
+"Whiskey Creek",16,5.8,9,9050,03,11
+"Whiskey Creek",22,4.7,9,9050,01,12
+"Whiskey Creek",24,7.4,9,9050,02,12
+"Whiskey Creek",15,4.5,9,9050,03,12
+"Whiskey Creek",31,7.3,9,9050,01,13
+"Whiskey Creek",35,10.3,9,9050,02,13
+"Whiskey Creek",13,4.9,9,9050,03,13
+"Whiskey Creek",11,2.8,9,9050,01,14
+"Whiskey Creek",12,3.3,9,9050,02,14
+"Whiskey Creek",7,2.3,9,9050,03,14
+"Whiskey Creek",15,3.6,9,9050,01,15
+"Whiskey Creek",17,4.8,9,9050,02,15
+"Whiskey Creek",4,1.2,9,9050,03,15
+"Whiskey Creek",32,8.9,9,9050,01,16
+"Whiskey Creek",27,8.2,9,9050,02,16
+"Whiskey Creek",6,2.2,9,9050,03,16
+"Whitewater - Aerial And Snow Course",33,5.3,10,10750,01,00
+"Whitewater - Aerial And Snow Course",13,1.8,10,10750,03,00
+"Whitewater - Aerial And Snow Course",34,8.5,10,10750,05,00
+"Whitewater - Aerial And Snow Course",90,18.0,10,10750,01,01
+"Whitewater - Aerial And Snow Course",78,20.3,10,10750,02,01
+"Whitewater - Aerial And Snow Course",75,23.2,10,10750,03,01
+"Whitewater - Aerial And Snow Course",51,10.2,10,10750,01,02
+"Whitewater - Aerial And Snow Course",42,9.7,10,10750,03,02
+"Whitewater - Aerial And Snow Course",47,14.1,10,10750,05,02
+"Whitewater - Aerial And Snow Course",13,3.9,10,10750,03,02
+"Whitewater - Aerial And Snow Course",24,5.2,10,10750,01,03
+"Whitewater - Aerial And Snow Course",85,20.4,10,10750,05,03
+"Whitewater - Aerial And Snow Course",7,1.4,10,10750,01,04
+"Whitewater - Aerial And Snow Course",42,10.5,10,10750,03,04
+"Whitewater - Aerial And Snow Course",42,10.9,10,10750,05,04
+"Whitewater - Aerial And Snow Course",73,20.4,10,10750,01,05
+"Whitewater - Aerial And Snow Course",129,41.3,10,10750,02,05
+"Whitewater - Aerial And Snow Course",118,43.7,10,10750,03,05
+"Whitewater - Aerial And Snow Course",15,3.0,10,10750,01,06
+"Whitewater - Aerial And Snow Course",0,0.0,10,10750,02,06
+"Whitewater - Aerial And Snow Course",23,11.0,10,10750,03,06
+"Whitewater - Aerial And Snow Course",68,23.0,10,10750,03,08
+"Whitewater - Aerial And Snow Course",45,17.6,10,10750,01,09
+"Whitewater - Aerial And Snow Course",41,16.8,10,10750,02,09
+"Whitewater - Aerial And Snow Course",47,16.0,10,10750,03,09
+"Whitewater - Aerial And Snow Course",90,28.8,10,10750,01,10
+"Whitewater - Aerial And Snow Course",117,38.6,10,10750,02,10
+"Whitewater - Aerial And Snow Course",112,43.7,10,10750,03,10
+"Whitewater - Aerial And Snow Course",22,7.3,10,10750,01,11
+"Whitewater - Aerial And Snow Course",39,14.4,10,10750,02,11
+"Whitewater - Aerial And Snow Course",8,3.2,10,10750,03,11
+"Whitewater - Aerial And Snow Course",51,15.8,10,10750,01,12
+"Whitewater - Aerial And Snow Course",57,18.8,10,10750,02,12
+"Whitewater - Aerial And Snow Course",50,21.5,10,10750,03,12
+"Whitewater - Aerial And Snow Course",43,10.3,10,10750,01,13
+"Whitewater - Aerial And Snow Course",51,14.8,10,10750,01,13
+"Whitewater - Aerial And Snow Course",65,16.2,10,10750,02,13
+"Whitewater - Aerial And Snow Course",26,13.0,10,10750,03,13

@@ -1,0 +1,5 @@
+location,snow_depth,snow_water_equivalent,elevation_band,elevation,month,year
+"Hays Canyon",15,2.8,6,6400,01,00
+"Hays Canyon",0,0.0,6,6400,03,00
+"Hays Canyon",10,1.9,6,6400,01,01
+"Hays Canyon",0,0.0,6,6400,03,01

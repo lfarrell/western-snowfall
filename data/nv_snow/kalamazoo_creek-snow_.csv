@@ -1,0 +1,27 @@
+location,snow_depth,snow_water_equivalent,elevation_band,elevation,month,year
+"Kalamazoo Creek",21,5.4,7,7400,02,00
+"Kalamazoo Creek",21,6.7,7,7400,03,00
+"Kalamazoo Creek",31,6.5,7,7400,03,01
+"Kalamazoo Creek",14,4.3,7,7400,03,01
+"Kalamazoo Creek",30,7.0,7,7400,02,02
+"Kalamazoo Creek",27,7.8,7,7400,03,02
+"Kalamazoo Creek",18,4.3,7,7400,02,03
+"Kalamazoo Creek",13,3.8,7,7400,03,03
+"Kalamazoo Creek",40,9.2,7,7400,02,04
+"Kalamazoo Creek",11,4.4,7,7400,03,04
+"Kalamazoo Creek",37,10.0,7,7400,02,05
+"Kalamazoo Creek",43,13.5,7,7400,04,05
+"Kalamazoo Creek",29,7.9,7,7400,02,06
+"Kalamazoo Creek",36,12.4,7,7400,03,06
+"Kalamazoo Creek",26,6.0,7,7400,02,07
+"Kalamazoo Creek",10,1.9,7,7400,03,07
+"Kalamazoo Creek",30,8.9,7,7400,02,08
+"Kalamazoo Creek",22,8.0,7,7400,03,08
+"Kalamazoo Creek",27,7.9,7,7400,02,09
+"Kalamazoo Creek",22,8.4,7,7400,03,09
+"Kalamazoo Creek",31,8.5,7,7400,02,10
+"Kalamazoo Creek",36,10.8,7,7400,04,10
+"Kalamazoo Creek",34,10.4,7,7400,02,11
+"Kalamazoo Creek",38,12.2,7,7400,03,11
+"Kalamazoo Creek",16,3.0,7,7400,02,12
+"Kalamazoo Creek",9,3.0,7,7400,03,12

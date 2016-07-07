@@ -1,0 +1,13 @@
+location,snow_depth,snow_water_equivalent,elevation_band,elevation,month,year
+"State Line",0,0.0,5,5680,01,15
+"State Line",0,0.0,5,5680,02,15
+"State Line",0,0.0,5,5680,03,15
+"State Line",0,0.0,5,5680,04,15
+"State Line",0,0.0,5,5680,05,15
+"State Line",0,0.0,5,5680,06,15
+"State Line",20,4.5,5,5680,01,16
+"State Line",22,8.1,5,5680,02,16
+"State Line",12,6.1,5,5680,03,16
+"State Line",0,0.0,5,5680,04,16
+"State Line",0,0.0,5,5680,05,16
+"State Line",0,0.0,5,5680,06,16

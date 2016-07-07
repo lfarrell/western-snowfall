@@ -1,0 +1,6 @@
+.idea
+.DS_Store
+analysis/node_modules/*
+data/raw_data/*
+raw_data/*
+berrics.js

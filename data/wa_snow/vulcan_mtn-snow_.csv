@@ -1,0 +1,27 @@
+location,snow_depth,snow_water_equivalent,elevation_band,elevation,month,year
+"Vulcan Mtn",19,5.8,4,4660,02,05
+"Vulcan Mtn",43,10.6,4,4660,01,06
+"Vulcan Mtn",49,14.3,4,4660,02,06
+"Vulcan Mtn",46,15.9,4,4660,03,06
+"Vulcan Mtn",33,9.3,4,4660,01,07
+"Vulcan Mtn",42,12.0,4,4660,02,07
+"Vulcan Mtn",31,11.4,4,4660,03,07
+"Vulcan Mtn",28,8.2,4,4660,01,08
+"Vulcan Mtn",31,9.9,4,4660,02,08
+"Vulcan Mtn",36,11.4,4,4660,03,08
+"Vulcan Mtn",30,7.3,4,4660,01,11
+"Vulcan Mtn",35,8.3,4,4660,02,11
+"Vulcan Mtn",46,12.7,4,4660,03,11
+"Vulcan Mtn",24,5.8,4,4660,01,12
+"Vulcan Mtn",37,8.1,4,4660,02,12
+"Vulcan Mtn",40,11.4,4,4660,03,12
+"Vulcan Mtn",38,10.1,4,4660,01,13
+"Vulcan Mtn",40,10.9,4,4660,02,13
+"Vulcan Mtn",38,11.5,4,4660,03,13
+"Vulcan Mtn",32,8.0,4,4660,03,14
+"Vulcan Mtn",23,5.8,4,4660,01,15
+"Vulcan Mtn",20,6.6,4,4660,02,15
+"Vulcan Mtn",20,6.9,4,4660,03,15
+"Vulcan Mtn",39,10.4,4,4660,01,16
+"Vulcan Mtn",40,12.8,4,4660,02,16
+"Vulcan Mtn",40,14.4,4,4660,03,16

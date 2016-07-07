@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Visualization of the Snow Levels of the Western United States" />
+    <meta name="keywords" content="Climate Change,Drought,Visualization,Snow,Western Snow,
+    California Snow Visualizations,Arizona Snow Visualizations,Utah Snow Visualizations,
+    Wyoming Snow Visualizations,New Mexico Snow Visualizations,Nevada Snow Visualizations" />
+    <title>Western Snowfall</title>
+    <link href="https://fonts.googleapis.com/css?family=Tinos" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div id="note" class="row">
+        <p id="load" class="text-center">Loading ...</p>
+    </div>
+    <div class="row hide">
+        <div class="col-xs-12 col-sm-12 col-lg-12">
+            <h1 class="text-center">Western Snowfall</h1>
+            <h3 class="text-center">An Analysis of the Snowfall of the Western United States in the 21st Century</h3>
+        </div>
+    </div>
+   <!-- <div class="row hide">
+        <div class="col-sm-12 col-lg-12" id="us_heat">
+            <div class="col-sm-offset-4 col-sm-4 col-lg-offset-4 col-lg-4">
+                <select id="state" name="state" class="form-control">
+                    <option value="">--Select Area--</option>
+                    <option value="WS">All States</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="CA">California</option>
+                    <option value="CO">Colorado</option>
+                    <option value="ID">Idaho</option>
+                    <option value="MT">Montana</option>
+                    <option value="NV">Nevada</option>
+                    <option value="NM">New Mexico</option>
+                    <option value="OR">Oregon</option>
+                    <option value="UT">Utah</option>
+                    <option value="WY">Wyoming</option>
+                </select>
+            </div>
+        </div>
+    </div> -->
+    <div class="row charts opaque">
+        <div class="col-xs-12 col-offset-sm-1 col-sm-10 col-lg-offset-1 col-lg-10">
+            <p>Snow is vital to the environmental health of the western United States. Unlike rainfall, it doesn't
+                come as one burst that's here and then quickly gone. Instead, it tends to accrue over the winter and slowly
+                melt as the temperatures rise in the spring. The melt typically continues into the early summer, providing
+                a steady, consistent level of water in mountain watersheds. This is particularly important for a
+            state like California, which receives almost no summer rainfall.</p>
+            <p>Snow comes in a variety of forms. It can be light and airy, almost dry, or it can heavy and dense. For example,
+                light, fluffy snow that measures four feet deep might actually have the
+                same volume of water as heavier, denser snow that is two feet deep.To account
+            for this variation a measure called
+                <a href="http://www.nrcs.usda.gov/wps/portal/nrcs/detail/or/snow/?cid=nrcs142p2_046155"
+             target="_blank">snow water equivalence</a> is used to normalize the amount of liquid water
+            in a given level of snow.</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-lg-12">
+            <div class="text-center">
+                <div id="month-only" class="btn-group" role="group" aria-label="snow by month buttons">
+                    <button id="month-snow" type="button" class="btn btn-default">Mean</button>
+                    <button id="month-water" type="button" class="btn btn-default">Median</button>
+                </div>
+            </div>
+        </div>
+        <div id="yew_div" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h2 class="text-center">Average by Year</h2>
+        </div>
+        <div id="mew_div" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h2 class="text-center">Average by Month</h2>
+        </div>
+        <div id="states" class="col-sm-12 col-lg-12">
+            <h2 id="selected_state" class="text-center">California</h2>
+        </div>
+        <div class="col-sm-12 col-lg-12">
+            <footer>
+                <ul class="list-unstyled">
+                    <li><a href="../index.php">Other Visualizations</a></li>
+                    <li><a href="../western_water">Western Water</a></li>
+                    <li><a href="mailto:farrelldlfarrell@gmail.com">Email</a></li>
+                    <li><a href="https://twitter.com/farrelldlfarrel">Twitter</a></li>
+                </ul>
+            </footer>
+        </div>
+        <div class="col-sm-12 col-lg-12">
+            <p class="col-md-offset-1 subfooter">
+                All data courtesy of the <a href="http://wcc.sc.egov.usda.gov/nwcc/rgrpt?report=swe_hist">
+                United States Dept. of Agriculture - Natural Resources Conservation Services</a>.</p>
+            </p>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ramda/0.21.0/ramda.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js" charset="utf-8"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.6.7/d3-tip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/1.9.0/d3-legend.min.js"></script>-->
+<script src="js/assets/d3-jetpack.min.js"></script>
+<script src="js/custom.js"></script>
+<script type="text/javascript">
+ /*   var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-47256145-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })(); */
+</script>
+</body>
+</html>
