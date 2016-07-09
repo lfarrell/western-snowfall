@@ -6,6 +6,8 @@ d3.json('data/all/munged_data.json', function(data) {
         height = 400 - margins.top - margins.bottom;
 
     var num_format = d3.format(".2f");
+   // var temp_colors = ['#ca0020','#f4a582','#f7f7f7','#92c5de','#0571b0'];
+   // var temp_colors = ['#ca0020','#f4a582','#92c5de','#0571b0'];
     var precip_colors = ['#543005','#8c510a','#bf812d','#dfc27d','#f6e8c3','#f5f5f5','#c7eae5','#80cdc1','#35978f','#01665e','#003c30'];
     var temp_colors = ['#a50026','#d73027','#f46d43','#fdae61','#fee090','#ffffbf','#e0f3f8','#abd9e9','#74add1','#4575b4','#313695'];
     var div = d3.select("body").append("div")
@@ -29,7 +31,14 @@ d3.json('data/all/munged_data.json', function(data) {
      */
     var yew = d3.select('#yew_div').append('svg');
     var mew = d3.select('#mew_div').append('svg');
-    var sedw = d3.select('#states').append('svg');
+    var cal_sedw = d3.select('#states_cal').append('svg');
+    var az_sedw = d3.select('#states_az').append('svg');
+    var nm_sedw = d3.select('#states_nm').append('svg');
+    var co_sedw = d3.select('#states_co').append('svg');
+    var utah_sedw = d3.select('#states_utah').append('svg');
+    var or_sedw = d3.select('#states_or').append('svg');
+    var wa_sedw = d3.select('#states_wa').append('svg');
+    var id_sedw = d3.select('#states_id').append('svg');
 
     var render = _.debounce(function() {
         var year_elevation_water = data.filter(function(d) {
@@ -40,13 +49,48 @@ d3.json('data/all/munged_data.json', function(data) {
             return d.type === 'mew';
         });
 
-        var state_elevation_date_water = data.filter(function(d) {
+        var cal_elevation_date_water = data.filter(function(d) {
             return d.type === 'sedw' && d.state === 'cal';
+        });
+
+        var az_elevation_date_water = data.filter(function(d) {
+            return d.type === 'sedw' && d.state === 'az';
+        });
+
+        var nm_elevation_date_water = data.filter(function(d) {
+            return d.type === 'sedw' && d.state === 'nm';
+        });
+
+        var co_elevation_date_water = data.filter(function(d) {
+            return d.type === 'sedw' && d.state === 'co';
+        });
+
+        var utah_elevation_date_water = data.filter(function(d) {
+            return d.type === 'sedw' && d.state === 'utah';
+        });
+
+        var or_elevation_date_water = data.filter(function(d) {
+            return d.type === 'sedw' && d.state === 'or';
+        });
+
+        var wa_elevation_date_water = data.filter(function(d) {
+            return d.type === 'sedw' && d.state === 'wa';
+        });
+
+        var id_elevation_date_water = data.filter(function(d) {
+            return d.type === 'sedw' && d.state === 'id';
         });
 
         build(year_elevation_water, yew, '#yew_div', false);
         build(month_elevation_water, mew, '#mew_div', false);
-        build(state_elevation_date_water, sedw, '#states', true);
+        build(cal_elevation_date_water, cal_sedw, '#states_cal', true);
+        build(az_elevation_date_water, az_sedw, '#states_az', true);
+        build(nm_elevation_date_water, nm_sedw, '#states_nm', true);
+        build(co_elevation_date_water, co_sedw, '#states_co', true);
+        build(utah_elevation_date_water, utah_sedw, '#states_utah', true);
+        build(or_elevation_date_water, or_sedw, '#states_or', true);
+        build(wa_elevation_date_water, wa_sedw, '#states_wa', true);
+        build(id_elevation_date_water, id_sedw, '#states_id', true);
 
         function build(data, svg, selector, full) {
             var size = sizing(full, selector);
@@ -98,12 +142,22 @@ d3.json('data/all/munged_data.json', function(data) {
                     return p_colors(d.water_mean);
                 })
                 .on('mouseover touchstart', function(d) {
+                    var header_text;
+
+                    if(/y/.test(selector)) {
+                        header_text = d.date.getFullYear();
+                    } else if(/m/.test(selector)) {
+                        header_text = monthWord(d.date.getMonth());
+                    } else {
+                        header_text = monthWord(d.date.getMonth()) + " " + d.date.getFullYear();
+                    }
+
                     div.transition()
                         .duration(100)
                         .style("opacity", .9);
 
                     div.html(
-                            '<h4 class="text-center">' + monthWord(d.date.getMonth()) + '</h4>' +
+                            '<h4 class="text-center">' + header_text + '</h4>' +
                             '<h5  class="text-center">Snow/Water Equivalence</h5>' +
                             '<ul class="list-unstyled"' +
                             '<li>Elevation: ' + d.elev + '+ feet</li>' +
@@ -155,7 +209,7 @@ d3.json('data/all/munged_data.json', function(data) {
     }
 
     function stripColors(values, data, type) {
-        return d3.scale.quantile()
+        return d3.scale.quantize()
             .domain(d3.extent(data, ƒ(type)))
             .range(values);
     }
