@@ -42,7 +42,7 @@ fs.readFile('../data/all/all.csv', 'utf8', function(e, stations) {
      * Water
      */
     var water = data.filter(function(d) {
-        return d.snow_water_equivalent !== '';
+        return d.snow_water_equivalent !== '' && d.state === 'cal';
     });
 
     water.forEach(function(d) {

@@ -9,6 +9,10 @@ body {
     font-size: 4em;
 }
 
+.bigger {
+    font-size: 3em;
+}
+
 p {
     font-size: 1.2em;
 }
@@ -51,6 +55,10 @@ text.label {
 
 .opaque {
     opacity: 0;
+}
+
+#map {
+    height: 400px;
 }
 
 /* line chart tooltip */

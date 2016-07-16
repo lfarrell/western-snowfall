@@ -1,21 +1,21 @@
-d3.json('data/all/munged_data.json', function(data) {
+d3.json('analysis/ca_munged_data.json', function(data) {
     var margins = {top: 35, right: 130, bottom: 25, left: 105},
-        parse_date = d3.time.format("%m-%y").parse,
-        parse_year_date = d3.time.format("%y").parse,
+        parse_date = d3.time.format("%m/%Y").parse,
+        parse_year_date = d3.time.format("%Y").parse,
         parse_month_date = d3.time.format("%m").parse,
         height = 400 - margins.top - margins.bottom;
 
     var num_format = d3.format(".2f");
    // var temp_colors = ['#ca0020','#f4a582','#f7f7f7','#92c5de','#0571b0'];
    // var temp_colors = ['#ca0020','#f4a582','#92c5de','#0571b0'];
-    var precip_colors = ['#543005','#8c510a','#bf812d','#dfc27d','#f6e8c3','#f5f5f5','#c7eae5','#80cdc1','#35978f','#01665e','#003c30'];
+   // var precip_colors = ['#543005','#8c510a','#bf812d','#dfc27d','#f6e8c3','#f5f5f5','#c7eae5','#80cdc1','#35978f','#01665e','#003c30'];
     var temp_colors = ['#a50026','#d73027','#f46d43','#fdae61','#fee090','#ffffbf','#e0f3f8','#abd9e9','#74add1','#4575b4','#313695'];
     var div = d3.select("body").append("div")
         .attr("class", "tooltip")
         .style("opacity", 0);
 
     data.forEach(function(d) {
-        if(/-/.test(d.date)) {
+        if(/\//.test(d.date)) {
             d.date = parse_date(d.date);
         } else if(/y/.test(d.type)) {
             d.date = parse_year_date(d.date);
@@ -30,74 +30,39 @@ d3.json('data/all/munged_data.json', function(data) {
      * Or month/year x axis, elevation y axis, and snow level as the circle color (This one won't need a slider)
      */
     var yew = d3.select('#yew_div').append('svg');
-    var mew = d3.select('#mew_div').append('svg');
+   // var mew = d3.select('#mew_div').append('svg');
     var cal_sedw = d3.select('#states_cal').append('svg');
-    var az_sedw = d3.select('#states_az').append('svg');
-    var nm_sedw = d3.select('#states_nm').append('svg');
-    var co_sedw = d3.select('#states_co').append('svg');
-    var utah_sedw = d3.select('#states_utah').append('svg');
-    var or_sedw = d3.select('#states_or').append('svg');
-    var wa_sedw = d3.select('#states_wa').append('svg');
-    var id_sedw = d3.select('#states_id').append('svg');
+    var start_river = d3.select('#river_year_chart').append('svg');
 
     var render = _.debounce(function() {
         var year_elevation_water = data.filter(function(d) {
             return d.type === 'yew';
         });
 
-        var month_elevation_water = data.filter(function(d) {
+    /*    var month_elevation_water = data.filter(function(d) {
             return d.type === 'mew';
-        });
+        }); */
 
         var cal_elevation_date_water = data.filter(function(d) {
-            return d.type === 'sedw' && d.state === 'cal';
+            return d.type === 'dew';
         });
 
-        var az_elevation_date_water = data.filter(function(d) {
-            return d.type === 'sedw' && d.state === 'az';
-        });
-
-        var nm_elevation_date_water = data.filter(function(d) {
-            return d.type === 'sedw' && d.state === 'nm';
-        });
-
-        var co_elevation_date_water = data.filter(function(d) {
-            return d.type === 'sedw' && d.state === 'co';
-        });
-
-        var utah_elevation_date_water = data.filter(function(d) {
-            return d.type === 'sedw' && d.state === 'utah';
-        });
-
-        var or_elevation_date_water = data.filter(function(d) {
-            return d.type === 'sedw' && d.state === 'or';
-        });
-
-        var wa_elevation_date_water = data.filter(function(d) {
-            return d.type === 'sedw' && d.state === 'wa';
-        });
-
-        var id_elevation_date_water = data.filter(function(d) {
-            return d.type === 'sedw' && d.state === 'id';
+        var selected_river = data.filter(function(d) {
+            return d.type === 'reyw' && d.river === 'Feather';
         });
 
         build(year_elevation_water, yew, '#yew_div', false);
-        build(month_elevation_water, mew, '#mew_div', false);
+     //   build(month_elevation_water, mew, '#mew_div', false);
         build(cal_elevation_date_water, cal_sedw, '#states_cal', true);
-        build(az_elevation_date_water, az_sedw, '#states_az', true);
-        build(nm_elevation_date_water, nm_sedw, '#states_nm', true);
-        build(co_elevation_date_water, co_sedw, '#states_co', true);
-        build(utah_elevation_date_water, utah_sedw, '#states_utah', true);
-        build(or_elevation_date_water, or_sedw, '#states_or', true);
-        build(wa_elevation_date_water, wa_sedw, '#states_wa', true);
-        build(id_elevation_date_water, id_sedw, '#states_id', true);
+        build(selected_river, start_river, '#river_year_chart', false);
 
         function build(data, svg, selector, full) {
             var size = sizing(full, selector);
             var width = size.width;
             var radius = size.radius;
             var type = (full || /y/.test(selector)) ? "%Y" : "%b";
-            var offset = (full) ? 10 : 0;
+            var offset_x = (full) ? 10 : 0;
+            var offset_y = (full) ? 5 : 0;
             var elevations = _.pluck(
                 _.uniq(data, function(d) { return d.elev; }), 'elev'
             ).reverse();
@@ -129,17 +94,14 @@ d3.json('data/all/munged_data.json', function(data) {
 
             d3.select(selector + " g.y").call(yAxis);
 
-            var p_colors = stripColors(temp_colors,  data, 'water_mean');
+            var p_colors = stripColors(temp_colors,  data, 'wm');
             var circles = svg.selectAll('circle').data(data);
 
             circles.enter().append('circle');
 
-            circles.attr('cx', function(d) { return xScaleStateYearMonth(d.date) - offset; })
-                .attr('cy', function(d) { return yScaleStateYearMonth(d.elev) + offset; })
-                .attr('r', radius)
-                .translate([margins.left, margins.top + 20])
+            circles.translate([margins.left, margins.top + 20])
                 .style('fill', function(d) {
-                    return p_colors(d.water_mean);
+                    return p_colors(d.wm);
                 })
                 .on('mouseover touchstart', function(d) {
                     var header_text;
@@ -161,8 +123,10 @@ d3.json('data/all/munged_data.json', function(data) {
                             '<h5  class="text-center">Snow/Water Equivalence</h5>' +
                             '<ul class="list-unstyled"' +
                             '<li>Elevation: ' + d.elev + '+ feet</li>' +
-                            '<li>Mean: ' + num_format(d.water_mean) + ' inches</li>' +
-                            '<li>Median: ' + num_format(d.water_median) + ' inches</li>' +
+                            '<li>Mean: ' + num_format(d.wm) + ' inches</li>' +
+                            '<li>Median: ' + num_format(d.wmd) + ' inches</li>' +
+                            '<li>Snow Mean: ' + num_format(d.sm) + ' inches</li>' +
+                            '<li>Snow Median: ' + num_format(d.smd) + ' inches</li>' +
                             '</ul>'
                         )
                         .style("top", (d3.event.pageY-38)+"px")
@@ -174,11 +138,47 @@ d3.json('data/all/munged_data.json', function(data) {
                         .style("opacity", 0);
                 });
 
+            circles.transition().duration(1000)
+                .ease("sin-in-out")
+                .attr('cx', function(d) { return xScaleStateYearMonth(d.date) - offset_x; })
+                .attr('cy', function(d) { return yScaleStateYearMonth(d.elev) + offset_y; })
+                .attr('r', radius);
+
             circles.exit().remove();
         }
-        d3.selectAll("#month-only").on("click", function(d) {
+
+        /*
+         * Load main map
+         */
+      /*  var map = L.map('map');
+
+        map.setView([42, -125], 10);
+
+        L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community',
+
+        }).addTo(map); */
+
+        d3.select("#month-only").on("click", function(d) {
             var selected_id = d3.event.target.id;
             console.log(selected_id)
+        });
+
+        d3.select("#river").on("change", function(d) {
+            var selected_river_name = this.options[this.selectedIndex].innerHTML;
+            var river = d3.select(this);
+            var river_val = river.prop("value");
+
+           // localStorage.setItem('river', river_val);
+
+            d3.selectAll("#river_name").text(selected_river_name);
+            river.prop("value", "");
+
+            var river_update = data.filter(function(d) {
+                return d.type === 'reyw' && d.river === river_val;
+            });
+;
+            build(river_update, start_river, '#river_year_chart', false);
         });
 
         var rows = d3.selectAll('.row');

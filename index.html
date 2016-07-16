@@ -10,6 +10,7 @@
     <title>Western Snowfall</title>
     <link href="https://fonts.googleapis.com/css?family=Tinos" rel="stylesheet">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://npmcdn.com/leaflet@0.7.7/dist/leaflet.css" />
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -19,31 +20,10 @@
     </div>
     <div class="row hide">
         <div class="col-xs-12 col-sm-12 col-lg-12">
-            <h1 class="text-center">Western Snowfall</h1>
-            <h3 class="text-center">An Analysis of the Snowfall of the Western United States in the 21st Century</h3>
+            <h1 class="text-center">The Snows of California</h1>
+            <h3 class="text-center">An Analysis of California Snowfall in the 21st Century</h3>
         </div>
     </div>
-   <!-- <div class="row hide">
-        <div class="col-sm-12 col-lg-12" id="us_heat">
-            <div class="col-sm-offset-4 col-sm-4 col-lg-offset-4 col-lg-4">
-                <select id="state" name="state" class="form-control">
-                    <option value="">--Select Area--</option>
-                    <option value="WS">All States</option>
-                    <option value="AK">Alaska</option>
-                    <option value="AZ">Arizona</option>
-                    <option value="CA">California</option>
-                    <option value="CO">Colorado</option>
-                    <option value="ID">Idaho</option>
-                    <option value="MT">Montana</option>
-                    <option value="NV">Nevada</option>
-                    <option value="NM">New Mexico</option>
-                    <option value="OR">Oregon</option>
-                    <option value="UT">Utah</option>
-                    <option value="WY">Wyoming</option>
-                </select>
-            </div>
-        </div>
-    </div> -->
     <div class="row charts opaque">
         <div class="col-xs-12 col-offset-sm-1 col-sm-10 col-lg-offset-1 col-lg-10">
             <p>Snow is vital to the environmental health of the western United States. Unlike rainfall, it doesn't
@@ -76,32 +56,51 @@
         <div id="yew_div" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <h2 class="text-center">Average by Year</h2>
         </div>
-        <div id="mew_div" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+       <!-- <div id="mew_div" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <h2 class="text-center">Average by Month</h2>
-        </div>
+        </div> -->
         <div id="states_cal" class="col-sm-12 col-lg-12">
-            <h2 id="selected_state" class="text-center">California</h2>
+            <h2 class="text-center">Average by Date</h2>
         </div>
-        <div id="states_az" class="col-sm-12 col-lg-12">
-            <h2 class="text-center">Arizona</h2>
+       <div class="row hide">
+           <div class="col-xs-12 col-sm-12 col-lg-12">
+               <h2 class="text-center bigger">Watersheds</h2>
+              <!-- <div id="map"></div>-->
+               <div class="col-sm-offset-4 col-sm-4 col-lg-offset-4 col-lg-4">
+                   <select id="river" name="river" class="form-control">
+                        <option value="">--Select Watershed--</option>
+                        <option value="American">American River</option>
+                        <option value="Eel">Eel River</option>
+                        <option value="Feather">Feather River</option>
+                        <option value="Kaweah">Kaweah River</option>
+                        <option value="Kern">Kern River</option>
+                        <option value="Kings">Kings River</option>
+                        <option value="Lk Tahoe">Lake Tahoe</option>
+                        <option value="McCloud">McCloud River</option>
+                        <option value="Merced">Merced River</option>
+                        <option value="Mokelumne">Mokelumne River</option>
+                        <option value="Mono Lk">Mono Lake</option>
+                        <option value="Owens">Owens River</option>
+                        <option value="Pit">Pit River</option>
+                        <option value="Sacramento">Sacramento River</option>
+                        <option value="San Joaquin">San Joaquin River</option>
+                        <option value="Scott">Scott River</option>
+                        <option value="Shasta">Shasta River</option>
+                        <option value="Stanislaus">Stanislaus River</option>
+                        <option value="Stony Cr">Stony Creek</option>
+                        <option value="Susan">Susan River</option>
+                        <option value="Trinity">Trinity River</option>
+                        <option value="Truckee">Truckee River</option>
+                        <option value="Tule">Tule River</option>
+                        <option value="Tuolumne">Tuolumne River</option>
+                        <option value="Walker">Walker River</option>
+                        <option value="Yuba">Yuba River</option>
+                    </select>
+               </div>
+            </div>
         </div>
-        <div id="states_nm" class="col-sm-12 col-lg-12">
-            <h2 class="text-center">New Mexico</h2>
-        </div>
-        <div id="states_co" class="col-sm-12 col-lg-12">
-            <h2 class="text-center">Colorado</h2>
-        </div>
-        <div id="states_utah" class="col-sm-12 col-lg-12">
-            <h2 class="text-center">Utah</h2>
-        </div>
-        <div id="states_or" class="col-sm-12 col-lg-12">
-            <h2 class="text-center">Oregon</h2>
-        </div>
-        <div id="states_wa" class="col-sm-12 col-lg-12">
-            <h2 class="text-center">Washington</h2>
-        </div>
-        <div id="states_id" class="col-sm-12 col-lg-12">
-            <h2 class="text-center">Idaho</h2>
+        <div id="river_year_chart" class="col-sm-12 col-lg-12">
+            <h2 id="river_name" class="text-center">Feather River Basin</h2>
         </div>
         <div class="col-sm-12 col-lg-12">
             <footer>
@@ -114,19 +113,27 @@
             </footer>
         </div>
         <div class="col-sm-12 col-lg-12">
-            <p class="col-md-offset-1 subfooter">
-                All data courtesy of the <a href="http://wcc.sc.egov.usda.gov/nwcc/rgrpt?report=swe_hist">
-                United States Dept. of Agriculture - Natural Resources Conservation Services</a>.</p>
-            </p>
+            <div class="col-md-offset-1 subfooter">
+                <h3 class="text-center">Data Sources</h3>
+                <ul class="list-unstyled text-center">
+                    <li><a href="http://cdec.water.ca.gov/misc/SnowCourses.html">CDEC - Snow Courses</a></li>
+                    <li><a href="http://cdec.water.ca.gov/cgi-progs/snowQuery">CDEC - Snow Query</a></li>
+                    <li><a href="http://www.sacramentoriver.org">Sacramento River Forum</a></li>
+                    <li><a href="http://hydra.ucdavis.edu">University of California Davis - Center for Watershed Sciences</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ramda/0.21.0/ramda.min.js"></script> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ramda/0.21.0/ramda.min.js"></script>
+<script src="https://npmcdn.com/leaflet@0.7.7/dist/leaflet.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js" charset="utf-8"></script>
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.6.7/d3-tip.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/1.9.0/d3-legend.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/1.9.0/d3-legend.min.js"></script>
+<script src="js/assets/Leaflet.D3SvgOverlay/L.D3SvgOverlay.min.js"></script>-->
 <script src="js/assets/d3-jetpack.min.js"></script>
 <script src="js/custom.js"></script>
 <script type="text/javascript">
