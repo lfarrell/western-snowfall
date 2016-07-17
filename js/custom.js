@@ -1,11 +1,15 @@
-d3.json('analysis/ca_munged_data.json', function(data) {
+queue()
+    .defer(d3.json,'analysis/ca_munged_data.json')
+    .defer(d3.json,'js/ca.counties.json')
+    .await(function(error, data, topo) {
+
     var margins = {top: 35, right: 130, bottom: 25, left: 105},
         parse_date = d3.time.format("%m/%Y").parse,
         parse_year_date = d3.time.format("%Y").parse,
         parse_month_date = d3.time.format("%m").parse,
+        num_format = d3.format(".1f"),
         height = 400 - margins.top - margins.bottom;
 
-    var num_format = d3.format(".2f");
    // var temp_colors = ['#ca0020','#f4a582','#f7f7f7','#92c5de','#0571b0'];
    // var temp_colors = ['#ca0020','#f4a582','#92c5de','#0571b0'];
    // var precip_colors = ['#543005','#8c510a','#bf812d','#dfc27d','#f6e8c3','#f5f5f5','#c7eae5','#80cdc1','#35978f','#01665e','#003c30'];
@@ -29,19 +33,18 @@ d3.json('analysis/ca_munged_data.json', function(data) {
      * Possibly just state, month on x axis, year on y-axis, snow level as the circle color
      * Or month/year x axis, elevation y axis, and snow level as the circle color (This one won't need a slider)
      */
-    var yew = d3.select('#yew_div').append('svg');
-   // var mew = d3.select('#mew_div').append('svg');
-    var cal_sedw = d3.select('#states_cal').append('svg');
+    var year = d3.select('#year').append('svg');
+    var date = d3.select('#states_cal').append('svg');
     var start_river = d3.select('#river_year_chart').append('svg');
+    var map_svg = d3.select('#map').append('svg')
+        .append('g').attr("id", "base_map");
 
     var render = _.debounce(function() {
+        var map_width  = Math.floor(window.innerWidth / 3.5);
+
         var year_elevation_water = data.filter(function(d) {
             return d.type === 'yew';
         });
-
-    /*    var month_elevation_water = data.filter(function(d) {
-            return d.type === 'mew';
-        }); */
 
         var cal_elevation_date_water = data.filter(function(d) {
             return d.type === 'dew';
@@ -51,12 +54,12 @@ d3.json('analysis/ca_munged_data.json', function(data) {
             return d.type === 'reyw' && d.river === 'Feather';
         });
 
-        build(year_elevation_water, yew, '#yew_div', false);
-     //   build(month_elevation_water, mew, '#mew_div', false);
-        build(cal_elevation_date_water, cal_sedw, '#states_cal', true);
-        build(selected_river, start_river, '#river_year_chart', false);
+        build(year_elevation_water, year, '#yew_div', false, 'wm');
+        build(cal_elevation_date_water, date, '#states_cal', true, 'wm');
+        build(selected_river, start_river, '#river_year_chart', false, 'wm');
+        mapping(map_width);
 
-        function build(data, svg, selector, full) {
+        function build(data, svg, selector, full, metric) {
             var size = sizing(full, selector);
             var width = size.width;
             var radius = size.radius;
@@ -94,15 +97,12 @@ d3.json('analysis/ca_munged_data.json', function(data) {
 
             d3.select(selector + " g.y").call(yAxis);
 
-            var p_colors = stripColors(temp_colors,  data, 'wm');
+            var p_colors = stripColors(temp_colors, data, metric);
             var circles = svg.selectAll('circle').data(data);
 
             circles.enter().append('circle');
 
             circles.translate([margins.left, margins.top + 20])
-                .style('fill', function(d) {
-                    return p_colors(d.wm);
-                })
                 .on('mouseover touchstart', function(d) {
                     var header_text;
 
@@ -123,23 +123,30 @@ d3.json('analysis/ca_munged_data.json', function(data) {
                             '<h5  class="text-center">Snow/Water Equivalence</h5>' +
                             '<ul class="list-unstyled"' +
                             '<li>Elevation: ' + d.elev + '+ feet</li>' +
-                            '<li>Mean: ' + num_format(d.wm) + ' inches</li>' +
-                            '<li>Median: ' + num_format(d.wmd) + ' inches</li>' +
+                            '<li>Total Sites: ' + d.total + '</li>' +
+                            '<li>Water Mean: ' + num_format(d.wm) + ' inches</li>' +
+                            '<li>Water Median: ' + num_format(d.wmd) + ' inches</li>' +
                             '<li>Snow Mean: ' + num_format(d.sm) + ' inches</li>' +
                             '<li>Snow Median: ' + num_format(d.smd) + ' inches</li>' +
                             '</ul>'
                         )
                         .style("top", (d3.event.pageY-38)+"px")
                         .style("left", (d3.event.pageX-28)+"px");
+
+                    d3.select(this).attr('r', radius * 1.5);
                 })
                 .on('mouseout touchend', function(d) {
                     div.transition()
                         .duration(250)
                         .style("opacity", 0);
+                    d3.select(this).attr('r', radius);
                 });
 
             circles.transition().duration(1000)
                 .ease("sin-in-out")
+                .style('fill', function(d) {
+                    return p_colors(d.wm);
+                })
                 .attr('cx', function(d) { return xScaleStateYearMonth(d.date) - offset_x; })
                 .attr('cy', function(d) { return yScaleStateYearMonth(d.elev) + offset_y; })
                 .attr('r', radius);
@@ -147,21 +154,79 @@ d3.json('analysis/ca_munged_data.json', function(data) {
             circles.exit().remove();
         }
 
-        /*
-         * Load main map
-         */
-      /*  var map = L.map('map');
+        function mapping(width) {
+            var scale = 1,
+                projection = d3.geo.mercator()
+                    .scale(scale)
+                    .translate([0,0]);
 
-        map.setView([42, -125], 10);
+            // Calculate bounds to properly center map
+            var path = d3.geo.path().projection(projection);
+            var bounds = path.bounds(topo);
+            scale = .98 / Math.max((bounds[1][0] - bounds[0][0]) / width, (bounds[1][1] - bounds[0][1]) / height);
+            var translation = [(width - scale * (bounds[1][0] + bounds[0][0])) / 2,
+                (height - scale * (bounds[1][1] + bounds[0][1])) / 2
+            ];
 
-        L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
-            attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community',
+            // update projection
+            projection = d3.geo.mercator().scale(scale).translate(translation);
+            path = path.projection(projection);
 
-        }).addTo(map); */
+            d3.select("#map svg").attr('height', height)
+                .attr('width', width);
+            // .call(zoom);
 
-        d3.select("#month-only").on("click", function(d) {
+            var map_draw = map_svg.selectAll("path")
+                .data(topo.features);
+
+            map_draw.enter()
+                .append("path");
+
+            map_draw.attr("d", path);
+        }
+
+        d3.selectAll(".btn-group").on("click", function(d) {
             var selected_id = d3.event.target.id;
-            console.log(selected_id)
+            var id_parts = selected_id.split('-');
+            var metric = id_parts[1];
+            var is_full = false;
+            var is_snow = /s/.test(selected_id);
+            var river, which_svg, selector, type;
+
+            if(id_parts[0] === 'river') {
+                if(/_/.test(id_parts[2])) {
+                    var pieces = id_parts[2].split('_');
+                    river = pieces.map(function(d) {
+                        _.capitalize(d);
+                    }).join(' ');
+                } else {
+                    river = _.capitalize(id_parts[2])
+                }
+
+                type = (is_snow) ? 'reys' : 'reyw';
+                console.log(river, type)
+                which_svg = start_river;
+                selector = '#river_year_chart';
+            } else if(id_parts[0] === 'year') {
+                type = (is_snow) ? 'yes' : 'yew';
+                which_svg = year;
+                selector = '#year';
+            } else {
+                type = (is_snow) ? 'des' : 'dew';
+                which_svg = date;
+                selector = '#states_cal';
+                is_full = true;
+            }
+
+            var update = data.filter(function(d) {
+                if(river !== undefined) {
+                    return d.type === type && d.river === river;
+                } else {
+                    return d.type === type;
+                }
+            });
+
+            build(update, which_svg, selector, is_full, metric);
         });
 
         d3.select("#river").on("change", function(d) {
@@ -169,16 +234,28 @@ d3.json('analysis/ca_munged_data.json', function(data) {
             var river = d3.select(this);
             var river_val = river.prop("value");
 
-           // localStorage.setItem('river', river_val);
-
             d3.selectAll("#river_name").text(selected_river_name);
             river.prop("value", "");
 
             var river_update = data.filter(function(d) {
                 return d.type === 'reyw' && d.river === river_val;
             });
-;
-            build(river_update, start_river, '#river_year_chart', false);
+
+            if(river_val !== '') {
+                d3.selectAll("#rivers button").each(function() {
+                    var sel = d3.select(this);
+                    var id = sel.attr("id");
+                    var id_parts = id.split('-');
+                    var river_name;
+
+                    if(id_parts.length === 3 && id_parts[2] !== river_val) {
+                        river_name = (/\s/.test(river_val)) ? river_val.replace(' ', '_') : river_val;
+                        sel.attr("id", id_parts[0] + '-' + id_parts[1] + '-' + river_name);
+                    }
+                });
+            }
+
+            build(river_update, start_river, '#river_year_chart', false, 'wm');
         });
 
         var rows = d3.selectAll('.row');

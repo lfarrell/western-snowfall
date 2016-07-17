@@ -44,7 +44,7 @@ fs.readFile('ca_all.csv', 'utf8', function(e, snow_levels) {
             }
         }); */
 
-        var text_format = d3.format(".01f");
+        var text_format = d3.format(".1f");
 
         /**
          * Snow
@@ -156,7 +156,8 @@ fs.readFile('ca_all.csv', 'utf8', function(e, snow_levels) {
                     wm: 1 * text_format(d.values.water_mean),
                     wmd: 1 * text_format(d.values.water_median),
                     sm: 1 * text_format(d.values.snow_mean),
-                    smd: 1 * text_format(d.values.snow_median)
+                    smd: 1 * text_format(d.values.snow_median),
+                    sp: text_format(d.values.snow_pct)
                 });
             });
 
@@ -177,7 +178,8 @@ fs.readFile('ca_all.csv', 'utf8', function(e, snow_levels) {
                         wm: 1 * text_format(e.values.water_mean),
                         wmd: 1 * text_format(e.values.water_median),
                         sm: 1 * text_format(e.values.snow_mean),
-                        smd: 1 * text_format(e.values.snow_median)
+                        smd: 1 * text_format(e.values.snow_median),
+                        sp: text_format(e.values.snow_pct)
                     });
                 })
             });
@@ -201,7 +203,8 @@ fs.readFile('ca_all.csv', 'utf8', function(e, snow_levels) {
                             wm: 1 * text_format(f.values.water_mean),
                             wmd: 1 *  text_format(f.values.water_median),
                             sm: 1 *  text_format(f.values.snow_mean),
-                            smd: 1 *  text_format(f.values.snow_median)
+                            smd: 1 *  text_format(f.values.snow_median),
+                            sp: text_format(f.values.snow_pct)
                         })
                     })
                 })
@@ -237,9 +240,10 @@ fs.readFile('ca_all.csv', 'utf8', function(e, snow_levels) {
         function stats() {
             return function(values) {
                 return {
-                    total: values.length,
+                    total: _.uniq(values, function(d) { return d.site; }).length,
                     snow_mean: d3.mean(values, function(d) {return d.snow_depth; }),
                     snow_median: d3.median(values, function(d) {return d.snow_depth; }),
+                    snow_pct: (d3.mean(values, function(d) { return d.april_avg}) / d3.mean(values, function(d) {return d.snow_depth; })) * 100,
                     water_mean: d3.mean(values, function(d) {return d.water; }),
                     water_median: d3.median(values, function(d) {return d.water; })
                 };

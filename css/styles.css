@@ -35,12 +35,12 @@ h1 {
     fill: none;
     padding: 5px;
     shape-rendering: crispEdges;
-    stroke: white;
+    stroke: none;
 }
 
-.axis path,
- .axis line {
-    stroke:none;
+#map path,
+#map line {
+    stroke: white;
 }
 
 text {
@@ -58,7 +58,7 @@ text.label {
 }
 
 #map {
-    height: 400px;
+   /* height: 400px;*/
 }
 
 /* line chart tooltip */
@@ -82,6 +82,10 @@ div.tooltip ul {
 
 a, a:visited, a:hover {
     color: orange;
+}
+
+circle {
+    fill: steelblue;
 }
 
 footer {
