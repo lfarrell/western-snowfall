@@ -1,7 +1,8 @@
 queue()
     .defer(d3.json,'analysis/ca_munged_data.json')
     .defer(d3.json,'js/ca.counties.json')
-    .await(function(error, data, topo) {
+    .defer(d3.json,'js/rivers/AMR.json')
+    .await(function(error, data, topo, watershed) {
 
     var margins = {top: 35, right: 130, bottom: 25, left: 105},
         parse_date = d3.time.format("%m/%Y").parse,
@@ -58,7 +59,8 @@ queue()
         build(year_elevation_water, year, '#year', false, 'wm');
         build(cal_elevation_date_water, date, '#states_cal', true, 'wm');
         build(selected_river, start_river, '#river_year_chart', false, 'wm');
-        mapping(map_width);
+        mapping(map_width, topo);
+        mapping(map_width, watershed);
 
         function build(data, svg, selector, full, metric) {
             var size = sizing(full, selector);
@@ -135,8 +137,8 @@ queue()
                                 '<li>Snow %: ' + num_format(d.sp) + '%</li>' +
                             '</ul>'
                         )
-                        .style("top", (d3.event.pageY-38)+"px")
-                        .style("left", (d3.event.pageX-28)+"px");
+                        .style("top", (d3.event.pageY+38)+"px")
+                        .style("left", (d3.event.pageX-65)+"px");
 
                     d3.select(this).attr('r', radius * 1.5);
                 })
@@ -159,7 +161,7 @@ queue()
             circles.exit().remove();
         }
 
-        function mapping(width) {
+        function mapping(width, topos) {
             var scale = 1,
                 projection = d3.geo.mercator()
                     .scale(scale)
@@ -167,11 +169,10 @@ queue()
 
             // Calculate bounds to properly center map
             var path = d3.geo.path().projection(projection);
-            var bounds = path.bounds(topo);
-            scale = .95 / Math.max((bounds[1][0] - bounds[0][0]) / width, (bounds[1][1] - bounds[0][1]) / map_height);
+            var bounds = path.bounds(topos);
+            scale = .97 / Math.max((bounds[1][0] - bounds[0][0]) / width, (bounds[1][1] - bounds[0][1]) / map_height);
             var translation = [(width - scale * (bounds[1][0] + bounds[0][0])) / 2,
-                (map_height - scale * (bounds[1][1] + bounds[0][1])) / 2
-            ];
+                (map_height - scale * (bounds[1][1] + bounds[0][1])) / 2];
 
             // update projection
             projection = d3.geo.mercator().scale(scale).translate(translation);
@@ -182,7 +183,7 @@ queue()
             // .call(zoom);
 
             var map_draw = map_svg.selectAll("path")
-                .data(topo.features);
+                .data(topos.features);
 
             map_draw.enter()
                 .append("path");

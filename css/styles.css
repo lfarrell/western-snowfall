@@ -57,18 +57,22 @@ text.label {
     opacity: 0;
 }
 
-#map {
-   /* height: 400px;*/
-}
-
 .lower {
     margin-top: 25px;
+}
+
+.btn-group {
+    margin-bottom: 20px;
 }
 
 #year,
 #states_cal,
 #river_year_chart {
-    margin-top: 50px;
+    margin-top: 10px;
+}
+
+#map {
+    margin-top: 20px;
 }
 
 div.tooltip {
