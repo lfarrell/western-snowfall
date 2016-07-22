@@ -52,7 +52,9 @@
                 </div>
             </div>
         </div>
-        <div id="year" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
+        <div id="year" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <svg id="year-legend"></svg>
+        </div>
 
         <div class="col-xs-12 col-sm-12 col-lg-12">
             <h2 class="text-center">Average by Date</h2>
@@ -66,9 +68,10 @@
             </div>
         </div>
 
-        <div id="states_cal" class="col-sm-12 col-lg-12"></div>
+        <div id="states_cal" class="col-sm-12 col-lg-12">
+            <svg id="states_cal-legend"></svg>
+        </div>
         <div class="row hide">
-           <div class="col-xs-12 col-sm-12 col-lg-12" id="map"></div>
            <div class="col-xs-12 col-sm-12 col-lg-12">
                <h2 class="text-center bigger">Watersheds</h2>
 
@@ -105,16 +108,25 @@
                </div>
             </div>
         </div>
-        <div id="river_year_chart" class="col-sm-12 col-lg-12">
-            <h2 id="river_name" class="text-center">Feather River Basin</h2>
-            <div class="text-center">
-                <div id="rivers" class="btn-group" role="group" aria-label="snow by river buttons">
-                    <button id="river-sm-feather" type="button" class="btn btn-default">Snow Mean</button>
-                    <button id="river-smd-feather" type="button" class="btn btn-default">Snow Median</button>
-                    <button id="river-wm-feather" type="button" class="btn btn-default">Water Mean</button>
-                    <button id="river-wmd-feather" type="button" class="btn btn-default">Water Median</button>
-                </div>
+        <div class="row lower">
+            <div class="col-xs-12 col-sm-6 col-offset-lg-1 col-lg-8" id="basin_text">
+                <p>The southern Sierra has been particularly lacking in moisture.</p>
             </div>
+            <div class="col-sm-12 col-lg-12">
+                <h2 id="river_name" class="text-center">Feather River Basin</h2>
+                <div class="text-center">
+                    <div id="rivers" class="btn-group" role="group" aria-label="snow by river buttons">
+                        <button id="river-sp-feather" type="button" class="btn btn-default">Snow %</button>
+                        <button id="river-sm-feather" type="button" class="btn btn-default">Snow Mean</button>
+                        <button id="river-smd-feather" type="button" class="btn btn-default">Snow Median</button>
+                        <button id="river-wm-feather" type="button" class="btn btn-default">Water Mean</button>
+                        <button id="river-wmd-feather" type="button" class="btn btn-default">Water Median</button>
+                    </div>
+                </div>
+                <svg id="river_year_chart-legend"></svg>
+            </div>
+            <div id="map" class="col-sm-4 col-lg-3"></div>
+            <div id="river_year_chart" class="col-sm-8 col-lg-8"></div>
         </div>
         <div class="col-sm-12 col-lg-12">
             <footer>
@@ -140,13 +152,14 @@
     </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/0.1.12/slideout.min.js"></script>
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ramda/0.21.0/ramda.min.js"></script>-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js" charset="utf-8"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.6.7/d3-tip.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.6.7/d3-tip.min.js"></script>-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/1.9.0/d3-legend.min.js"></script>
-<script src="js/assets/Leaflet.D3SvgOverlay/L.D3SvgOverlay.min.js"></script>-->
+<!--<script src="js/assets/Leaflet.D3SvgOverlay/L.D3SvgOverlay.min.js"></script>-->
 <script src="js/assets/d3-jetpack.min.js"></script>
 <script src="js/custom.js"></script>
 <script type="text/javascript">

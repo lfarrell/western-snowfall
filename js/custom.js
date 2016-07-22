@@ -8,6 +8,7 @@ queue()
         parse_year_date = d3.time.format("%Y").parse,
         parse_month_date = d3.time.format("%m").parse,
         num_format = d3.format(".1f"),
+        map_height = 250 - margins.top - margins.bottom,
         height = 400 - margins.top - margins.bottom;
 
    // var temp_colors = ['#ca0020','#f4a582','#f7f7f7','#92c5de','#0571b0'];
@@ -54,14 +55,14 @@ queue()
             return d.type === 'reyw' && d.river === 'Feather';
         });
 
-        build(year_elevation_water, year, '#yew_div', false, 'wm');
+        build(year_elevation_water, year, '#year', false, 'wm');
         build(cal_elevation_date_water, date, '#states_cal', true, 'wm');
         build(selected_river, start_river, '#river_year_chart', false, 'wm');
         mapping(map_width);
 
         function build(data, svg, selector, full, metric) {
             var size = sizing(full, selector);
-            var width = size.width;
+            var width = (/river/.test(selector)) ? size.width /  1.5 : size.width;
             var radius = size.radius;
             var type = (full || /y/.test(selector)) ? "%Y" : "%b";
             var offset_x = (full) ? 10 : 0;
@@ -98,6 +99,9 @@ queue()
             d3.select(selector + " g.y").call(yAxis);
 
             var p_colors = stripColors(temp_colors, data, metric);
+
+            legend(selector +"-legend", p_colors);
+
             var circles = svg.selectAll('circle').data(data);
 
             circles.enter().append('circle');
@@ -126,8 +130,9 @@ queue()
                             '<li>Total Sites: ' + d.total + '</li>' +
                             '<li>Water Mean: ' + num_format(d.wm) + ' inches</li>' +
                             '<li>Water Median: ' + num_format(d.wmd) + ' inches</li>' +
-                            '<li>Snow Mean: ' + num_format(d.sm) + ' inches</li>' +
-                            '<li>Snow Median: ' + num_format(d.smd) + ' inches</li>' +
+                         /*   '<li>Snow Mean: ' + num_format(d.sm) + ' inches</li>' +
+                            '<li>Snow Median: ' + num_format(d.smd) + ' inches</li>' + */
+                                '<li>Snow %: ' + num_format(d.sp) + '%</li>' +
                             '</ul>'
                         )
                         .style("top", (d3.event.pageY-38)+"px")
@@ -163,16 +168,16 @@ queue()
             // Calculate bounds to properly center map
             var path = d3.geo.path().projection(projection);
             var bounds = path.bounds(topo);
-            scale = .98 / Math.max((bounds[1][0] - bounds[0][0]) / width, (bounds[1][1] - bounds[0][1]) / height);
+            scale = .95 / Math.max((bounds[1][0] - bounds[0][0]) / width, (bounds[1][1] - bounds[0][1]) / map_height);
             var translation = [(width - scale * (bounds[1][0] + bounds[0][0])) / 2,
-                (height - scale * (bounds[1][1] + bounds[0][1])) / 2
+                (map_height - scale * (bounds[1][1] + bounds[0][1])) / 2
             ];
 
             // update projection
             projection = d3.geo.mercator().scale(scale).translate(translation);
             path = path.projection(projection);
 
-            d3.select("#map svg").attr('height', height)
+            d3.select("#map svg").attr('height', map_height)
                 .attr('width', width);
             // .call(zoom);
 
@@ -204,7 +209,6 @@ queue()
                 }
 
                 type = (is_snow) ? 'reys' : 'reyw';
-                console.log(river, type)
                 which_svg = start_river;
                 selector = '#river_year_chart';
             } else if(id_parts[0] === 'year') {
@@ -286,9 +290,30 @@ queue()
     }
 
     function stripColors(values, data, type) {
-        return d3.scale.quantize()
-            .domain(d3.extent(data, ƒ(type)))
+        return d3.scale.quantile()
+           // .domain(d3.extent(data, ƒ(type)))
+            .domain(_.pluck(data, type))
             .range(values);
+    }
+
+    function legend(selector, colors) {
+        var svg = d3.select(selector).attr("width", 850)
+            .attr("height", 75);
+
+        svg.append("g")
+            .attr("class", "legendQuant")
+            .translate([20, 20])
+            .attr("width", 750)
+            .attr("height", 75);
+
+        var legend = d3.legend.color()
+            .shapeWidth(70)
+            .orient('horizontal')
+            .labelFormat(d3.format(".1f"))
+            .scale(colors);
+
+        svg.select(".legendQuant")
+            .call(legend);
     }
 
     function sizing(full, selector) {

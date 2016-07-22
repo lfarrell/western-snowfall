@@ -243,7 +243,7 @@ fs.readFile('ca_all.csv', 'utf8', function(e, snow_levels) {
                     total: _.uniq(values, function(d) { return d.site; }).length,
                     snow_mean: d3.mean(values, function(d) {return d.snow_depth; }),
                     snow_median: d3.median(values, function(d) {return d.snow_depth; }),
-                    snow_pct: (d3.mean(values, function(d) { return d.april_avg}) / d3.mean(values, function(d) {return d.snow_depth; })) * 100,
+                    snow_pct: (d3.mean(values, function(d) { return d.snow_depth}) / d3.mean(values, function(d) {return d.april_avg; })) * 100,
                     water_mean: d3.mean(values, function(d) {return d.water; }),
                     water_median: d3.median(values, function(d) {return d.water; })
                 };

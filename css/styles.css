@@ -1,6 +1,6 @@
 body {
     font-family: 'Tinos', serif;
-   background-color: rgb(37, 37, 35);
+    background-color: rgb(37, 37, 35);
     /*   background-color: #1A1110; */
     color: white;
 }
@@ -61,7 +61,16 @@ text.label {
    /* height: 400px;*/
 }
 
-/* line chart tooltip */
+.lower {
+    margin-top: 25px;
+}
+
+#year,
+#states_cal,
+#river_year_chart {
+    margin-top: 50px;
+}
+
 div.tooltip {
     position: absolute;
     text-align: left;
@@ -105,4 +114,40 @@ footer ul li {
 .subfooter {
     margin-top: 50px;
     margin-bottom: 25px;
+}
+
+/* Slideout CSS */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.slideout-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    width: 256px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    display: none;
+}
+
+.slideout-panel {
+    position:relative;
+    z-index: 1;
+    will-change: transform;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+    overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+    display: block;
 }
