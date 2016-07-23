@@ -1,8 +1,8 @@
 queue()
     .defer(d3.json,'analysis/ca_munged_data.json')
-    .defer(d3.json,'js/ca.counties.json')
-    .defer(d3.json,'js/rivers/AMR.json')
-    .await(function(error, data, topo, watershed) {
+    .defer(d3.json,'js/ca_amr.json')
+  //  .defer(d3.json,'js/rivers/AMR.json')
+    .await(function(error, data, topo) {
 
     var margins = {top: 35, right: 130, bottom: 25, left: 105},
         parse_date = d3.time.format("%m/%Y").parse,
@@ -53,14 +53,14 @@ queue()
         });
 
         var selected_river = data.filter(function(d) {
-            return d.type === 'reyw' && d.river === 'Feather';
+            return d.type === 'reyw' && d.river === 'American';
         });
 
         build(year_elevation_water, year, '#year', false, 'wm');
         build(cal_elevation_date_water, date, '#states_cal', true, 'wm');
         build(selected_river, start_river, '#river_year_chart', false, 'wm');
         mapping(map_width, topo);
-        mapping(map_width, watershed);
+       // mapping(map_width, watershed);
 
         function build(data, svg, selector, full, metric) {
             var size = sizing(full, selector);
@@ -188,7 +188,22 @@ queue()
             map_draw.enter()
                 .append("path");
 
-            map_draw.attr("d", path);
+            map_draw.attr("d", path)
+                .style("fill", function(d) {
+                    if(d.properties.Name === 'American') {
+                        return 'red';
+                    } else {
+                        return 'none'
+                    }
+                })
+                .style("opacity", 0.7)
+                .style("stroke", function(d) {
+                    if(d.properties.Name === 'American') {
+                        return 'red';
+                    } else {
+                        return 'white'
+                    }
+                });
         }
 
         d3.selectAll(".btn-group").on("click", function(d) {
