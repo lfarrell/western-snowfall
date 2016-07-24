@@ -132,8 +132,8 @@ queue()
                             '<li>Total Sites: ' + d.total + '</li>' +
                             '<li>Water Mean: ' + num_format(d.wm) + ' inches</li>' +
                             '<li>Water Median: ' + num_format(d.wmd) + ' inches</li>' +
-                         /*   '<li>Snow Mean: ' + num_format(d.sm) + ' inches</li>' +
-                            '<li>Snow Median: ' + num_format(d.smd) + ' inches</li>' + */
+                            '<li>Snow Mean: ' + num_format(d.sm) + ' inches</li>' +
+                            '<li>Snow Median: ' + num_format(d.smd) + ' inches</li>' +
                                 '<li>Snow %: ' + num_format(d.sp) + '%</li>' +
                             '</ul>'
                         )
@@ -152,7 +152,7 @@ queue()
             circles.transition().duration(1000)
                 .ease("sin-in-out")
                 .style('fill', function(d) {
-                    return p_colors(d.wm);
+                    return p_colors(d[metric]);
                 })
                 .attr('cx', function(d) { return xScaleStateYearMonth(d.date) - offset_x; })
                 .attr('cy', function(d) { return yScaleStateYearMonth(d.elev) + offset_y; })
@@ -178,9 +178,16 @@ queue()
             projection = d3.geo.mercator().scale(scale).translate(translation);
             path = path.projection(projection);
 
+            var zoom = d3.behavior.zoom()
+                .scaleExtent([1, 3])
+                .on("zoom", zooming);
+            var drag = d3.behavior.drag()
+                .origin(function(d) { return d; })
+                .on("drag", dragged);
+
             d3.select("#map svg").attr('height', map_height)
-                .attr('width', width);
-            // .call(zoom);
+                .attr('width', width)
+                .call(zoom);
 
             var map_draw = map_svg.selectAll("path")
                 .data(topos.features);
@@ -204,6 +211,16 @@ queue()
                         return 'white'
                     }
                 });
+
+            function dragged(d) {
+                d3.event.sourceEvent.stopPropagation();
+                d3.select(this).attr("x", d.x = d3.event.x).attr("y", d.y = d3.event.y);
+            }
+
+            function zooming() {
+                var scaling = "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")";
+                map_draw.attr("transform", scaling);
+            }
         }
 
         d3.selectAll(".btn-group").on("click", function(d) {
