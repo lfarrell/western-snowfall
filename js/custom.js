@@ -134,7 +134,7 @@ queue()
                             '<li>Water Median: ' + num_format(d.wmd) + ' inches</li>' +
                             '<li>Snow Mean: ' + num_format(d.sm) + ' inches</li>' +
                             '<li>Snow Median: ' + num_format(d.smd) + ' inches</li>' +
-                                '<li>Snow %: ' + num_format(d.sp) + '%</li>' +
+                             //   '<li>Snow %: ' + num_format(d.sp) + '%</li>' +
                             '</ul>'
                         )
                         .style("top", (d3.event.pageY+38)+"px")
