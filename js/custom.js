@@ -1,7 +1,6 @@
 queue()
     .defer(d3.json,'analysis/ca_munged_data.json')
-    .defer(d3.json,'js/ca_amr.json')
-  //  .defer(d3.json,'js/rivers/AMR.json')
+    .defer(d3.json,'js/full.map.json')
     .await(function(error, data, topo) {
 
     var margins = {top: 35, right: 130, bottom: 25, left: 105},
@@ -59,8 +58,7 @@ queue()
         build(year_elevation_water, year, '#year', false, 'wm');
         build(cal_elevation_date_water, date, '#states_cal', true, 'wm');
         build(selected_river, start_river, '#river_year_chart', false, 'wm');
-        mapping(map_width, topo);
-       // mapping(map_width, watershed);
+        mapping(map_width, topo, 'American');
 
         function build(data, svg, selector, full, metric) {
             var size = sizing(full, selector);
@@ -161,7 +159,36 @@ queue()
             circles.exit().remove();
         }
 
-        function mapping(width, topos) {
+        function mapping(width, topos, river) {
+            var river_list = [
+                "American",
+                "Eel",
+                "Feather",
+                "Kaweah",
+                "Kern",
+                "Kings",
+                "Lk Tahoe",
+                "McCloud",
+                "Merced",
+                "Mokelumne",
+                "Mono Lk",
+                "Owens",
+                "Pit",
+                "Sacramento",
+                "San Joaquin",
+                "Scott",
+                "Shasta",
+                "Stanislaus",
+                "Stony Cr",
+                "Susan",
+                "Trinity",
+                "Truckee",
+                "Tule",
+                "Tuolumne",
+                "Walker",
+                "Yuba"
+            ];
+
             var scale = 1,
                 projection = d3.geo.mercator()
                     .scale(scale)
@@ -197,7 +224,7 @@ queue()
 
             map_draw.attr("d", path)
                 .style("fill", function(d) {
-                    if(d.properties.Name === 'American') {
+                    if(d.properties.Name === river) {
                         return 'red';
                     } else {
                         return 'none'
@@ -205,9 +232,13 @@ queue()
                 })
                 .style("opacity", 0.7)
                 .style("stroke", function(d) {
-                    if(d.properties.Name === 'American') {
+                    if(d.properties.Name === river) {
                         return 'red';
                     } else {
+                        if(_.indexOf(river_list, d.properties.Name) !== -1) {
+                            return 'none';
+                        }
+
                         return 'white'
                     }
                 });
@@ -290,9 +321,10 @@ queue()
                         sel.attr("id", id_parts[0] + '-' + id_parts[1] + '-' + river_name);
                     }
                 });
-            }
 
-            build(river_update, start_river, '#river_year_chart', false, 'wm');
+                build(river_update, start_river, '#river_year_chart', false, 'wm');
+                mapping(map_width, topo, river_val);
+            }
         });
 
         var rows = d3.selectAll('.row');
