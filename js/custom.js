@@ -1,6 +1,6 @@
 queue()
     .defer(d3.json,'analysis/ca_munged_data.json')
-    .defer(d3.json,'js/full.map.json')
+    .defer(d3.json,'js/ca-all.json')
     .await(function(error, data, topo) {
 
     var margins = {top: 35, right: 130, bottom: 25, left: 105},
@@ -463,3 +463,6 @@ queue()
     }
 });
 
+/*
+Tahoe, Walker, Sacramento,McCloud,Shasta, Owens,Truckee,Trinity,Pit,Eel
+    */
