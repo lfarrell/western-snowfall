@@ -66,13 +66,31 @@ queue()
             var radius = size.radius;
             var type = (full || /y/.test(selector)) ? "%Y" : "%b";
             var offset_x = (full) ? 10 : 0;
-            var offset_y = (full) ? 5 : 0;
+            var offset_y = (full || /river/.test(selector)) ? 5 : 0;
             var elevations = _.pluck(
                 _.uniq(data, function(d) { return d.elev; }), 'elev'
             ).reverse();
+            var elevations_num = elevations.length;
+            var adjusted_height;
+
+            if(elevations_num == 7) {
+                adjusted_height = height;
+            } else if(elevations_num == 6) {
+                adjusted_height = height * .9;
+            } else if(elevations_num == 5) {
+                adjusted_height = height * .8;
+            } else if(elevations_num == 4) {
+                adjusted_height = height * .6;
+            } else if(elevations_num == 3) {
+                adjusted_height = height * .5;
+            } else if(elevations_num == 2) {
+                adjusted_height = height * .35;
+            } else {
+                adjusted_height = height * .18;
+            }
 
             var xScaleStateYearMonth = xScale(width, data);
-            var yScaleStateYearMonth = yScaleOrd(height, elevations);
+            var yScaleStateYearMonth = yScaleOrd(adjusted_height, elevations);
             var xAxis = d3.svg.axis()
                 .scale(xScaleStateYearMonth)
                 .orient("top")
@@ -83,7 +101,7 @@ queue()
                 .orient("left")
                 .tickFormat(d3.format(",d"));
 
-            svg.attr("height", height + margins.top + margins.bottom)
+            svg.attr("height", adjusted_height + margins.top + margins.bottom)
                 .attr("width", width + margins.right + margins.left);
 
             svg.append("g")
