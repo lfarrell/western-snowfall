@@ -9,7 +9,8 @@
     Wyoming Snow Visualizations,New Mexico Snow Visualizations,Nevada Snow Visualizations" />
     <title>Western Snowfall</title>
     <link href="https://fonts.googleapis.com/css?family=Tinos" rel="stylesheet">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!--  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="js/local/bootstrap-3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -42,7 +43,7 @@
             across all elevations, while 2015 was extremely dry.</p>
         </div>
         <div class="col-xs-12 col-sm-12 col-lg-12">
-            <h2 class="text-center">Average by Year</h2>
+            <h2 class="text-center">Average by Year (in inches)</h2>
             <div class="text-center">
                 <div class="btn-group" role="group" aria-label="snow by year buttons">
                     <button id="year-sm" type="button" class="btn btn-default">Snow Mean</button>
@@ -53,11 +54,11 @@
             </div>
         </div>
         <div id="year" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <svg id="year-legend" class="col-xs-12 col-offset-sm-2 col-sm-10 col-lg-offset-2 col-lg-10"></svg>
+            <svg id="year-legend" class="col-xs-12 col-offset-sm-1 col-sm-12 col-lg-offset-2 col-lg-10"></svg>
         </div>
 
         <div class="col-xs-12 col-sm-12 col-lg-12">
-            <h2 class="text-center">Average by Date</h2>
+            <h2 class="text-center">Average by Date (in inches)</h2>
             <div class="text-center">
                 <div class="btn-group" role="group" aria-label="snow by date buttons">
                     <button id="date-sm" type="button" class="btn btn-default">Snow Mean</button>
@@ -69,12 +70,25 @@
         </div>
 
         <div id="states_cal" class="col-sm-12 col-lg-12">
-            <svg id="states_cal-legend" class="col-xs-12 col-offset-sm-2 col-sm-10 col-lg-offset-2 col-lg-10"></svg>
+            <svg id="states_cal-legend" class="col-xs-12 col-sm-12 col-lg-offset-2 col-lg-10"></svg>
         </div>
         <div class="row hide">
            <div class="col-xs-12 col-sm-12 col-lg-12">
                <h2 class="text-center bigger">Watersheds</h2>
 
+               <div class="col-xs-12 col-offset-sm-1 col-sm-10 col-lg-offset-1 col-lg-10" id="basin_text">
+                   <p>More moisture tends to fall the further north you go in California, resulting in more opportunity
+                       for snowfall. This is partially offset by the fact that the Sierra Nevada tend to increase
+                       in elevation the further south you go. So that any precipitation that does fall in the south
+                       is more likely to fall as snow.</p>
+                   <p>Nonetheless, the southern Sierra has been particularly lacking in moisture over the last few years.
+                       Far fewer storms than normal have come in off the Pacific resulting in a decreased snowpack.</p>
+                   <p>The April 1st average is a key metric in California snow measurement. It represents the point
+                   of maximum snow accumulation. While it is possible for further snowfall to occur snow levels tend to
+                   decline from this point forward. The percentage of April 1st averages below is a measure of the average
+                   of all stations at the given elevation. While not directly comparing April to April levels,it serves
+                       as a useful measure to compare relative snow levels from year to year across elevations.</p>
+               </div>
                <div class="col-sm-offset-4 col-sm-4 col-lg-offset-4 col-lg-4">
                    <select id="river" name="river" class="form-control">
                         <option value="">--Select Watershed--</option>
@@ -109,9 +123,6 @@
             </div>
         </div>
         <div class="row lower">
-            <div class="col-xs-12 col-offset-sm-1 col-sm-10 col-lg-offset-1 col-lg-10" id="basin_text">
-                <p>The southern Sierra has been particularly lacking in moisture.</p>
-            </div>
             <div class="col-sm-12 col-lg-12">
                 <h2 id="river_name" class="text-center">American River Basin</h2>
                 <div class="text-center">
@@ -122,11 +133,18 @@
                         <button id="river-wm-feather" type="button" class="btn btn-default">Water Mean</button>
                         <button id="river-wmd-feather" type="button" class="btn btn-default">Water Median</button>
                     </div>
+                    <p>Snow and snow/water equivalent levels are in inches.</p>
+                    <p id="bump">Snow percentage is percentage of April 1st average, as discussed above.</p>
                 </div>
-                <svg id="river_year_chart-legend" class="col-xs-12 col-offset-sm-2 col-sm-10 col-lg-offset-2 col-lg-10"></svg>
+                <svg id="river_year_chart-legend" class="col-xs-12 col-sm-12 col-lg-offset-2 col-lg-10"></svg>
             </div>
             <div id="map" class="col-sm-4 col-lg-3"></div>
             <div id="river_year_chart" class="col-sm-8 col-lg-8"></div>
+            <div class="col-xs-12 col-offset-sm-1 col-sm-10 col-lg-offset-1 col-lg-10">
+               <p>Note: All basin maps should be considered the approximate extent of the given watershed.</p>
+               <p>Note: The Sacramento River is one of California's major rivers. Many of the other rivers in the
+                   state eventually terminate into it. The basin map given is for the Sacramento's headwaters.</p>
+            </div>
         </div>
         <div class="col-sm-12 col-lg-12">
             <footer>
@@ -152,10 +170,15 @@
         </div>
     </div>
 </div>
+<script src="js/local/lodash.min.js"></script>
+<script src="js/local/d3.min.js" charset="utf-8"></script>
+<script src="js/local/queue.min.js"></script>
+<script src="js/local/d3-legend.min.js"></script>
+<!--
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js" charset="utf-8"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/1.9.0/d3-legend.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/1.9.0/d3-legend.min.js"></script> -->
 <script src="js/assets/d3-jetpack.min.js"></script>
 <script src="js/assets/swoopy-drag/swoopy-drag.min.js"></script>
 <script src="js/custom.js"></script>

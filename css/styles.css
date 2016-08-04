@@ -22,6 +22,10 @@ h1 {
     font-size: 4em;
 }
 
+#bump {
+    margin: -5px 0 10px 0;
+}
+
 .charts {
     margin-top: 50px;
 }

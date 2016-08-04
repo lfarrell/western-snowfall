@@ -11,9 +11,6 @@ queue()
         map_height = 250 - margins.top - margins.bottom,
         height = 400 - margins.top - margins.bottom;
 
-   // var temp_colors = ['#ca0020','#f4a582','#f7f7f7','#92c5de','#0571b0'];
-   // var temp_colors = ['#ca0020','#f4a582','#92c5de','#0571b0'];
-   // var precip_colors = ['#543005','#8c510a','#bf812d','#dfc27d','#f6e8c3','#f5f5f5','#c7eae5','#80cdc1','#35978f','#01665e','#003c30'];
     var temp_colors = ['#a50026','#d73027','#f46d43','#fdae61','#fee090','#ffffbf','#e0f3f8','#abd9e9','#74add1','#4575b4','#313695'];
     var div = d3.select("body").append("div")
         .attr("class", "tooltip")
@@ -29,11 +26,6 @@ queue()
         }
     });
 
-    /**
-     * Add chart for each state & slider to go through the years
-     * Possibly just state, month on x axis, year on y-axis, snow level as the circle color
-     * Or month/year x axis, elevation y axis, and snow level as the circle color (This one won't need a slider)
-     */
     var year = d3.select('#year').append('svg');
     var date = d3.select('#states_cal').append('svg');
     var start_river = d3.select('#river_year_chart').append('svg');
@@ -41,11 +33,43 @@ queue()
         .append('g').attr("id", "base_map");
 
     var render = _.debounce(function() {
-        var map_width  = Math.floor(window.innerWidth / 3.5);
+        var screen_width = window.innerWidth;
+        var map_width, chart_width;
+
+        if(screen_width <= 480) {
+            chart_width = screen_width - margins.left - 50;
+            map_width  = screen_width;
+        } else {
+            chart_width = screen_width - margins.left - margins.right;
+            map_width  = Math.floor(screen_width / 3.3);
+        }
 
         var year_elevation_water = data.filter(function(d) {
             return d.type === 'yew';
         });
+
+     /*   var annotations = [
+            {
+                "xVal": parse_year_date('2011'),
+                "yVal": 10000,
+                "path": "M-49,-61L-6,-8",
+                "text": "Dean",
+                "textOffset": [
+                    83,
+                    65
+                ]
+            },
+            {
+                "xVal": parse_year_date('2015'),
+                "yVal": 4000,
+                "path": "M-49,-61L-6,-8",
+                "text": "Dan",
+                "textOffset": [
+                    -83,
+                    -65
+                ]
+            }
+        ]; */
 
         var cal_elevation_date_water = data.filter(function(d) {
             return d.type === 'dew';
@@ -60,11 +84,11 @@ queue()
         build(selected_river, start_river, '#river_year_chart', false, 'wm');
         mapping(map_width, topo, 'American');
 
-        function build(data, svg, selector, full, metric) {
+        function build(data, svg, selector, full, metric, annotations) {
             var size = sizing(full, selector);
-            var width = (/river/.test(selector)) ? size.width /  1.5 : size.width;
+            var width = (/river/.test(selector)) ? chart_width /  1.5 : chart_width;
             var radius = size.radius;
-            var type = (full || /y/.test(selector)) ? "%Y" : "%b";
+            var type = (screen_width <= 500) ? "%y" : "%Y";
             var offset_x = (full) ? 10 : 0;
             var offset_y = (full || /river/.test(selector)) ? 5 : 0;
             var elevations = _.pluck(
@@ -73,6 +97,7 @@ queue()
             var elevations_num = elevations.length;
             var adjusted_height;
 
+            /* Adjust size of basin charts */
             if(elevations_num == 7) {
                 adjusted_height = height;
             } else if(elevations_num == 6) {
@@ -94,6 +119,7 @@ queue()
             var xAxis = d3.svg.axis()
                 .scale(xScaleStateYearMonth)
                 .orient("top")
+                .ticks(size.ticks)
                 .tickFormat(d3.time.format(type));
 
             var yAxis = d3.svg.axis()
@@ -118,7 +144,7 @@ queue()
 
             var p_colors = stripColors(temp_colors, data, metric);
 
-            legend(selector +"-legend", p_colors);
+            legend(selector +"-legend", p_colors, width);
 
             var circles = svg.selectAll('circle').data(data);
 
@@ -154,7 +180,7 @@ queue()
                             '</ul>'
                         )
                         .style("top", (d3.event.pageY+38)+"px")
-                        .style("left", (d3.event.pageX-65)+"px");
+                        .style("left", (d3.event.pageX-55)+"px");
 
                     d3.select(this).attr('r', radius * 1.5);
                 })
@@ -175,6 +201,16 @@ queue()
                 .attr('r', radius);
 
             circles.exit().remove();
+
+            if(annotations) {
+                var swoopy = d3.swoopyDrag()
+                    .x(function(d){ return xScaleStateYearMonth(d.xVal) })
+                    .y(function(d){ return yScaleStateYearMonth(d.yVal) })
+                    .draggable(true)
+                    .annotations(annotations);
+
+                svg.append('g').call(swoopy);
+            }
         }
 
         function mapping(width, topos, river) {
@@ -357,6 +393,7 @@ queue()
     function xScale(width, data) {
         var xScale =  d3.time.scale()
             .range([0, width]);
+
         xScale.domain(d3.extent(data, function (d) {
             return d.date;
         }));
@@ -379,19 +416,22 @@ queue()
             .range(values);
     }
 
-    function legend(selector, colors) {
-        var svg = d3.select(selector).attr("width", 850)
-            .attr("height", 75);
+    function legend(selector, colors, width) {
+        var width = window.innerWidth;
+        var sizing = legendSize(width - 15);
+        var legend_height = (sizing.orientation === 'vertical') ? 200 : 75;
+        var svg = d3.select(selector).attr("width", width)
+            .attr("height", legend_height);
 
         svg.append("g")
             .attr("class", "legendQuant")
-            .translate([20, 20])
-            .attr("width", 750)
-            .attr("height", 75);
+            .translate([20, 0])
+            .attr("width", width)
+            .attr("height", legend_height);
 
         var legend = d3.legend.color()
-            .shapeWidth(70)
-            .orient('horizontal')
+            .shapeWidth(sizing.shape_width)
+            .orient(sizing.orientation)
             .labelFormat(d3.format(".1f"))
             .scale(colors);
 
@@ -399,7 +439,76 @@ queue()
             .call(legend);
     }
 
+    function legendSize(width) {
+        var shape_width, orientation;
+
+        if(width < 150) {
+            shape_width = 10;
+            orientation = 'vertical';
+        } else if(width < 350) {
+            shape_width = 20;
+            orientation = 'vertical';
+        } else if(width < 500) {
+            shape_width = 40;
+            orientation = 'vertical';
+        } else if(width < 700) {
+            shape_width = 50;
+            orientation = 'horizontal';
+        } else if(width < 805) {
+            shape_width = 57;
+            orientation = 'horizontal';
+        } else if(width < 1000) {
+            shape_width = 65;
+            orientation = 'horizontal';
+        } else {
+            shape_width = 70;
+            orientation = 'horizontal';
+        }
+
+        return { shape_width: shape_width, orientation: orientation };
+    }
+
     function sizing(full, selector) {
+        var width = window.innerWidth - margins.right - margins.left;
+        var type = /y/.test(selector);
+        var radius,ticks;
+
+        if(width < 150) {
+            radius = 3.3;
+            ticks = 3;
+        } else if(width < 350) {
+            radius = 6;
+            ticks = 9;
+        } else if(width < 500) {
+            radius = 9;
+            ticks = 9;
+        } else if(width < 700) {
+            radius = 11;
+            ticks = 9;
+        } else if(width < 1000) {
+            radius = 15;
+            ticks = 17;
+        } else {
+            radius = 15;
+            ticks = 17;
+        }
+
+        if(type && width <= 420) {
+            radius = 2.5;
+        } else if(type && width <= 700) {
+            radius = 7;
+        } else if(type && width <= 1020) {
+            radius = 10;
+        }
+
+        if(full) {
+            radius = 3;
+        }
+
+        return { radius: radius, ticks: ticks };
+    }
+
+  /*  function sizing(full, selector) {
         var screen_width = window.innerWidth;
         var type = /y/.test(selector);
         var width, radius,offset;
@@ -435,7 +544,7 @@ queue()
         }
         width = window.innerWidth - margins.right - margins.left;
         return { width: width, radius: radius };
-    }
+    } */
 
     function monthWord(m) {
         switch(m) {
@@ -480,7 +589,3 @@ queue()
         }
     }
 });
-
-/*
-Tahoe, Walker, Sacramento,McCloud,Shasta, Owens,Truckee,Trinity,Pit,Eel
-    */
