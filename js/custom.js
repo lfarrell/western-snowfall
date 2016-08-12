@@ -48,26 +48,37 @@ queue()
             return d.type === 'yew';
         });
 
-        var annotations = [
+        var year_annotations = [
             {
-                "xVal": parse_year_date('2011'),
-                "yVal": 10000,
-                "path": "M-316,18L-292,154",
+                "xVal": parse_year_date('2005'),
+                "yVal": 8000,
+                "path": "M54,-75L95,101",
                 "text": "Max Snow Levels",
-                "textOffset": [
-                    -362,
-                    8
-                ]
+                "textOffset": [6, -86]
             },
             {
                 "xVal": parse_year_date('2015'),
                 "yVal": 4000,
                 "path": "M131,101L118,82",
                 "text": "Min Snow Levels",
-                "textOffset": [
-                    100,
-                    119
-                ]
+                "textOffset": [100, 119]
+            }
+        ];
+
+        var date_annotations = [
+            {
+                "xVal": parse_year_date('2011'),
+                "yVal": 10000,
+                "path": "M70,19L105,156",
+                "text": "Max Snow Levels",
+                "textOffset": [18, 9]
+            },
+            {
+                "xVal": parse_year_date('2015'),
+                "yVal": 4000,
+                "path": "M131,101L118,82",
+                "text": "Min Snow Levels",
+                "textOffset": [100, 119]
             }
         ];
 
@@ -79,7 +90,7 @@ queue()
             return d.type === 'reyw' && d.river === 'American';
         });
 
-        build(year_elevation_water, year, '#year', false, 'wm', annotations);
+        build(year_elevation_water, year, '#year', false, 'wm', year_annotations);
         build(cal_elevation_date_water, date, '#states_cal', true, 'wm');
         build(selected_river, start_river, '#river_year_chart', false, 'wm');
         mapping(map_width, topo, 'American');
