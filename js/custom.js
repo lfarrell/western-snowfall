@@ -3,7 +3,7 @@ queue()
     .defer(d3.json,'js/ca-all.json')
     .await(function(error, data, topo) {
 
-    var margins = {top: 35, right: 130, bottom: 25, left: 105},
+    var margins = {top: 50, right: 130, bottom: 25, left: 105},
         parse_date = d3.time.format("%m/%Y").parse,
         parse_year_date = d3.time.format("%Y").parse,
         parse_month_date = d3.time.format("%m").parse,
@@ -48,28 +48,28 @@ queue()
             return d.type === 'yew';
         });
 
-     /*   var annotations = [
+        var annotations = [
             {
                 "xVal": parse_year_date('2011'),
                 "yVal": 10000,
-                "path": "M-49,-61L-6,-8",
-                "text": "Dean",
+                "path": "M-316,18L-292,154",
+                "text": "Max Snow Levels",
                 "textOffset": [
-                    83,
-                    65
+                    -362,
+                    8
                 ]
             },
             {
                 "xVal": parse_year_date('2015'),
                 "yVal": 4000,
-                "path": "M-49,-61L-6,-8",
-                "text": "Dan",
+                "path": "M131,101L118,82",
+                "text": "Min Snow Levels",
                 "textOffset": [
-                    -83,
-                    -65
+                    100,
+                    119
                 ]
             }
-        ]; */
+        ];
 
         var cal_elevation_date_water = data.filter(function(d) {
             return d.type === 'dew';
@@ -79,7 +79,7 @@ queue()
             return d.type === 'reyw' && d.river === 'American';
         });
 
-        build(year_elevation_water, year, '#year', false, 'wm');
+        build(year_elevation_water, year, '#year', false, 'wm', annotations);
         build(cal_elevation_date_water, date, '#states_cal', true, 'wm');
         build(selected_river, start_river, '#river_year_chart', false, 'wm');
         mapping(map_width, topo, 'American');
@@ -202,14 +202,31 @@ queue()
 
             circles.exit().remove();
 
+            svg.append('marker')
+                .attr('id', 'arrow')
+                .attr('viewBox', '-10 -10 20 20')
+                .attr('markerWidth', 11)
+                .attr('markerHeight', 11)
+                .attr('orient', 'auto')
+                .append('path')
+                .attr('d', 'M-6.75,-6.75 L 0,0 L -6.75,6.75');
+
             if(annotations) {
+                var annotate = 'g.annotations';
+                d3.selectAll(annotate).remove();
                 var swoopy = d3.swoopyDrag()
                     .x(function(d){ return xScaleStateYearMonth(d.xVal) })
                     .y(function(d){ return yScaleStateYearMonth(d.yVal) })
-                    .draggable(true)
-                    .annotations(annotations);
+                    .draggable(false);
 
-                svg.append('g').call(swoopy);
+                swoopy.annotations(annotations);
+
+                svg.append(annotate);
+
+                d3.selectAll(annotate).call(swoopy);
+
+                d3.selectAll('.annotations path')
+                    .attr('marker-end', 'url(#arrow)');
             }
         }
 
@@ -501,7 +518,11 @@ queue()
             radius = 10;
         }
 
-        if(full) {
+        if(full && width <= 420) {
+            radius = 1.5;
+        } else if(full && width <= 800) {
+            radius = 2;
+        } else if (full) {
             radius = 3;
         }
 

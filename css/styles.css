@@ -26,6 +26,20 @@ h1 {
     margin: -5px 0 10px 0;
 }
 
+.annotations path{
+    fill: none;
+    stroke: white;
+}
+
+.annotations text {
+    font-size: 12px;
+}
+
+#arrow {
+    fill: white;
+    stroke: white;
+}
+
 .charts {
     margin-top: 50px;
 }
