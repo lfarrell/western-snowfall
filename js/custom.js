@@ -68,7 +68,7 @@ queue()
         var date_annotations = [
             {
                 "xVal": parse_year_date('2011'),
-                "yVal": 10000,
+                "yVal": 8000,
                 "path": "M70,19L105,156",
                 "text": "Max Snow Levels",
                 "textOffset": [18, 9]
@@ -91,7 +91,7 @@ queue()
         });
 
         build(year_elevation_water, year, '#year', false, 'wm', year_annotations);
-        build(cal_elevation_date_water, date, '#states_cal', true, 'wm');
+        build(cal_elevation_date_water, date, '#states_cal', true, 'wm', date_annotations);
         build(selected_river, start_river, '#river_year_chart', false, 'wm');
         mapping(map_width, topo, 'American');
 
@@ -224,19 +224,17 @@ queue()
 
             if(annotations) {
                 var annotate = 'g.annotations';
-                d3.selectAll(annotate).remove();
+                d3.selectAll(selector + ' ' + annotate).remove();
                 var swoopy = d3.swoopyDrag()
                     .x(function(d){ return xScaleStateYearMonth(d.xVal) })
                     .y(function(d){ return yScaleStateYearMonth(d.yVal) })
-                    .draggable(false);
+                    .draggable(0);
 
                 swoopy.annotations(annotations);
 
-                svg.append(annotate);
+                svg.append(annotate).call(swoopy);
 
-                d3.selectAll(annotate).call(swoopy);
-
-                d3.selectAll('.annotations path')
+                d3.selectAll(selector + ' .annotations path')
                     .attr('marker-end', 'url(#arrow)');
             }
         }
