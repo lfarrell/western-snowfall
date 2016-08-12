@@ -52,7 +52,7 @@ queue()
             {
                 "xVal": parse_year_date('2005'),
                 "yVal": 8000,
-                "path": "M54,-75L95,101",
+                "path": "M54,-75L95,100",
                 "text": "Max Snow Levels",
                 "textOffset": [6, -86]
             },
@@ -256,6 +256,37 @@ queue()
                     .attr('marker-end', 'url(#arrow)');
             }
         }
+
+      /*  function drawStrip(selector, tip, strip_color, data) {
+            var bar_width = _.floor((chart_width / data.length), 3);
+            var strip = d3.select(selector).append("svg")
+                .attr("width", chart_width + margins.left + margins.right)
+                .attr("height", 110)
+                .attr("class", "svg")
+                .call(tip);
+
+            var add = strip.selectAll("bar")
+                .data(data);
+
+            add.enter().append("rect");
+
+            add.attr("x", function(d) { return xScale(parse_date(d.date)); })
+                .attr("width", bar_width)
+                .attr("y", 0)
+                .attr("height", 80)
+                .translate([margins.left, 0])
+                .style("fill", _.compose(strip_color, ƒ('anomaly')))
+                .on('mouseover touchstart', function(d) {
+                    d3.select(this).attr("height", 100);
+                    tip.show.call(this, d);
+                })
+                .on('mouseout touchend', function(d) {
+                    d3.select(this).attr("height", 80);
+                    tip.hide.call(this, d);
+                });
+
+            return add;
+        } */
 
         function mapping(width, topos, river) {
             var river_list = [
