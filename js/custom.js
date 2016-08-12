@@ -90,14 +90,13 @@ queue()
             return d.type === 'reyw' && d.river === 'American';
         });
 
-        build(year_elevation_water, year, '#year', false, 'wm', year_annotations);
-        build(cal_elevation_date_water, date, '#states_cal', true, 'wm', date_annotations);
-        build(selected_river, start_river, '#river_year_chart', false, 'wm');
+        build(year_elevation_water, year, '#year', false, 'sm', year_annotations);
+        build(cal_elevation_date_water, date, '#states_cal', true, 'sm', date_annotations);
+        build(selected_river, start_river, '#river_year_chart', false, 'sm');
         mapping(map_width, topo, 'American');
 
         function build(data, svg, selector, full, metric, annotations) {
             var size = sizing(full, selector);
-            var width = (/river/.test(selector)) ? chart_width /  1.5 : chart_width;
             var radius = size.radius;
             var type = (screen_width <= 500) ? "%y" : "%Y";
             var offset_x = (full) ? 10 : 0;
@@ -106,7 +105,14 @@ queue()
                 _.uniq(data, function(d) { return d.elev; }), 'elev'
             ).reverse();
             var elevations_num = elevations.length;
-            var adjusted_height;
+            var adjusted_height, text_value, width;
+
+            if(/river/.test(selector)) {
+                width = chart_width /  1.5;
+                margins.top = 25;
+            } else {
+                width = chart_width;
+            }
 
             /* Adjust size of basin charts */
             if(elevations_num == 7) {
@@ -213,16 +219,28 @@ queue()
 
             circles.exit().remove();
 
-            svg.append('marker')
-                .attr('id', 'arrow')
-                .attr('viewBox', '-10 -10 20 20')
-                .attr('markerWidth', 11)
-                .attr('markerHeight', 11)
-                .attr('orient', 'auto')
-                .append('path')
-                .attr('d', 'M-6.75,-6.75 L 0,0 L -6.75,6.75');
+            if(metric === 'sm') {
+                text_value = 'Snow Average';
+            } else if(metric === 'smd') {
+                text_value = 'Snow Median';
+            } else if(metric === 'wm') {
+                text_value = 'Water Average';
+            } else {
+                text_value = 'Water Median';
+            }
+
+            d3.select(selector + '-note').text(text_value);
 
             if(annotations) {
+                svg.append('marker')
+                    .attr('id', 'arrow')
+                    .attr('viewBox', '-10 -10 20 20')
+                    .attr('markerWidth', 11)
+                    .attr('markerHeight', 11)
+                    .attr('orient', 'auto')
+                    .append('path')
+                    .attr('d', 'M-6.75,-6.75 L 0,0 L -6.75,6.75');
+
                 var annotate = 'g.annotations';
                 d3.selectAll(selector + ' ' + annotate).remove();
                 var swoopy = d3.swoopyDrag()
@@ -340,7 +358,7 @@ queue()
             var metric = id_parts[1];
             var is_full = false;
             var is_snow = /s/.test(selected_id);
-            var river, which_svg, selector, type;
+            var river, which_svg, selector, type, text_value;
 
             if(id_parts[0] === 'river') {
                 if(/_/.test(id_parts[2])) {
