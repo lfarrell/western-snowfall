@@ -229,8 +229,6 @@ queue()
                 text_value = 'Water Median';
             }
 
-            console.log(text_value)
-console.log(selector + '-note');
             d3.select(selector + '-note').text(text_value);
 
             if(annotations) {
