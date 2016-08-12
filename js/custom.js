@@ -229,6 +229,8 @@ queue()
                 text_value = 'Water Median';
             }
 
+            console.log(text_value)
+console.log(selector + '-note');
             d3.select(selector + '-note').text(text_value);
 
             if(annotations) {
@@ -420,7 +422,7 @@ queue()
                     }
                 });
 
-                build(river_update, start_river, '#river_year_chart', false, 'wm');
+                build(river_update, start_river, '#river_year_chart', false, 'sm');
                 mapping(map_width, topo, river_val);
             }
         });
